@@ -1,0 +1,4190 @@
+#line 1 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\src\\mlp.c"
+/* Copyright (c) 2008-2011 Octasic Inc.
+                 2012-2017 Jean-Marc Valin */
+/*
+   Redistribution and use in source and binary forms, with or without
+   modification, are permitted provided that the following conditions
+   are met:
+
+   - Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+   - Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+
+   THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+   ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+   LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+   A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE FOUNDATION OR
+   CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+   EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+   PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+   PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+   LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+   NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+
+
+
+
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
+/* math.h standard header */
+/* Copyright 2003-2010 IAR Systems AB. */
+
+
+
+
+  #pragma system_include
+
+
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+/* ycheck.h internal checking header file. */
+/* Copyright 2005-2010 IAR Systems AB. */
+
+/* Note that there is no include guard for this header. This is intentional. */
+
+
+  #pragma system_include
+
+
+/* __INTRINSIC
+ *
+ * Note: Redefined each time ycheck.h is included, i.e. for each
+ * system header, to ensure that intrinsic support could be turned off
+ * individually for each file.
+ */
+
+
+
+
+
+
+
+
+
+
+/* __AEABI_PORTABILITY_INTERNAL_LEVEL
+ *
+ * Note: Redefined each time ycheck.h is included, i.e. for each
+ * system header, to ensure that ABI support could be turned off/on
+ * individually for each file.
+ *
+ * Possible values for this preprocessor symbol:
+ *
+ * 0 - ABI portability mode is disabled.
+ *
+ * 1 - ABI portability mode (version 1) is enabled.
+ *
+ * All other values are reserved for future use.
+ */
+
+
+
+
+
+
+#line 67 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+
+
+
+
+/* A definiton for a function of what effects it has.
+   NS  = no_state, errno, i.e. it uses no internal or external state. It may
+         write to errno though
+   NE  = no_state, i.e. it uses no internal or external state, not even
+         writing to errno. 
+   NRx = no_read(x), i.e. it doesn't read through pointer parameter x.
+   NWx = no_write(x), i.e. it doesn't write through pointer parameter x.
+   Rx  = returns x, i.e. the function will return parameter x.
+   
+   All the functions with effects also has "always_returns", 
+   i.e. the function will always return.
+*/
+
+#line 103 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+
+
+
+
+
+
+
+
+
+#line 11 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ymath.h"
+/* ymath.h internal header */
+/* Copyright 2003-2010 IAR Systems AB. */
+
+
+
+
+  #pragma system_include
+
+
+
+
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+/* ycheck.h internal checking header file. */
+/* Copyright 2005-2010 IAR Systems AB. */
+
+/* Note that there is no include guard for this header. This is intentional. */
+
+
+  #pragma system_include
+
+
+/* __INTRINSIC
+ *
+ * Note: Redefined each time ycheck.h is included, i.e. for each
+ * system header, to ensure that intrinsic support could be turned off
+ * individually for each file.
+ */
+
+
+
+
+
+
+
+
+
+
+/* __AEABI_PORTABILITY_INTERNAL_LEVEL
+ *
+ * Note: Redefined each time ycheck.h is included, i.e. for each
+ * system header, to ensure that ABI support could be turned off/on
+ * individually for each file.
+ *
+ * Possible values for this preprocessor symbol:
+ *
+ * 0 - ABI portability mode is disabled.
+ *
+ * 1 - ABI portability mode (version 1) is enabled.
+ *
+ * All other values are reserved for future use.
+ */
+
+
+
+
+
+
+#line 67 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+
+#line 13 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ymath.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+/* yvals.h internal configuration header file. */
+/* Copyright 2001-2010 IAR Systems AB. */
+
+
+
+
+
+  #pragma system_include
+
+
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+/* ycheck.h internal checking header file. */
+/* Copyright 2005-2010 IAR Systems AB. */
+
+/* Note that there is no include guard for this header. This is intentional. */
+
+
+  #pragma system_include
+
+
+/* __INTRINSIC
+ *
+ * Note: Redefined each time ycheck.h is included, i.e. for each
+ * system header, to ensure that intrinsic support could be turned off
+ * individually for each file.
+ */
+
+
+
+
+
+
+
+
+
+
+/* __AEABI_PORTABILITY_INTERNAL_LEVEL
+ *
+ * Note: Redefined each time ycheck.h is included, i.e. for each
+ * system header, to ensure that ABI support could be turned off/on
+ * individually for each file.
+ *
+ * Possible values for this preprocessor symbol:
+ *
+ * 0 - ABI portability mode is disabled.
+ *
+ * 1 - ABI portability mode (version 1) is enabled.
+ *
+ * All other values are reserved for future use.
+ */
+
+
+
+
+
+
+#line 67 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+
+#line 12 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+
+                /* Convenience macros */
+
+
+
+
+
+
+
+
+
+/* Used to refer to '__aeabi' symbols in the library. */ 
+
+
+                /* Versions */
+
+
+
+
+
+
+
+
+
+
+/*
+ * Support for some C99 or other symbols
+ *
+ * This setting makes available some macros, functions, etc that are
+ * beneficial.
+ *
+ * Default is to include them.
+ *
+ * Disabling this in C++ mode will not compile (some C++ functions uses C99
+ * functionality).
+ */
+
+
+  /* Default turned on when compiling C++, EC++, or C99. */
+#line 59 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+
+
+
+
+
+#line 70 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+
+                /* Configuration */
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+/***************************************************
+ *
+ * DLib_Defaults.h is the library configuration manager.
+ *
+ * Copyright 2003-2010 IAR Systems AB.  
+ *
+ * This configuration header file performs the following tasks:
+ *
+ * 1. Includes the configuration header file, defined by _DLIB_CONFIG_FILE,
+ *    that sets up a particular runtime environment.
+ *
+ * 2. Includes the product configuration header file, DLib_Product.h, that
+ *    specifies default values for the product and makes sure that the
+ *    configuration is valid.
+ *
+ * 3. Sets up default values for all remaining configuration symbols.
+ *
+ * This configuration header file, the one defined by _DLIB_CONFIG_FILE, and
+ * DLib_Product.h configures how the runtime environment should behave. This
+ * includes all system headers and the library itself, i.e. all system headers
+ * includes this configuration header file, and the library has been built
+ * using this configuration header file.
+ *
+ ***************************************************
+ *
+ * DO NOT MODIFY THIS FILE!
+ *
+ ***************************************************/
+
+
+
+
+
+  #pragma system_include
+
+
+/* Include the main configuration header file. */
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\INC\\c\\DLib_Config_Full.h"
+/* Customer-specific DLib configuration. */
+/* Copyright (C) 2003 IAR Systems.  All rights reserved. */
+
+
+
+
+
+  #pragma system_include
+
+
+/* Turn on locale support. */
+
+
+/* Turn on FILE descriptor support. */
+
+
+/* Turn on multibyte formatting. */
+
+
+/* Turn on support for hex-floats in strtod. */
+
+
+#line 40 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+  /* _DLIB_CONFIG_FILE_STRING is the quoted variant of above */
+#line 47 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+
+/* Include the product specific header file. */
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Product.h"
+
+
+
+
+   #pragma system_include
+
+
+
+/*********************************************************************
+*
+*       Configuration
+*
+*********************************************************************/
+
+/* Wide character and multi byte character support in library.
+ * This is not allowed to vary over configurations, since math-library
+ * is built with wide character support.
+ */
+
+
+/* ARM uses the large implementation of DLib */
+
+
+/* This ensures that the standard header file "string.h" includes
+ * the Arm-specific file "DLib_Product_string.h". */
+
+
+/* This ensures that the standard header file "fenv.h" includes
+ * the Arm-specific file "DLib_Product_fenv.h". */
+
+
+/* Max buffer used for swap in qsort */
+
+
+
+
+/* Enable system locking  */
+#line 45 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Product.h"
+
+/* Enable AEABI support */
+
+
+/* Enable rtmodel for setjump buffer size */
+
+
+/* Enable parsing of hex floats */
+
+
+
+
+
+
+/* Special placement for locale structures when building ropi libraries */
+
+
+
+
+/* CPP-library uses software floatingpoint interface */
+
+
+/* Use speedy implementation of floats (simple quad). */
+
+
+/* Configure generic ELF init routines. */
+#line 99 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Product.h"
+
+
+
+
+
+
+
+#line 51 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+
+
+
+/*
+ * The remainder of the file sets up defaults for a number of
+ * configuration symbols, each corresponds to a feature in the
+ * libary.
+ *
+ * The value of the symbols should either be 1, if the feature should
+ * be supported, or 0 if it shouldn't. (Except where otherwise
+ * noted.)
+ */
+
+
+/*
+ * Small or Large target
+ *
+ * This define determines whether the target is large or small. It must be 
+ * setup in the DLib_Product header or in the compiler itself.
+ *
+ * For a small target some functionality in the library will not deliver 
+ * the best available results. For instance the _accurate variants will not use
+ * the extra precision packet for large arguments.
+ * 
+ */
+
+
+
+
+
+
+
+/*
+ * File handling
+ *
+ * Determines whether FILE descriptors and related functions exists or not.
+ * When this feature is selected, i.e. set to 1, then FILE descriptors and
+ * related functions (e.g. fprintf, fopen) exist. All files, even stdin,
+ * stdout, and stderr will then be handled with a file system mechanism that
+ * buffers files before accessing the lowlevel I/O interface (__open, __read,
+ * __write, etc).
+ *
+ * If not selected, i.e. set to 0, then FILE descriptors and related functions
+ * (e.g. fprintf, fopen) does not exist. All functions that normally uses
+ * stderr will use stdout instead. Functions that uses stdout and stdin (like
+ * printf and scanf) will access the lowlevel I/O interface directly (__open,
+ * __read, __write, etc), i.e. there will not be any buffering.
+ *
+ * The default is not to have support for FILE descriptors.
+ */
+
+
+
+
+
+/*
+ * Use static buffers for stdout
+ *
+ * This setting controls whether the stream stdout uses a static 80 bytes
+ * buffer or uses a one byte buffer allocated in the file descriptor. This
+ * setting is only applicable if the FILE descriptors are enabled above.
+ *
+ * Default is to use a static 80 byte buffer.
+ */
+
+
+
+
+
+/*
+ * Support of locale interface
+ *
+ * "Locale" is the system in C that support language- and
+ * contry-specific settings for a number of areas, including currency
+ * symbols, date and time, and multibyte encodings.
+ *
+ * This setting determines whether the locale interface exist or not.
+ * When this feature is selected, i.e. set to 1, the locale interface exist
+ * (setlocale, etc). A number of preselected locales can be activated during
+ * runtime. The preselected locales and encodings is choosen by defining any
+ * number of _LOCALE_USE_xxx and _ENCODING_USE_xxx symbols. The application
+ * will start with the "C" locale choosen. (Single byte encoding is always
+ * supported in this mode.)
+ *
+ *
+ * If not selected, i.e. set to 0, the locale interface (setlocale, etc) does
+ * not exist. One preselected locale and one preselected encoding is then used
+ * directly. That locale can not be changed during runtime. The preselected
+ * locale and encoding is choosen by defining at most one of _LOCALE_USE_xxx
+ * and at most one of _ENCODING_USE_xxx. The default is to use the "C" locale
+ * and the single byte encoding, respectively.
+ *
+ * The default is not to have support for the locale interface with the "C"
+ * locale and the single byte encoding.
+ *
+ * Supported locales
+ * -----------------
+ * _LOCALE_USE_C                  C standard locale (the default)
+ * _LOCALE_USE_POSIX ISO-8859-1   Posix locale
+ * _LOCALE_USE_CS_CZ ISO-8859-2   Czech language locale for Czech Republic
+ * _LOCALE_USE_DA_DK ISO-8859-1   Danish language locale for Denmark
+ * _LOCALE_USE_DA_EU ISO-8859-15  Danish language locale for Europe
+ * _LOCALE_USE_DE_AT ISO-8859-1   German language locale for Austria
+ * _LOCALE_USE_DE_BE ISO-8859-1   German language locale for Belgium
+ * _LOCALE_USE_DE_CH ISO-8859-1   German language locale for Switzerland
+ * _LOCALE_USE_DE_DE ISO-8859-1   German language locale for Germany
+ * _LOCALE_USE_DE_EU ISO-8859-15  German language locale for Europe
+ * _LOCALE_USE_DE_LU ISO-8859-1   German language locale for Luxemburg
+ * _LOCALE_USE_EL_EU ISO-8859-7x  Greek language locale for Europe
+ *                                (Euro symbol added)
+ * _LOCALE_USE_EL_GR ISO-8859-7   Greek language locale for Greece
+ * _LOCALE_USE_EN_AU ISO-8859-1   English language locale for Australia
+ * _LOCALE_USE_EN_CA ISO-8859-1   English language locale for Canada
+ * _LOCALE_USE_EN_DK ISO_8859-1   English language locale for Denmark
+ * _LOCALE_USE_EN_EU ISO-8859-15  English language locale for Europe
+ * _LOCALE_USE_EN_GB ISO-8859-1   English language locale for United Kingdom
+ * _LOCALE_USE_EN_IE ISO-8859-1   English language locale for Ireland
+ * _LOCALE_USE_EN_NZ ISO-8859-1   English language locale for New Zealand
+ * _LOCALE_USE_EN_US ISO-8859-1   English language locale for USA
+ * _LOCALE_USE_ES_AR ISO-8859-1   Spanish language locale for Argentina
+ * _LOCALE_USE_ES_BO ISO-8859-1   Spanish language locale for Bolivia
+ * _LOCALE_USE_ES_CL ISO-8859-1   Spanish language locale for Chile
+ * _LOCALE_USE_ES_CO ISO-8859-1   Spanish language locale for Colombia
+ * _LOCALE_USE_ES_DO ISO-8859-1   Spanish language locale for Dominican Republic
+ * _LOCALE_USE_ES_EC ISO-8859-1   Spanish language locale for Equador
+ * _LOCALE_USE_ES_ES ISO-8859-1   Spanish language locale for Spain
+ * _LOCALE_USE_ES_EU ISO-8859-15  Spanish language locale for Europe
+ * _LOCALE_USE_ES_GT ISO-8859-1   Spanish language locale for Guatemala
+ * _LOCALE_USE_ES_HN ISO-8859-1   Spanish language locale for Honduras
+ * _LOCALE_USE_ES_MX ISO-8859-1   Spanish language locale for Mexico
+ * _LOCALE_USE_ES_PA ISO-8859-1   Spanish language locale for Panama
+ * _LOCALE_USE_ES_PE ISO-8859-1   Spanish language locale for Peru
+ * _LOCALE_USE_ES_PY ISO-8859-1   Spanish language locale for Paraguay
+ * _LOCALE_USE_ES_SV ISO-8859-1   Spanish language locale for Salvador
+ * _LOCALE_USE_ES_US ISO-8859-1   Spanish language locale for USA
+ * _LOCALE_USE_ES_UY ISO-8859-1   Spanish language locale for Uruguay
+ * _LOCALE_USE_ES_VE ISO-8859-1   Spanish language locale for Venezuela
+ * _LOCALE_USE_ET_EE ISO-8859-1   Estonian language for Estonia
+ * _LOCALE_USE_EU_ES ISO-8859-1   Basque language locale for Spain
+ * _LOCALE_USE_FI_EU ISO-8859-15  Finnish language locale for Europe
+ * _LOCALE_USE_FI_FI ISO-8859-1   Finnish language locale for Finland
+ * _LOCALE_USE_FO_FO ISO-8859-1   Faroese language locale for Faroe Islands
+ * _LOCALE_USE_FR_BE ISO-8859-1   French language locale for Belgium
+ * _LOCALE_USE_FR_CA ISO-8859-1   French language locale for Canada
+ * _LOCALE_USE_FR_CH ISO-8859-1   French language locale for Switzerland
+ * _LOCALE_USE_FR_EU ISO-8859-15  French language locale for Europe
+ * _LOCALE_USE_FR_FR ISO-8859-1   French language locale for France
+ * _LOCALE_USE_FR_LU ISO-8859-1   French language locale for Luxemburg
+ * _LOCALE_USE_GA_EU ISO-8859-15  Irish language locale for Europe
+ * _LOCALE_USE_GA_IE ISO-8859-1   Irish language locale for Ireland
+ * _LOCALE_USE_GL_ES ISO-8859-1   Galician language locale for Spain
+ * _LOCALE_USE_HR_HR ISO-8859-2   Croatian language locale for Croatia
+ * _LOCALE_USE_HU_HU ISO-8859-2   Hungarian language locale for Hungary
+ * _LOCALE_USE_ID_ID ISO-8859-1   Indonesian language locale for Indonesia
+ * _LOCALE_USE_IS_EU ISO-8859-15  Icelandic language locale for Europe
+ * _LOCALE_USE_IS_IS ISO-8859-1   Icelandic language locale for Iceland
+ * _LOCALE_USE_IT_EU ISO-8859-15  Italian language locale for Europe
+ * _LOCALE_USE_IT_IT ISO-8859-1   Italian language locale for Italy
+ * _LOCALE_USE_IW_IL ISO-8859-8   Hebrew language locale for Israel
+ * _LOCALE_USE_KL_GL ISO-8859-1   Greenlandic language locale for Greenland
+ * _LOCALE_USE_LT_LT   BALTIC     Lithuanian languagelocale for Lithuania
+ * _LOCALE_USE_LV_LV   BALTIC     Latvian languagelocale for Latvia
+ * _LOCALE_USE_NL_BE ISO-8859-1   Dutch language locale for Belgium
+ * _LOCALE_USE_NL_EU ISO-8859-15  Dutch language locale for Europe
+ * _LOCALE_USE_NL_NL ISO-8859-9   Dutch language locale for Netherlands
+ * _LOCALE_USE_NO_EU ISO-8859-15  Norwegian language locale for Europe
+ * _LOCALE_USE_NO_NO ISO-8859-1   Norwegian language locale for Norway
+ * _LOCALE_USE_PL_PL ISO-8859-2   Polish language locale for Poland
+ * _LOCALE_USE_PT_BR ISO-8859-1   Portugese language locale for Brazil
+ * _LOCALE_USE_PT_EU ISO-8859-15  Portugese language locale for Europe
+ * _LOCALE_USE_PT_PT ISO-8859-1   Portugese language locale for Portugal
+ * _LOCALE_USE_RO_RO ISO-8859-2   Romanian language locale for Romania
+ * _LOCALE_USE_RU_RU ISO-8859-5   Russian language locale for Russia
+ * _LOCALE_USE_SL_SI ISO-8859-2   Slovenian language locale for Slovenia
+ * _LOCALE_USE_SV_EU ISO-8859-15  Swedish language locale for Europe
+ * _LOCALE_USE_SV_FI ISO-8859-1   Swedish language locale for Finland
+ * _LOCALE_USE_SV_SE ISO-8859-1   Swedish language locale for Sweden
+ * _LOCALE_USE_TR_TR ISO-8859-9   Turkish language locale for Turkey
+ *
+ *  Supported encodings
+ *  -------------------
+ * n/a                            Single byte (used if no other is defined).
+ * _ENCODING_USE_UTF8             UTF8 encoding.
+ */
+
+
+
+
+
+
+/* We need to have the "C" locale if we have full locale support. */
+
+
+
+
+
+
+/*
+ * Support of multibytes in printf- and scanf-like functions
+ *
+ * This is the default value for _DLIB_PRINTF_MULTIBYTE and
+ * _DLIB_SCANF_MULTIBYTE. See them for a description.
+ *
+ * Default is to not have support for multibytes in printf- and scanf-like
+ * functions.
+ */
+
+
+
+
+
+
+/*
+ * Throw handling in the EC++ library
+ *
+ * This setting determines what happens when the EC++ part of the library
+ * fails (where a normal C++ library 'throws').
+ *
+ * The following alternatives exists (setting of the symbol):
+ * 0                - The application does nothing, i.e. continues with the
+ *                    next statement.
+ * 1                - The application terminates by calling the 'abort'
+ *                    function directly.
+ * <anything else>  - An object of class "exception" is created.  This
+ *                    object contains a string describing the problem.
+ *                    This string is later emitted on "stderr" before
+ *                    the application terminates by calling the 'abort'
+ *                    function directly.
+ *
+ * Default is to do nothing.
+ */
+
+
+
+
+
+
+/*
+ * Hexadecimal floating-point numbers in strtod
+ *
+ * If selected, i.e. set to 1, strtod supports C99 hexadecimal floating-point
+ * numbers. This also enables hexadecimal floating-points in internal functions
+ * used for converting strings and wide strings to float, double, and long
+ * double.
+ *
+ * If not selected, i.e. set to 0, C99 hexadecimal floating-point numbers
+ * aren't supported.
+ *
+ * Default is not to support hexadecimal floating-point numbers.
+ */
+
+
+
+
+
+
+/*
+ * Printf configuration symbols.
+ *
+ * All the configuration symbols described further on controls the behaviour
+ * of printf, sprintf, and the other printf variants.
+ *
+ * The library proves four formatters for printf: 'tiny', 'small',
+ * 'large', and 'default'.  The setup in this file controls all except
+ * 'tiny'.  Note that both small' and 'large' explicitly removes
+ * some features.
+ */
+
+/*
+ * Handle multibytes in printf
+ *
+ * This setting controls whether multibytes and wchar_ts are supported in
+ * printf. Set to 1 to support them, otherwise set to 0.
+ *
+ * See _DLIB_FORMATTED_MULTIBYTE for the default setting.
+ */
+
+
+
+
+
+/*
+ * Long long formatting in printf
+ *
+ * This setting controls long long support (%lld) in printf. Set to 1 to
+ * support it, otherwise set to 0.
+
+ * Note, if long long should not be supported and 'intmax_t' is larger than
+ * an ordinary 'long', then %jd and %jn will not be supported.
+ *
+ * Default is to support long long formatting.
+ */
+
+#line 351 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+
+
+
+
+
+
+/*
+ * Floating-point formatting in printf
+ *
+ * This setting controls whether printf supports floating-point formatting.
+ * Set to 1 to support them, otherwise set to 0.
+ *
+ * Default is to support floating-point formatting.
+ */
+
+
+
+
+
+/*
+ * Hexadecimal floating-point formatting in printf
+ *
+ * This setting controls whether the %a format, i.e. the output of
+ * floating-point numbers in the C99 hexadecimal format. Set to 1 to support
+ * it, otherwise set to 0.
+ *
+ * Default is to support %a in printf.
+ */
+
+
+
+
+
+/*
+ * Output count formatting in printf
+ *
+ * This setting controls whether the output count specifier (%n) is supported
+ * or not in printf. Set to 1 to support it, otherwise set to 0.
+ *
+ * Default is to support %n in printf.
+ */
+
+
+
+
+
+/*
+ * Support of qualifiers in printf
+ *
+ * This setting controls whether qualifiers that enlarges the input value
+ * [hlLjtz] is supported in printf or not. Set to 1 to support them, otherwise
+ * set to 0. See also _DLIB_PRINTF_INT_TYPE_IS_INT and
+ * _DLIB_PRINTF_INT_TYPE_IS_LONG.
+ *
+ * Default is to support [hlLjtz] qualifiers in printf.
+ */
+
+
+
+
+
+/*
+ * Support of flags in printf
+ *
+ * This setting controls whether flags (-+ #0) is supported in printf or not.
+ * Set to 1 to support them, otherwise set to 0.
+ *
+ * Default is to support flags in printf.
+ */
+
+
+
+
+
+/*
+ * Support widths and precisions in printf
+ *
+ * This setting controls whether widths and precisions are supported in printf.
+ * Set to 1 to support them, otherwise set to 0.
+ *
+ * Default is to support widths and precisions in printf.
+ */
+
+
+
+
+
+/*
+ * Support of unsigned integer formatting in printf
+ *
+ * This setting controls whether unsigned integer formatting is supported in
+ * printf. Set to 1 to support it, otherwise set to 0.
+ *
+ * Default is to support unsigned integer formatting in printf.
+ */
+
+
+
+
+
+/*
+ * Support of signed integer formatting in printf
+ *
+ * This setting controls whether signed integer formatting is supported in
+ * printf. Set to 1 to support it, otherwise set to 0.
+ *
+ * Default is to support signed integer formatting in printf.
+ */
+
+
+
+
+
+/*
+ * Support of formatting anything larger than int in printf
+ *
+ * This setting controls if 'int' should be used internally in printf, rather
+ * than the largest existing integer type. If 'int' is used, any integer or
+ * pointer type formatting use 'int' as internal type even though the
+ * formatted type is larger. Set to 1 to use 'int' as internal type, otherwise
+ * set to 0.
+ *
+ * See also next configuration.
+ *
+ * Default is to internally use largest existing internally type.
+ */
+
+
+
+
+
+/*
+ * Support of formatting anything larger than long in printf
+ *
+ * This setting controls if 'long' should be used internally in printf, rather
+ * than the largest existing integer type. If 'long' is used, any integer or
+ * pointer type formatting use 'long' as internal type even though the
+ * formatted type is larger. Set to 1 to use 'long' as internal type,
+ * otherwise set to 0.
+ *
+ * See also previous configuration.
+ *
+ * Default is to internally use largest existing internally type.
+ */
+
+
+
+
+
+
+
+
+
+/*
+ * Emit a char a time in printf
+ *
+ * This setting controls internal output handling. If selected, i.e. set to 1,
+ * then printf emits one character at a time, which requires less code but
+ * can be slightly slower for some types of output.
+ *
+ * If not selected, i.e. set to 0, then printf buffers some outputs.
+ *
+ * Note that it is recommended to either use full file support (see
+ * _DLIB_FILE_DESCRIPTOR) or -- for debug output -- use the linker
+ * option "-e__write_buffered=__write" to enable buffered I/O rather
+ * than deselecting this feature.
+ */
+
+
+
+
+
+
+/*
+ * Scanf configuration symbols.
+ *
+ * All the configuration symbols described here controls the
+ * behaviour of scanf, sscanf, and the other scanf variants.
+ *
+ * The library proves three formatters for scanf: 'small', 'large',
+ * and 'default'.  The setup in this file controls all, however both
+ * 'small' and 'large' explicitly removes some features.
+ */
+
+/*
+ * Handle multibytes in scanf
+ *
+ * This setting controls whether multibytes and wchar_t:s are supported in
+ * scanf. Set to 1 to support them, otherwise set to 0.
+ *
+ * See _DLIB_FORMATTED_MULTIBYTE for the default.
+ */
+
+
+
+
+
+/*
+ * Long long formatting in scanf
+ *
+ * This setting controls whether scanf supports long long support (%lld). It
+ * also controls, if 'intmax_t' is larger than an ordinary 'long', i.e. how
+ * the %jd and %jn specifiers behaves. Set to 1 to support them, otherwise set
+ * to 0.
+ *
+ * Default is to support long long formatting in scanf.
+ */
+
+#line 566 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+
+
+
+
+
+/*
+ * Support widths in scanf
+ *
+ * This controls whether scanf supports widths. Set to 1 to support them,
+ * otherwise set to 0.
+ *
+ * Default is to support widths in scanf.
+ */
+
+
+
+
+
+/*
+ * Support qualifiers [hjltzL] in scanf
+ *
+ * This setting controls whether scanf supports qualifiers [hjltzL] or not. Set
+ * to 1 to support them, otherwise set to 0.
+ *
+ * Default is to support qualifiers in scanf.
+ */
+
+
+
+
+
+/*
+ * Support floating-point formatting in scanf
+ *
+ * This setting controls whether scanf supports floating-point formatting. Set
+ * to 1 to support them, otherwise set to 0.
+ *
+ * Default is to support floating-point formatting in scanf.
+ */
+
+
+
+
+
+/*
+ * Support output count formatting (%n)
+ *
+ * This setting controls whether scanf supports output count formatting (%n).
+ * Set to 1 to support it, otherwise set to 0.
+ *
+ * Default is to support output count formatting in scanf.
+ */
+
+
+
+
+
+/*
+ * Support scansets ([]) in scanf
+ *
+ * This setting controls whether scanf supports scansets ([]) or not. Set to 1
+ * to support them, otherwise set to 0.
+ *
+ * Default is to support scansets in scanf.
+ */
+
+
+
+
+
+/*
+ * Support signed integer formatting in scanf
+ *
+ * This setting controls whether scanf supports signed integer formatting or
+ * not. Set to 1 to support them, otherwise set to 0.
+ *
+ * Default is to support signed integer formatting in scanf.
+ */
+
+
+
+
+
+/*
+ * Support unsigned integer formatting in scanf
+ *
+ * This setting controls whether scanf supports unsigned integer formatting or
+ * not. Set to 1 to support them, otherwise set to 0.
+ *
+ * Default is to support unsigned integer formatting in scanf.
+ */
+
+
+
+
+
+/*
+ * Support assignment suppressing [*] in scanf
+ *
+ * This setting controls whether scanf supports assignment suppressing [*] or
+ * not. Set to 1 to support them, otherwise set to 0.
+ *
+ * Default is to support assignment suppressing in scanf.
+ */
+
+
+
+
+
+/*
+ * Handle multibytes in asctime and strftime.
+ *
+ * This setting controls whether multibytes and wchar_ts are
+ * supported.Set to 1 to support them, otherwise set to 0.
+ *
+ * See _DLIB_FORMATTED_MULTIBYTE for the default setting.
+ */
+
+
+
+
+
+/*
+ * True if "qsort" should be implemented using bubble sort.
+ *
+ * Bubble sort is less efficient than quick sort but requires less RAM
+ * and ROM resources.
+ */
+
+
+
+
+
+/*
+ * Set Buffert size used in qsort
+ */
+
+
+
+
+
+/*
+ * The default "rand" function uses an array of 32 long:s of memory to
+ * store the current state.
+ *
+ * The simple "rand" function uses only a single long. However, the
+ * quality of the generated psuedo-random numbers are not as good as
+ * the default implementation.
+ */
+
+
+
+
+
+/*
+ * Wide character and multi byte character support in library.
+ */
+
+
+
+
+
+/*
+ * Set attributes on the function used by the C-SPY debug interface to set a
+ * breakpoint in.
+ */
+
+
+
+
+
+/*
+ * Support threading in the library
+ *
+ * 0    No thread support
+ * 1    Thread support with a, b, and d.
+ * 2    Thread support with a, b, and e.
+ * 3    Thread support with all thread-local storage in a dynamically allocated
+ *        memory area and a, and b.
+ *      a. Lock on heap accesses
+ *      b. Optional lock on file accesses (see _DLIB_FILE_OP_LOCKS below)
+ *      d. Use an external thread-local storage interface for all the
+ *         libraries static and global variables.
+ *      e. Static and global variables aren't safe for access from several
+ *         threads.
+ *
+ * Note that if locks are used the following symbols must be defined:
+ *
+ *   _DLIB_THREAD_LOCK_ONCE_TYPE
+ *   _DLIB_THREAD_LOCK_ONCE_MACRO(control_variable, init_function)
+ *   _DLIB_THREAD_LOCK_ONCE_TYPE_INIT
+ *
+ * They will be used to initialize the needed locks only once. TYPE is the
+ * type for the static control variable, MACRO is the expression that will be
+ * evaluated at each usage of a lock, and INIT is the initializer for the
+ * control variable.
+ *
+ * Note that if thread model 3 is used the symbol _DLIB_TLS_POINTER must be
+ * defined. It is a thread local pointer to a dynamic memory area that
+ * contains all used TLS variables for the library. Optionally the following
+ * symbols can be defined as well (default is to use the default const data
+ * and data memories):
+ *
+ *   _DLIB_TLS_INITIALIZER_MEMORY The memory to place the initializers for the
+ *                                TLS memory area
+ *   _DLIB_TLS_MEMORY             The memory to use for the TLS memory area. A
+ *                                pointer to this memory must be castable to a
+ *                                default pointer and back.
+ *   _DLIB_TLS_REQUIRE_INIT       Set to 1 to require __cstart_init_tls
+ *                                when needed to initialize the TLS data
+ *                                segment for the main thread.
+ *   _DLIB_TLS_SEGMENT_DATA       The name of the TLS RAM data segment
+ *   _DLIB_TLS_SEGMENT_INIT       The name of the used to initialize the
+ *                                TLS data segment.
+ *
+ * See DLib_Threads.h for a description of what interfaces needs to be
+ * defined for thread support.
+ */
+
+
+
+
+
+/*
+ * Used by products where one runtime library can be used by applications
+ * with different data models, in order to reduce the total number of
+ * libraries required. Typically, this is used when the pointer types does
+ * not change over the data models used, but the placement of data variables
+ * or/and constant variables do.
+ *
+ * If defined, this symbol is typically defined to the memory attribute that
+ * is used by the runtime library. The actual define must use a
+ * _Pragma("type_attribute = xxx") construct. In the header files, it is used
+ * on all statically linked data objects seen by the application.
+ */
+
+
+
+
+#line 812 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+
+
+/*
+ * Turn on support for the Target-specific ABI. The ABI is based on the
+ * ARM AEABI. A target, except ARM, may deviate from it.
+ */
+
+#line 826 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+
+
+  /* Possible AEABI deviations */
+#line 836 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+
+#line 844 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+  /*
+   * The "difunc" table contains information about C++ objects that
+   * should be dynamically initialized, where each entry in the table
+   * represents an initialization function that should be called. When
+   * the symbol _DLIB_AEABI_DIFUNC_CONTAINS_OFFSETS is true, each
+   * entry in the table is encoded as an offset from the entry
+   * location. When false, the entries contain the actual addresses to
+   * call.
+   */
+
+
+
+
+
+
+/*
+ * Turn on usage of a pragma to tell the linker the number of elements used
+ * in a setjmp jmp_buf.
+ */
+
+
+
+
+
+/*
+ * If true, the product supplies a "DLib_Product_string.h" file that
+ * is included from "string.h".
+ */
+
+
+
+
+
+/*
+ * Determine whether the math fma routines are fast or not.
+ */
+
+
+
+
+/*
+ * Rtti support.
+ */
+
+#line 899 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+
+/*
+ * Use the "pointers to short" or "pointers to long" implementation of 
+ * the basic floating point routines (like Dnorm, Dtest, Dscale, and Dunscale).
+ */
+
+
+
+
+/*
+ * Use 64-bit long long as intermediary type in Dtest, and fabs.
+ * Default is to do this if long long is 64-bits.
+ */
+
+
+
+
+/*
+ * Favor speed versus some size enlargements in floating point functions.
+ */
+
+
+
+
+/*
+ * Include dlmalloc as an alternative heap manager in product.
+ *
+ * Typically, an application will use a "malloc" heap manager that is
+ * relatively small but not that efficient. An application can
+ * optionally use the "dlmalloc" package, which provides a more
+ * effective "malloc" heap manager, if it is included in the product
+ * and supported by the settings.
+ *
+ * See the product documentation on how to use it, and whether or not
+ * it is included in the product.
+ */
+
+  /* size_t/ptrdiff_t must be a 4 bytes unsigned integer. */
+#line 943 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+
+
+
+
+
+/*
+ * Allow the 64-bit time_t interface?
+ *
+ * Default is yes if long long is 64 bits.
+ */
+
+  #pragma language = save 
+  #pragma language = extended
+
+
+
+
+
+  #pragma language = restore
+
+
+
+
+
+
+/*
+ * Is time_t 64 or 32 bits?
+ *
+ * Default is 32 bits.
+ */
+
+
+
+
+/*
+ * Do we include math functions that demands lots of constant bytes?
+ * (like erf, erfc, expm1, fma, lgamma, tgamma, and *_accurate)
+ *
+ */
+
+
+
+
+/*
+ * Set this to __weak, if supported.
+ *
+ */
+#line 997 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+
+
+/*
+ * Deleted options
+ *
+ */
+
+
+
+
+
+
+
+#line 73 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+
+
+
+
+
+
+
+
+
+
+
+                /* Floating-point */
+
+/*
+ * Whenever a floating-point type is equal to another, we try to fold those
+ * two types into one. This means that if float == double then we fold float to
+ * use double internally. Example sinf(float) will use _Sin(double, uint).
+ *
+ * _X_FNAME is a redirector for internal support routines. The X can be
+ *          D (double), F (float), or L (long double). It redirects by using
+ *          another prefix. Example calls to Dtest will be __iar_Dtest,
+ *          __iar_FDtest, or __iarLDtest.
+ * _X_FUN   is a redirector for functions visible to the customer. As above, the
+ *          X can be D, F, or L. It redirects by using another suffix. Example
+ *          calls to sin will be sin, sinf, or sinl.
+ * _X_TYPE  The type that one type is folded to.
+ * _X_PTRCAST is a redirector for a cast operation involving a pointer.
+ * _X_CAST  is a redirector for a cast involving the float type.
+ *
+ * _FLOAT_IS_DOUBLE signals that all internal float routines aren't needed.
+ * _LONG_DOUBLE_IS_DOUBLE signals that all internal long double routines
+ *                        aren't needed.
+ */
+#line 147 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+
+
+
+
+
+                /* NAMING PROPERTIES */
+
+
+/* Has support for fixed point types */
+
+
+
+
+/* Has support for secure functions (printf_s, scanf_s, etc) */
+/* Will not compile if enabled */
+#line 170 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+
+/* Has support for complex C types */
+
+
+
+
+/* If is Embedded C++ language */
+
+
+
+
+
+
+/* If is true C++ language */
+
+
+
+
+
+
+/* True C++ language setup */
+#line 233 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+
+
+
+
+
+
+
+
+
+
+
+                /* NAMESPACE CONTROL */
+#line 292 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+
+
+
+
+
+
+
+
+
+#line 308 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+
+
+
+
+
+
+
+
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xencoding_limits.h"
+/* xencoding_limits.h internal header file */
+/* Copyright 2003-2010 IAR Systems AB.  */
+
+
+
+
+
+  #pragma system_include
+
+
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+/* ycheck.h internal checking header file. */
+/* Copyright 2005-2010 IAR Systems AB. */
+
+/* Note that there is no include guard for this header. This is intentional. */
+
+
+  #pragma system_include
+
+
+/* __INTRINSIC
+ *
+ * Note: Redefined each time ycheck.h is included, i.e. for each
+ * system header, to ensure that intrinsic support could be turned off
+ * individually for each file.
+ */
+
+
+
+
+
+
+
+
+
+
+/* __AEABI_PORTABILITY_INTERNAL_LEVEL
+ *
+ * Note: Redefined each time ycheck.h is included, i.e. for each
+ * system header, to ensure that ABI support could be turned off/on
+ * individually for each file.
+ *
+ * Possible values for this preprocessor symbol:
+ *
+ * 0 - ABI portability mode is disabled.
+ *
+ * 1 - ABI portability mode (version 1) is enabled.
+ *
+ * All other values are reserved for future use.
+ */
+
+
+
+
+
+
+#line 67 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+
+#line 12 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xencoding_limits.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+/* yvals.h internal configuration header file. */
+/* Copyright 2001-2010 IAR Systems AB. */
+
+#line 711 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+
+/*
+ * Copyright (c) 1992-2009 by P.J. Plauger.  ALL RIGHTS RESERVED.
+ * Consult your license regarding permissions and restrictions.
+V5.04:0576 */
+#line 13 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xencoding_limits.h"
+
+                                /* Multibyte encoding length. */
+
+
+#line 24 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xencoding_limits.h"
+
+
+
+
+
+
+
+
+#line 38 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xencoding_limits.h"
+
+
+
+#line 55 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xencoding_limits.h"
+
+
+
+#line 317 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+
+
+
+                /* FLOATING-POINT PROPERTIES */
+
+                /* float properties */
+#line 335 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+
+                /* double properties */
+#line 360 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+
+                /* long double properties */
+                /* (must be same as double) */
+
+
+
+
+#line 382 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+
+
+                /* INTEGER PROPERTIES */
+
+                                /* MB_LEN_MAX */
+
+
+
+
+
+
+
+  #pragma language=save
+  #pragma language=extended
+  typedef long long _Longlong;
+  typedef unsigned long long _ULonglong;
+  #pragma language=restore
+#line 405 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+
+
+
+
+
+
+  typedef unsigned short int _Wchart;
+  typedef unsigned short int _Wintt;
+
+
+#line 424 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+
+#line 432 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+
+                /* POINTER PROPERTIES */
+
+
+typedef signed int  _Ptrdifft;
+typedef unsigned int     _Sizet;
+
+/* IAR doesn't support restrict  */
+
+
+                /* stdarg PROPERTIES */
+
+
+
+
+
+
+/* This struct definition must not be inside namespace std, or
+   overloading will be wrong in full C++ */
+  typedef struct __va_list
+  {
+    char  *_Ap;
+  } __va_list;
+
+  typedef __va_list __Va_list;
+
+
+
+
+
+__intrinsic __nounwind void __iar_Atexit(void (*)(void));
+
+
+
+  typedef struct
+  {       /* state of a multibyte translation */
+    unsigned int _Wchar;
+    unsigned int _State;
+  } _Mbstatet;
+#line 481 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+
+
+
+
+
+  typedef struct __FILE _Filet;
+
+
+
+
+typedef struct
+{       /* file position */
+
+  _Longlong _Off;    /* can be system dependent */
+
+
+
+  _Mbstatet _Wstate;
+} _Fpost;
+
+
+
+
+
+
+
+                /* THREAD AND LOCALE CONTROL */
+
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
+/***************************************************
+ *
+ * DLib_Threads.h is the library threads manager.
+ *
+ * Copyright 2004-2010 IAR Systems AB.  
+ *
+ * This configuration header file sets up how the thread support in the library
+ * should work.
+ *
+ ***************************************************
+ *
+ * DO NOT MODIFY THIS FILE!
+ *
+ ***************************************************/
+
+
+
+
+
+  #pragma system_include
+
+
+/*
+ * DLib can support a multithreaded environment. The preprocessor symbol 
+ * _DLIB_THREAD_SUPPORT governs the support. It can be 0 (no support), 
+ * 1 (currently not supported), 2 (locks only), and 3 (simulated TLS and locks).
+ */
+
+/*
+ * This header sets the following symbols that governs the rest of the
+ * library:
+ * ------------------------------------------
+ * _DLIB_MULTI_THREAD     0 No thread support
+ *                        1 Multithread support
+ * _DLIB_GLOBAL_VARIABLES 0 Use external TLS interface for the libraries global
+ *                          and static variables
+ *                        1 Use a lock for accesses to the locale and no 
+ *                          security for accesses to other global and static
+ *                          variables in the library
+ * _DLIB_FILE_OP_LOCKS    0 No file-atomic locks
+ *                        1 File-atomic locks
+
+ * _DLIB_COMPILER_TLS     0 No Thread-Local-Storage support in the compiler
+ *                        1 Thread-Local-Storage support in the compiler
+ * _DLIB_TLS_QUAL         The TLS qualifier, define only if _COMPILER_TLS == 1
+ *
+ * _DLIB_THREAD_MACRO_SETUP_DONE Whether to use the standard definitions of
+ *                               TLS macros defined in xtls.h or the definitions
+ *                               are provided here.
+ *                        0 Use default macros
+ *                        1 Macros defined for xtls.h
+ *
+ * _DLIB_THREAD_LOCK_ONCE_TYPE
+ *                        type for control variable in once-initialization of 
+ *                        locks
+ * _DLIB_THREAD_LOCK_ONCE_MACRO(control_variable, init_function)
+ *                        expression that will be evaluated at each lock access
+ *                        to determine if an initialization must be done
+ * _DLIB_THREAD_LOCK_ONCE_TYPE_INIT
+ *                        initial value for the control variable
+ *
+ ****************************************************************************
+ * Description
+ * -----------
+ *
+ * If locks are to be used (_DLIB_MULTI_THREAD != 0), the following options
+ * has to be used in ilink: 
+ *   --redirect __iar_Locksyslock=__iar_Locksyslock_mtx
+ *   --redirect __iar_Unlocksyslock=__iar_Unlocksyslock_mtx
+ *   --redirect __iar_Lockfilelock=__iar_Lockfilelock_mtx
+ *   --redirect __iar_Unlockfilelock=__iar_Unlockfilelock_mtx
+ *   --keep     __iar_Locksyslock_mtx
+ * and, if C++ is used, also:
+ *   --redirect __iar_Initdynamicfilelock=__iar_Initdynamicfilelock_mtx
+ *   --redirect __iar_Dstdynamicfilelock=__iar_Dstdynamicfilelock_mtx
+ *   --redirect __iar_Lockdynamicfilelock=__iar_Lockdynamicfilelock_mtx
+ *   --redirect __iar_Unlockdynamicfilelock=__iar_Unlockdynamicfilelock_mtx
+ * Xlink uses similar options (-e and -g). The following lock interface must
+ * also be implemented: 
+ *   typedef void *__iar_Rmtx;                   // Lock info object
+ *
+ *   void __iar_system_Mtxinit(__iar_Rmtx *);    // Initialize a system lock
+ *   void __iar_system_Mtxdst(__iar_Rmtx *);     // Destroy a system lock
+ *   void __iar_system_Mtxlock(__iar_Rmtx *);    // Lock a system lock
+ *   void __iar_system_Mtxunlock(__iar_Rmtx *);  // Unlock a system lock
+ * The interface handles locks for the heap, the locale, the file system
+ * structure, the initialization of statics in functions, etc. 
+ *
+ * The following lock interface is optional to be implemented:
+ *   void __iar_file_Mtxinit(__iar_Rmtx *);    // Initialize a file lock
+ *   void __iar_file_Mtxdst(__iar_Rmtx *);     // Destroy a file lock
+ *   void __iar_file_Mtxlock(__iar_Rmtx *);    // Lock a file lock
+ *   void __iar_file_Mtxunlock(__iar_Rmtx *);  // Unlock a file lock
+ * The interface handles locks for each file stream.
+ * 
+ * These three once-initialization symbols must also be defined, if the 
+ * default initialization later on in this file doesn't work (done in 
+ * DLib_product.h):
+ *
+ *   _DLIB_THREAD_LOCK_ONCE_TYPE
+ *   _DLIB_THREAD_LOCK_ONCE_MACRO(control_variable, init_function)
+ *   _DLIB_THREAD_LOCK_ONCE_TYPE_INIT
+ *
+ * If an external TLS interface is used, the following must
+ * be defined:
+ *   typedef int __iar_Tlskey_t;
+ *   typedef void (*__iar_Tlsdtor_t)(void *);
+ *   int __iar_Tlsalloc(__iar_Tlskey_t *, __iar_Tlsdtor_t); 
+ *                                                    // Allocate a TLS element
+ *   int __iar_Tlsfree(__iar_Tlskey_t);               // Free a TLS element
+ *   int __iar_Tlsset(__iar_Tlskey_t, void *);        // Set a TLS element
+ *   void *__iar_Tlsget(__iar_Tlskey_t);              // Get a TLS element
+ *
+ */
+
+/* We don't have a compiler that supports tls declarations */
+
+
+
+#line 157 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
+
+  /* Thread support, library supports threaded variables in a user specified
+     memory area, locks on heap and on FILE */
+
+  /* See Documentation/ThreadsInternal.html for a description. */
+
+
+
+
+
+  
+
+
+#line 176 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
+
+
+
+
+
+#line 187 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
+
+
+
+
+
+  #pragma language=save 
+  #pragma language=extended
+  __intrinsic __nounwind void __iar_dlib_perthread_initialize(void  *);
+  __intrinsic __nounwind void  *__iar_dlib_perthread_allocate(void);
+  __intrinsic __nounwind void __iar_dlib_perthread_destroy(void);
+  __intrinsic __nounwind void __iar_dlib_perthread_deallocate(void  *);
+
+
+
+
+
+
+
+
+
+  #pragma segment = "__DLIB_PERTHREAD" 
+  #pragma segment = "__DLIB_PERTHREAD_init" 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#line 242 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
+
+  /* The thread-local variable access function */
+  void  *__iar_dlib_perthread_access(void  *);
+  #pragma language=restore
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Make sure that each destructor is inserted into _Deallocate_TLS */
+  
+
+
+
+
+
+
+
+
+
+  /* Internal function declarations. */
+
+
+    __intrinsic __nounwind void __iar_Locale_lconv_init(void);
+
+
+
+  
+
+
+
+
+
+  
+  typedef void *__iar_Rmtx;
+  
+
+  
+  __intrinsic __nounwind void __iar_system_Mtxinit(__iar_Rmtx *m);
+  __intrinsic __nounwind void __iar_system_Mtxdst(__iar_Rmtx *m);
+  __intrinsic __nounwind void __iar_system_Mtxlock(__iar_Rmtx *m);
+  __intrinsic __nounwind void __iar_system_Mtxunlock(__iar_Rmtx *m);
+
+  __intrinsic __nounwind void __iar_file_Mtxinit(__iar_Rmtx *m);
+  __intrinsic __nounwind void __iar_file_Mtxdst(__iar_Rmtx *m);
+  __intrinsic __nounwind void __iar_file_Mtxlock(__iar_Rmtx *m);
+  __intrinsic __nounwind void __iar_file_Mtxunlock(__iar_Rmtx *m);
+
+  /* Function to destroy the locks. Should be called after atexit and 
+     _Close_all. */
+  __intrinsic __nounwind void __iar_clearlocks(void);
+
+
+#line 323 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
+
+  
+
+
+
+
+
+  
+
+#line 341 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
+
+  typedef unsigned _Once_t;
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+#line 510 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+
+#line 520 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+
+                /* THREAD-LOCAL STORAGE */
+#line 528 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+
+
+                /* MULTITHREAD PROPERTIES */
+
+  
+  
+  /* The lock interface for DLib to use. */ 
+  _Pragma("object_attribute = __weak") __intrinsic __nounwind void __iar_Locksyslock_Locale(void);
+  _Pragma("object_attribute = __weak") __intrinsic __nounwind void __iar_Locksyslock_Malloc(void);
+  _Pragma("object_attribute = __weak") __intrinsic __nounwind void __iar_Locksyslock_Stream(void);
+  _Pragma("object_attribute = __weak") __intrinsic __nounwind void __iar_Locksyslock_Debug(void);
+  _Pragma("object_attribute = __weak") __intrinsic __nounwind void __iar_Locksyslock_StaticGuard(void);
+  _Pragma("object_attribute = __weak") __intrinsic __nounwind void __iar_Locksyslock(unsigned int);
+  _Pragma("object_attribute = __weak") __intrinsic __nounwind void __iar_Unlocksyslock_Locale(void);
+  _Pragma("object_attribute = __weak") __intrinsic __nounwind void __iar_Unlocksyslock_Malloc(void);
+  _Pragma("object_attribute = __weak") __intrinsic __nounwind void __iar_Unlocksyslock_Stream(void);
+  _Pragma("object_attribute = __weak") __intrinsic __nounwind void __iar_Unlocksyslock_Debug(void);
+  _Pragma("object_attribute = __weak") __intrinsic __nounwind void __iar_Unlocksyslock_StaticGuard(void);
+  _Pragma("object_attribute = __weak") __intrinsic __nounwind void __iar_Unlocksyslock(unsigned int);
+
+  _Pragma("object_attribute = __weak") __intrinsic __nounwind void __iar_Initdynamicfilelock(__iar_Rmtx *);
+  _Pragma("object_attribute = __weak") __intrinsic __nounwind void __iar_Dstdynamicfilelock(__iar_Rmtx *);
+  _Pragma("object_attribute = __weak") __intrinsic __nounwind void __iar_Lockdynamicfilelock(__iar_Rmtx *);
+  _Pragma("object_attribute = __weak") __intrinsic __nounwind void __iar_Unlockdynamicfilelock(__iar_Rmtx *);
+  
+  
+#line 568 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+
+                /* LOCK MACROS */
+#line 576 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+
+#line 694 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+
+                /* MISCELLANEOUS MACROS AND FUNCTIONS*/
+
+
+
+
+
+#line 709 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+
+
+
+/*
+ * Copyright (c) 1992-2009 by P.J. Plauger.  ALL RIGHTS RESERVED.
+ * Consult your license regarding permissions and restrictions.
+V5.04:0576 */
+#line 14 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ymath.h"
+
+
+
+
+                /* MACROS FOR _X_FNAME(Dtest) RETURN (0 => ZERO) */
+
+
+
+
+
+
+
+
+
+
+_Pragma("function_effects = no_state, always_returns") __intrinsic __nounwind short        __iar_Dtest(double);
+_Pragma("function_effects = no_state, always_returns") __intrinsic __nounwind int          __iar_Dsign(double);
+
+
+  _Pragma("function_effects = no_state, always_returns") __intrinsic __nounwind short        __iar_FDtest(float);
+  _Pragma("function_effects = no_state, always_returns") __intrinsic __nounwind int          __iar_FDsign(float);
+
+
+
+
+
+
+
+
+
+
+                /* TYPE DEFINITIONS */
+typedef union
+{       /* pun float types as integer array */
+  unsigned short _Word[8 / 2];
+  float _Float;
+  double _Double;
+  long double _Long_double;
+} _Dconst;
+
+                /* double DECLARATIONS */
+_Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind double       __iar_Cosh(double, double);
+
+  _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind double       __iar_Erfc(double);
+
+_Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind short        __iar_Exp(double *, double, long);
+_Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind double       __iar_Log(double, int);
+
+  _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind double __iar_Log_small(double, int);
+
+_Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind double       __iar_Logpoly(double);
+_Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind unsigned int __iar_Quad(double *);
+_Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind unsigned int __iar_QuadXp(double *);
+_Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind unsigned int __iar_Quadph(double *, double);
+_Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind double       __iar_Rint(double);
+_Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind double       __iar_Sin(double, unsigned int);
+
+  _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind double __iar_Sin_small(double, unsigned int);
+
+_Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind double       __iar_Sinh(double, double);
+_Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind double       __iar_Tgamma(double *, short *pex);
+
+                /* float DECLARATIONS */
+
+  _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float        __iar_FCosh(float, float);
+  _Pragma("function_effects = no_state, always_returns") __intrinsic __nounwind short        __iar_FDtest(float);
+  _Pragma("function_effects = no_state, always_returns") __intrinsic __nounwind int          __iar_FDsign(float);
+
+    _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float        __iar_FErfc(float);
+
+  _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind short        __iar_FExp(float *, float, long);
+  _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float        __iar_FLog(float, int);
+
+    _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float __iar_Log_smallf(float, int);
+
+  _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float        __iar_FLogpoly(float);
+  _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind unsigned int __iar_FQuad(float *);
+  _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind unsigned int __iar_FQuadXp(float *);
+  _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind unsigned int __iar_FQuadph(float *, float);
+  _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float        __iar_FRint(float);
+  _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float        __iar_FSin(float, unsigned int);
+
+    _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float __iar_Sin_smallf(float, unsigned int);
+
+  _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float        __iar_FSinh(float, float);
+  _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float        __iar_FTgamma(float *, short *pex);
+
+
+                /* long double DECLARATIONS */
+#line 131 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ymath.h"
+
+
+
+ extern float const __aeabi_HUGE_VALF;
+ extern float const __aeabi_INFINITY;
+ extern float const __aeabi_NAN;
+ extern double const __aeabi_HUGE_VAL;
+ extern long double const __aeabi_HUGE_VALL;
+
+                /* long double ADDITIONS TO math.h NEEDED FOR complex */
+_Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind long double (atan2l)(long double, long double);
+_Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind long double (cosl)(long double);
+_Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind long double (expl)(long double);
+_Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind long double (ldexpl)(long double, int);
+_Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind long double (logl)(long double);
+_Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind long double (powl)(long double, long double);
+_Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind long double (sinl)(long double);
+_Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind long double (sqrtl)(long double);
+_Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind long double (tanl)(long double);
+                /* float ADDITIONS TO math.h NEEDED FOR complex */
+_Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float (atan2f)(float, float);
+_Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float (cosf)(float);
+_Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float (expf)(float);
+_Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float (ldexpf)(float, int);
+_Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float (logf)(float);
+_Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float (powf)(float, float);
+_Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float (sinf)(float);
+_Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float (sqrtf)(float);
+_Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float (tanf)(float);
+
+
+
+
+
+
+
+/*
+ * Copyright (c) 1992-2009 by P.J. Plauger.  ALL RIGHTS RESERVED.
+ * Consult your license regarding permissions and restrictions.
+V5.04:0576 */
+#line 12 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xtgmath.h"
+/* xtgmath.h internal header */
+/* Copyright 2009-2010 IAR Systems AB. */
+
+
+
+
+  #pragma system_include
+
+
+
+
+
+
+
+
+#line 23 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xtgmath.h"
+
+#line 240 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xtgmath.h"
+
+
+
+/*
+ * Copyright (c) 1992-2009 by P.J. Plauger.  ALL RIGHTS RESERVED.
+ * Consult your license regarding permissions and restrictions.
+ V5.04:0576 */
+#line 13 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
+
+
+
+#line 32 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
+
+
+
+
+
+
+
+
+
+
+
+  typedef float float_t;
+  typedef double double_t;
+
+
+
+
+                /* double declarations */
+_Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double acos(double);
+_Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double asin(double);
+_Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double atan(double);
+_Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double atan2(double, double);
+_Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind double ceil(double);
+_Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double exp(double);
+_Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind double fabs(double);
+_Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind double floor(double);
+_Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double fmod(double, double);
+_Pragma("function_effects = no_state, no_read(2), always_returns") __intrinsic __nounwind double frexp(double, int *);
+_Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double ldexp(double, int);
+_Pragma("function_effects = no_state, no_read(2), always_returns") __intrinsic __nounwind double modf(double, double *);
+_Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double pow(double, double);
+_Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double sqrt(double);
+_Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double tan(double);
+_Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double tanh(double);
+
+_Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double cos(double);
+_Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double cosh(double);
+_Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double log(double);
+_Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double log10(double);
+_Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double sin(double);
+_Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double sinh(double);
+
+
+
+                /* double declarations */
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double acosh(double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double asinh(double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double atanh(double);
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind double cbrt(double);
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind double copysign(double, double);
+
+    _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double erf(double);
+    _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double erfc(double);
+    _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double expm1(double);
+
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double exp2(double);
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind double fdim(double, double);
+
+    _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double fma(double, double, double);
+
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind double fmax(double, double);
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind double fmin(double, double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double hypot(double, double);
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind int    ilogb(double);
+
+    _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double lgamma(double);
+
+
+    #pragma language=save
+    #pragma language=extended
+    _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind _Longlong llrint(double);
+    _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind _Longlong llround(double);
+    #pragma language=restore
+
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double log1p(double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double log2(double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double logb(double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long   lrint(double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long   lround(double);
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind double nan(const char *);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double nearbyint(double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double nextafter(double, double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double nexttoward(double, long double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double remainder(double, double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double remquo(double, double, int *);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double rint(double);
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind double round(double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double scalbn(double, int);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double scalbln(double, long);
+
+    _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind double tgamma(double);
+
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind double trunc(double);
+
+                /* float declarations */
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float acosf(float);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float asinf(float);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float atanf(float);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float atan2f(float, float);
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind float ceilf(float);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float expf(float);
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind float fabsf(float);
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind float floorf(float);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float fmodf(float, float);
+  _Pragma("function_effects = no_state, no_read(2), always_returns") __intrinsic __nounwind float frexpf(float, int *);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float ldexpf(float, int);
+  _Pragma("function_effects = no_state, no_read(2), always_returns") __intrinsic __nounwind float modff(float, float *);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float powf(float, float);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float sqrtf(float);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float tanf(float);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float tanhf(float);
+
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float acoshf(float);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float asinhf(float);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float atanhf(float);
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind float cbrtf(float);
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind float copysignf(float, float);
+
+    _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float erff(float);
+    _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float erfcf(float);
+    _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float expm1f(float);
+
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float exp2f(float);
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind float fdimf(float, float);
+
+    _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float fmaf(float, float, float);
+
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind float fmaxf(float, float);
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind float fminf(float, float);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float hypotf(float, float);
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind int   ilogbf(float);
+
+    _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float lgammaf(float);
+
+
+    #pragma language=save
+    #pragma language=extended
+    _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind _Longlong llrintf(float);
+    _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind _Longlong llroundf(float);
+    #pragma language=restore
+
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float log1pf(float);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float log2f(float);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float logbf(float);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long  lrintf(float);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long  lroundf(float);
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind float nanf(const char *);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float nearbyintf(float);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float nextafterf(float, float);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float nexttowardf(float, long double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float remainderf(float, float);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float remquof(float, float, int *);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float rintf(float);
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind float roundf(float);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float scalbnf(float, int);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float scalblnf(float, long);
+
+    _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float tgammaf(float);
+
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind float truncf(float);
+
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float cosf(float);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float coshf(float);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float logf(float);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float log10f(float);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float sinf(float);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind float sinhf(float);
+
+                /* long double declarations */
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double acosl(long double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double asinl(long double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double atanl(long double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double atan2l(long double, long double);
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind long double ceill(long double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double expl(long double);
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind long double fabsl(long double);
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind long double floorl(long double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double fmodl(long double, long double);
+  _Pragma("function_effects = no_state, no_read(2), always_returns") __intrinsic __nounwind long double frexpl(long double, int *);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double ldexpl(long double, int);
+  _Pragma("function_effects = no_state, no_read(2), always_returns") __intrinsic __nounwind long double modfl(long double, long double *);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double powl(long double, long double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double sqrtl(long double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double tanl(long double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double tanhl(long double);
+
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double acoshl(long double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double asinhl(long double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double atanhl(long double);
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind long double cbrtl(long double);
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind long double copysignl(long double, long double);
+
+    _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double erfl(long double);
+    _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double erfcl(long double);
+    _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double expm1l(long double);
+
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double exp2l(long double);
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind long double fdiml(long double, long double);
+
+    _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double fmal(long double, long double, 
+                                              long double);
+
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind long double fmaxl(long double, long double);
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind long double fminl(long double, long double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double hypotl(long double, long double);
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind int         ilogbl(long double);
+
+    _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double lgammal(long double);
+
+
+    #pragma language=save
+    #pragma language=extended
+    _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind _Longlong llrintl(long double);
+    _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind _Longlong llroundl(long double);
+    #pragma language=restore
+
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double log1pl(long double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double log2l(long double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double logbl(long double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long        lrintl(long double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long lroundl(long double);
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind long double nanl(const char *);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double nearbyintl(long double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double nextafterl(long double, long double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double nexttowardl(long double, long double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double remainderl(long double, long double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double remquol(long double, long double, int *);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double rintl(long double);
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind long double roundl(long double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double scalbnl(long double, int);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double scalblnl(long double, long);
+
+    _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double tgammal(long double);
+
+  _Pragma("function_effects = no_state, always_returns")    __intrinsic __nounwind long double truncl(long double);
+
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double cosl(long double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double coshl(long double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double logl(long double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double log10l(long double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double sinl(long double);
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind long double sinhl(long double);
+
+
+
+
+
+                  /* Accurate versions of certain float functions. */
+  _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind double __iar_tan_accurate(double);
+  _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind double __iar_cos_accurate(double);
+  _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind double __iar_sin_accurate(double);
+  _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind double __iar_pow_accurate(double, double);
+
+  _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind double __iar_Sin_accurate(double, unsigned int);
+  _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind double __iar_Pow_accurate(double, double, short *pex);
+
+      _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float __iar_tan_accuratef(float);
+      _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float __iar_cos_accuratef(float);
+      _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float __iar_sin_accuratef(float);
+      _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float __iar_pow_accuratef(float, float);
+
+      _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float __iar_Sin_accuratef(float, unsigned int);
+      _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float __iar_Pow_accuratef(float, float, short *pex);
+
+      _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind long double __iar_tan_accuratel(long double);
+      _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind long double __iar_cos_accuratel(long double);
+      _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind long double __iar_sin_accuratel(long double);
+      _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind long double __iar_pow_accuratel(long double, 
+                                                            long double);
+
+      _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind long double __iar_Sin_accuratel(long double, 
+                                                            unsigned int);
+      _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind long double __iar_Pow_accuratel(long double, 
+                                                            long double,
+                                                            short *pex);
+
+
+
+
+
+                  /* Small versions of certain float functions. */
+  _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind double __iar_cos_small(double);
+  _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind double __iar_exp_small(double);
+  _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind double __iar_log_small(double);
+  _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind double __iar_log2_small(double);
+  _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind double __iar_log10_small(double);
+  _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind double __iar_pow_small(double, double);
+  _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind double __iar_sin_small(double);
+  _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind double __iar_tan_small(double);
+  
+
+    _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float __iar_cos_smallf(float);
+    _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float __iar_exp_smallf(float);
+    _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float __iar_log_smallf(float);
+    _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float __iar_log2_smallf(float);
+    _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float __iar_log10_smallf(float);
+    _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float __iar_pow_smallf(float, float);
+    _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float __iar_sin_smallf(float);
+    _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind float __iar_tan_smallf(float);
+
+    _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind long double __iar_cos_smalll(long double);
+    _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind long double __iar_exp_smalll(long double);
+    _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind long double __iar_log_smalll(long double);
+    _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind long double __iar_log2_smalll(long double);
+    _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind long double __iar_log10_smalll(long double);
+    _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind long double __iar_pow_smalll(long double, long double);
+    _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind long double __iar_sin_smalll(long double);
+    _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic __nounwind long double __iar_tan_smalll(long double);
+
+
+
+
+
+
+
+
+
+#line 505 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
+
+
+#line 1292 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
+
+
+
+
+                /* double INLINES, FOR C and C++ */
+
+/* C inline definitions */
+
+  #pragma inline=no_body
+  double cos(double _X)
+  {       /* return cosine */
+    return __iar_Sin(_X, 1);
+  }
+
+  #pragma inline=no_body
+  double cosh(double _X)
+  {       /* return hyperbolic cosine */
+    return __iar_Cosh(_X, 1);
+  }
+
+  #pragma inline=no_body
+  double log(double _X)
+  {       /* return natural logarithm */
+    return __iar_Log(_X, 0);
+  }
+
+  #pragma inline=no_body
+  double log10(double _X)
+  {       /* return base-10 logarithm */
+    return __iar_Log(_X, 1);
+  }
+
+  #pragma inline=no_body
+  double sin(double _X)
+  {       /* return sine */
+    return __iar_Sin(_X, 0);
+  }
+
+  #pragma inline=no_body
+  double sinh(double _X)
+  {       /* return hyperbolic sine */
+    return __iar_Sinh(_X, 1);
+  }
+
+
+                /* double INLINES, FOR C99 and C++ */
+
+    #pragma inline=no_body
+    double log2(double _Left)
+    {   /* return base-2 logarithm */
+      return (__iar_Log(_Left, -1));
+    }
+
+    #pragma inline=no_body
+    double nan(const char *s)
+    {   /* construct a NaN */
+      return (0.Nan);
+    }
+
+    #pragma inline=no_body
+    double nextafter(double x, double y)
+    {   /* compute next value after x going toward y */
+      return (nexttoward(x, (long double)y));
+    }
+
+    #pragma inline=no_body
+    double remainder(double x, double y)
+    {   /* compute remainder of x/y */
+      return (remquo(x, y, 0));
+    }
+
+
+
+                /* float INLINES, FOR C and C++ */
+
+    #pragma inline=no_body
+    float cosf(float _X)
+    {       /* return cosine */
+      return (__iar_FSin(_X, 1));
+    }
+
+    #pragma inline=no_body
+    float coshf(float _X)
+    {       /* return hyperbolic cosine */
+      return (__iar_FCosh(_X,  1.0F));
+    }
+
+    #pragma inline=no_body
+    float logf(float _X)
+    {       /* return natural logarithm */
+      return (__iar_FLog(_X, 0));
+    }
+
+    #pragma inline=no_body 
+    float log2f(float _Left)
+    {       /* return base-2 logarithm */
+      return (__iar_FLog(_Left, -1));
+    }
+
+    #pragma inline=no_body
+    float log10f(float _X)
+    {       /* return base-10 logarithm */
+      return (__iar_FLog(_X, 1));
+    }
+
+    #pragma inline=no_body
+    float nanf(const char *s)
+    {   /* construct a NaN */
+      return (0.Nan);
+    }
+
+    #pragma inline=no_body
+    float nextafterf(float x, float y)
+    {   /* compute next value after x going toward y */
+      return (nexttowardf(x, (long double)y));
+    }
+
+    #pragma inline=no_body
+    float remainderf(float x, float y)
+    {   /* compute remainder of x/y */
+      return (remquof(x, y, 0));
+    }
+
+    #pragma inline=no_body
+    float sinf(float _X)
+    {       /* return sine */
+      return (__iar_FSin(_X, 0));
+    }
+
+    #pragma inline=no_body
+    float sinhf(float _X)
+    {       /* return hyperbolic sine */
+      return (__iar_FSinh(_X,  1.0F));
+    }
+
+
+                /* long double INLINES, FOR C and C++ */
+
+    #pragma inline=no_body
+    long double cosl(long double _X)
+    {       /* return cosine */
+      return (__iar_Sin(_X, 1));
+    }
+
+    #pragma inline=no_body
+    long double coshl(long double _X)
+    {       /* return hyperbolic cosine */
+      return (__iar_Cosh(_X, (double) 1.0L));
+    }
+
+    #pragma inline=no_body
+    long double logl(long double _X)
+    {       /* return natural logarithm */
+      return (__iar_Log(_X, 0));
+    }
+
+    #pragma inline=no_body 
+    long double log2l(long double _Left)
+    {       /* return base-2 logarithm */
+      return (__iar_Log(_Left, -1));
+    }
+
+    #pragma inline=no_body
+    long double log10l(long double _X)
+    {       /* return base-10 logarithm */
+      return (__iar_Log(_X, 1));
+    }
+
+    #pragma inline=no_body
+    long double nanl(const char *s)
+    {   /* construct a NaN */
+      return (0.Nan);
+    }
+
+    #pragma inline=no_body
+    long double nextafterl(long double x, long double y)
+    {   /* compute next value after x going toward y */
+      return (nexttowardl(x, y));
+    }
+
+    #pragma inline=no_body
+    long double remainderl(long double x, long double y)
+    {   /* compute remainder of x/y */
+      return (remquol(x, y, 0));
+    }
+
+    #pragma inline=no_body
+    long double sinl(long double _X)
+    {       /* return sine */
+      return (__iar_Sin(_X, 0));
+    }
+
+    #pragma inline=no_body
+    long double sinhl(long double _X)
+    {       /* return hyperbolic sine */
+      return (__iar_Sinh(_X, (double) 1.0L));
+    }
+
+
+
+
+
+
+
+  /* C99 floating point functionality */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* For generic C99 compare operations */
+
+
+
+  
+  
+  _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind int __iar_Dcomp(double, double);
+
+    _Pragma("function_effects = no_state, write_errno, always_returns")    __intrinsic __nounwind int __iar_FDcomp(float, float);
+
+
+
+
+  
+  
+#line 1680 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
+  
+
+
+      
+#line 1693 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
+
+
+
+
+
+
+#line 1705 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
+    
+
+
+  #pragma inline=no_body
+  int __iar_Dcomp(double x, double y)
+  {
+    if ((__c99_generic(x,,, __iar_Dtest, __iar_FDtest, __iar_Dtest,,,)(x) == 2) || (__c99_generic(y,,, __iar_Dtest, __iar_FDtest, __iar_Dtest,,,)(y) == 2))
+    {
+      return 0;
+    }
+    if (x > y)
+    {
+      return 4;
+    }
+    if (x < y)
+    {
+      return 1;
+    }
+    if (x == y)
+    {
+      return 2;
+    }
+    return 0;
+  }
+
+
+    #pragma inline=no_body
+    int __iar_FDcomp(float x, float y)
+    {
+      if ((__c99_generic(x,,, __iar_Dtest, __iar_FDtest, __iar_Dtest,,,)(x) == 2) || (__c99_generic(y,,, __iar_Dtest, __iar_FDtest, __iar_Dtest,,,)(y) == 2))
+      {
+        return 0;
+      }
+      if (x > y)
+      {
+        return 4;
+      }
+      if (x < y)
+      {
+        return 1;
+      }
+      if (x == y)
+      {
+        return 2;
+      }
+      return 0;
+    }
+
+
+#line 1777 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
+
+
+
+
+                /* GENERIC TEMPLATES */
+#line 1857 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
+
+
+
+
+#line 2013 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
+
+/*
+ * Copyright (c) 1992-2009 by P.J. Plauger.  ALL RIGHTS RESERVED.
+ * Consult your license regarding permissions and restrictions.
+V5.04:0576 */
+#line 33 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\src\\mlp.c"
+#line 1 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\include\\opus_types.h"
+/* (C) COPYRIGHT 1994-2002 Xiph.Org Foundation */
+/* Modified by Jean-Marc Valin */
+/*
+   Redistribution and use in source and binary forms, with or without
+   modification, are permitted provided that the following conditions
+   are met:
+
+   - Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+   - Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+
+   THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+   ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+   LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+   A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER
+   OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+   EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+   PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+   PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+   LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+   NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+/* opus_types.h based on ogg_types.h from libogg */
+
+/**
+   @file opus_types.h
+   @brief Opus reference implementation types
+*/
+
+
+
+
+
+
+
+
+
+
+
+/* Use the real stdint.h if it's there (taken from Paul Hsieh's pstdint.h) */
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdint.h"
+/* stdint.h standard header */
+/* Copyright 2003-2010 IAR Systems AB.  */
+
+
+
+
+  #pragma system_include
+
+
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+/* ycheck.h internal checking header file. */
+/* Copyright 2005-2010 IAR Systems AB. */
+
+/* Note that there is no include guard for this header. This is intentional. */
+
+
+  #pragma system_include
+
+
+/* __INTRINSIC
+ *
+ * Note: Redefined each time ycheck.h is included, i.e. for each
+ * system header, to ensure that intrinsic support could be turned off
+ * individually for each file.
+ */
+
+
+
+
+
+
+
+
+
+
+/* __AEABI_PORTABILITY_INTERNAL_LEVEL
+ *
+ * Note: Redefined each time ycheck.h is included, i.e. for each
+ * system header, to ensure that ABI support could be turned off/on
+ * individually for each file.
+ *
+ * Possible values for this preprocessor symbol:
+ *
+ * 0 - ABI portability mode is disabled.
+ *
+ * 1 - ABI portability mode (version 1) is enabled.
+ *
+ * All other values are reserved for future use.
+ */
+
+
+
+
+
+
+#line 67 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+
+#line 11 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdint.h"
+
+
+
+/* Fixed size types. These are all optional. */
+
+  typedef signed char   int8_t;
+  typedef unsigned char uint8_t;
+
+
+
+  typedef signed short int   int16_t;
+  typedef unsigned short int uint16_t;
+
+
+
+  typedef signed int   int32_t;
+  typedef unsigned int uint32_t;
+
+
+
+  #pragma language=save
+  #pragma language=extended
+  typedef signed long long int   int64_t;
+  typedef unsigned long long int uint64_t;
+  #pragma language=restore
+
+
+/* Types capable of holding at least a certain number of bits.
+   These are not optional for the sizes 8, 16, 32, 64. */
+typedef signed char   int_least8_t;
+typedef unsigned char uint_least8_t;
+
+typedef signed short int   int_least16_t;
+typedef unsigned short int uint_least16_t;
+
+typedef signed int   int_least32_t;
+typedef unsigned int uint_least32_t;
+
+/* This isn't really optional, but make it so for now. */
+
+  #pragma language=save
+  #pragma language=extended
+  typedef signed long long int int_least64_t;
+  #pragma language=restore
+
+
+  #pragma language=save
+  #pragma language=extended
+  typedef unsigned long long int uint_least64_t;
+  #pragma language=restore
+
+
+/* The fastest type holding at least a certain number of bits.
+   These are not optional for the size 8, 16, 32, 64.
+   For now, the 64 bit size is optional in IAR compilers. */
+typedef signed int   int_fast8_t;
+typedef unsigned int uint_fast8_t;
+
+typedef signed int   int_fast16_t;
+typedef unsigned int uint_fast16_t;
+
+typedef signed int   int_fast32_t;
+typedef unsigned int uint_fast32_t;
+
+
+  #pragma language=save
+  #pragma language=extended
+  typedef signed long long int int_fast64_t;
+  #pragma language=restore
+
+
+  #pragma language=save
+  #pragma language=extended
+  typedef unsigned long long int uint_fast64_t;
+  #pragma language=restore
+
+
+/* The integer type capable of holding the largest number of bits. */
+#pragma language=save
+#pragma language=extended
+typedef signed long long int   intmax_t;
+typedef unsigned long long int uintmax_t;
+#pragma language=restore
+
+/* An integer type large enough to be able to hold a pointer.
+   This is optional, but always supported in IAR compilers. */
+typedef signed long int   intptr_t;
+typedef unsigned long int uintptr_t;
+
+/* An integer capable of holding a pointer to a specific memory type. */
+
+
+
+typedef int __data_intptr_t; typedef unsigned int __data_uintptr_t;
+
+
+/* Minimum and maximum limits. */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Macros expanding to integer constants. */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#line 258 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdint.h"
+
+/*
+ * Copyright (c) 1992-2009 by P.J. Plauger.  ALL RIGHTS RESERVED.
+ * Consult your license regarding permissions and restrictions.
+V5.04:0576 */
+#line 47 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\include\\opus_types.h"
+
+
+
+
+   typedef int8_t opus_int8;
+   typedef uint8_t opus_uint8;
+   typedef int16_t opus_int16;
+   typedef uint16_t opus_uint16;
+   typedef int32_t opus_int32;
+   typedef uint32_t opus_uint32;
+   typedef int64_t opus_int64;
+   typedef uint64_t opus_uint64;
+#line 165 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\include\\opus_types.h"
+
+#line 34 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\src\\mlp.c"
+#line 1 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\include\\opus_defines.h"
+/* Copyright (c) 2010-2011 Xiph.Org Foundation, Skype Limited
+   Written by Jean-Marc Valin and Koen Vos */
+/*
+   Redistribution and use in source and binary forms, with or without
+   modification, are permitted provided that the following conditions
+   are met:
+
+   - Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+   - Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+
+   THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+   ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+   LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+   A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER
+   OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+   EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+   PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+   PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+   LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+   NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+/**
+ * @file opus_defines.h
+ * @brief Opus reference implementation constants
+ */
+
+
+
+
+
+
+
+
+
+
+/** @defgroup opus_errorcodes Error codes
+ * @{
+ */
+/** No error @hideinitializer*/
+
+/** One or more invalid/out of range arguments @hideinitializer*/
+
+/** Not enough bytes allocated in the buffer @hideinitializer*/
+
+/** An internal error was detected @hideinitializer*/
+
+/** The compressed data passed is corrupted @hideinitializer*/
+
+/** Invalid/unsupported request number @hideinitializer*/
+
+/** An encoder or decoder structure is invalid or already freed @hideinitializer*/
+
+/** Memory allocation has failed @hideinitializer*/
+
+/**@}*/
+
+/** @cond OPUS_INTERNAL_DOC */
+/**Export control for opus functions */
+
+#line 79 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\include\\opus_defines.h"
+
+#line 88 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\include\\opus_defines.h"
+
+#line 100 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\include\\opus_defines.h"
+
+#line 112 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\include\\opus_defines.h"
+
+/**Warning attributes for opus functions
+  * NONNULL is not used in OPUS_BUILD to avoid the compiler optimizing out
+  * some paranoid null checks. */
+#line 126 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\include\\opus_defines.h"
+
+/** These are the actual Encoder CTL ID numbers.
+  * They should not be used directly by applications.
+  * In general, SETs should be even and GETs should be odd.*/
+#line 155 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\include\\opus_defines.h"
+/* #define OPUS_RESET_STATE 4028 */
+#line 168 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\include\\opus_defines.h"
+/* Don't use 4045, it's already taken by OPUS_GET_GAIN_REQUEST */
+
+
+
+/** Defines for the presence of extended APIs. */
+
+
+/* Macros to trigger compilation errors when the wrong types are provided to a CTL */
+
+
+
+
+/** @endcond */
+
+/** @defgroup opus_ctlvalues Pre-defined values for CTL interface
+  * @see opus_genericctls, opus_encoderctls
+  * @{
+  */
+/* Values for the various encoder CTLs */
+
+
+
+/** Best for most VoIP/videoconference applications where listening quality and intelligibility matter most
+ * @hideinitializer */
+
+/** Best for broadcast/high-fidelity application where the decoded audio should be as close as possible to the input
+ * @hideinitializer */
+
+/** Only use when lowest-achievable latency is what matters most. Voice-optimized modes cannot be used.
+ * @hideinitializer */
+
+
+#line 207 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\include\\opus_defines.h"
+
+#line 218 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\include\\opus_defines.h"
+
+/**@}*/
+
+
+/** @defgroup opus_encoderctls Encoder related CTLs
+  *
+  * These are convenience macros for use with the \c opus_encode_ctl
+  * interface. They are used to generate the appropriate series of
+  * arguments for that call, passing the correct type, size and so
+  * on as expected for each particular request.
+  *
+  * Some usage examples:
+  *
+  * @code
+  * int ret;
+  * ret = opus_encoder_ctl(enc_ctx, OPUS_SET_BANDWIDTH(OPUS_AUTO));
+  * if (ret != OPUS_OK) return ret;
+  *
+  * opus_int32 rate;
+  * opus_encoder_ctl(enc_ctx, OPUS_GET_BANDWIDTH(&rate));
+  *
+  * opus_encoder_ctl(enc_ctx, OPUS_RESET_STATE);
+  * @endcode
+  *
+  * @see opus_genericctls, opus_encoder
+  * @{
+  */
+
+/** Configures the encoder's computational complexity.
+  * The supported range is 0-10 inclusive with 10 representing the highest complexity.
+  * @see OPUS_GET_COMPLEXITY
+  * @param[in] x <tt>opus_int32</tt>: Allowed values: 0-10, inclusive.
+  *
+  * @hideinitializer */
+
+/** Gets the encoder's complexity configuration.
+  * @see OPUS_SET_COMPLEXITY
+  * @param[out] x <tt>opus_int32 *</tt>: Returns a value in the range 0-10,
+  *                                      inclusive.
+  * @hideinitializer */
+
+
+/** Configures the bitrate in the encoder.
+  * Rates from 500 to 512000 bits per second are meaningful, as well as the
+  * special values #OPUS_AUTO and #OPUS_BITRATE_MAX.
+  * The value #OPUS_BITRATE_MAX can be used to cause the codec to use as much
+  * rate as it can, which is useful for controlling the rate by adjusting the
+  * output buffer size.
+  * @see OPUS_GET_BITRATE
+  * @param[in] x <tt>opus_int32</tt>: Bitrate in bits per second. The default
+  *                                   is determined based on the number of
+  *                                   channels and the input sampling rate.
+  * @hideinitializer */
+
+/** Gets the encoder's bitrate configuration.
+  * @see OPUS_SET_BITRATE
+  * @param[out] x <tt>opus_int32 *</tt>: Returns the bitrate in bits per second.
+  *                                      The default is determined based on the
+  *                                      number of channels and the input
+  *                                      sampling rate.
+  * @hideinitializer */
+
+
+/** Enables or disables variable bitrate (VBR) in the encoder.
+  * The configured bitrate may not be met exactly because frames must
+  * be an integer number of bytes in length.
+  * @see OPUS_GET_VBR
+  * @see OPUS_SET_VBR_CONSTRAINT
+  * @param[in] x <tt>opus_int32</tt>: Allowed values:
+  * <dl>
+  * <dt>0</dt><dd>Hard CBR. For LPC/hybrid modes at very low bit-rate, this can
+  *               cause noticeable quality degradation.</dd>
+  * <dt>1</dt><dd>VBR (default). The exact type of VBR is controlled by
+  *               #OPUS_SET_VBR_CONSTRAINT.</dd>
+  * </dl>
+  * @hideinitializer */
+
+/** Determine if variable bitrate (VBR) is enabled in the encoder.
+  * @see OPUS_SET_VBR
+  * @see OPUS_GET_VBR_CONSTRAINT
+  * @param[out] x <tt>opus_int32 *</tt>: Returns one of the following values:
+  * <dl>
+  * <dt>0</dt><dd>Hard CBR.</dd>
+  * <dt>1</dt><dd>VBR (default). The exact type of VBR may be retrieved via
+  *               #OPUS_GET_VBR_CONSTRAINT.</dd>
+  * </dl>
+  * @hideinitializer */
+
+
+/** Enables or disables constrained VBR in the encoder.
+  * This setting is ignored when the encoder is in CBR mode.
+  * @warning Only the MDCT mode of Opus currently heeds the constraint.
+  *  Speech mode ignores it completely, hybrid mode may fail to obey it
+  *  if the LPC layer uses more bitrate than the constraint would have
+  *  permitted.
+  * @see OPUS_GET_VBR_CONSTRAINT
+  * @see OPUS_SET_VBR
+  * @param[in] x <tt>opus_int32</tt>: Allowed values:
+  * <dl>
+  * <dt>0</dt><dd>Unconstrained VBR.</dd>
+  * <dt>1</dt><dd>Constrained VBR (default). This creates a maximum of one
+  *               frame of buffering delay assuming a transport with a
+  *               serialization speed of the nominal bitrate.</dd>
+  * </dl>
+  * @hideinitializer */
+
+/** Determine if constrained VBR is enabled in the encoder.
+  * @see OPUS_SET_VBR_CONSTRAINT
+  * @see OPUS_GET_VBR
+  * @param[out] x <tt>opus_int32 *</tt>: Returns one of the following values:
+  * <dl>
+  * <dt>0</dt><dd>Unconstrained VBR.</dd>
+  * <dt>1</dt><dd>Constrained VBR (default).</dd>
+  * </dl>
+  * @hideinitializer */
+
+
+/** Configures mono/stereo forcing in the encoder.
+  * This can force the encoder to produce packets encoded as either mono or
+  * stereo, regardless of the format of the input audio. This is useful when
+  * the caller knows that the input signal is currently a mono source embedded
+  * in a stereo stream.
+  * @see OPUS_GET_FORCE_CHANNELS
+  * @param[in] x <tt>opus_int32</tt>: Allowed values:
+  * <dl>
+  * <dt>#OPUS_AUTO</dt><dd>Not forced (default)</dd>
+  * <dt>1</dt>         <dd>Forced mono</dd>
+  * <dt>2</dt>         <dd>Forced stereo</dd>
+  * </dl>
+  * @hideinitializer */
+
+/** Gets the encoder's forced channel configuration.
+  * @see OPUS_SET_FORCE_CHANNELS
+  * @param[out] x <tt>opus_int32 *</tt>:
+  * <dl>
+  * <dt>#OPUS_AUTO</dt><dd>Not forced (default)</dd>
+  * <dt>1</dt>         <dd>Forced mono</dd>
+  * <dt>2</dt>         <dd>Forced stereo</dd>
+  * </dl>
+  * @hideinitializer */
+
+
+/** Configures the maximum bandpass that the encoder will select automatically.
+  * Applications should normally use this instead of #OPUS_SET_BANDWIDTH
+  * (leaving that set to the default, #OPUS_AUTO). This allows the
+  * application to set an upper bound based on the type of input it is
+  * providing, but still gives the encoder the freedom to reduce the bandpass
+  * when the bitrate becomes too low, for better overall quality.
+  * @see OPUS_GET_MAX_BANDWIDTH
+  * @param[in] x <tt>opus_int32</tt>: Allowed values:
+  * <dl>
+  * <dt>OPUS_BANDWIDTH_NARROWBAND</dt>    <dd>4 kHz passband</dd>
+  * <dt>OPUS_BANDWIDTH_MEDIUMBAND</dt>    <dd>6 kHz passband</dd>
+  * <dt>OPUS_BANDWIDTH_WIDEBAND</dt>      <dd>8 kHz passband</dd>
+  * <dt>OPUS_BANDWIDTH_SUPERWIDEBAND</dt><dd>12 kHz passband</dd>
+  * <dt>OPUS_BANDWIDTH_FULLBAND</dt>     <dd>20 kHz passband (default)</dd>
+  * </dl>
+  * @hideinitializer */
+
+
+/** Gets the encoder's configured maximum allowed bandpass.
+  * @see OPUS_SET_MAX_BANDWIDTH
+  * @param[out] x <tt>opus_int32 *</tt>: Allowed values:
+  * <dl>
+  * <dt>#OPUS_BANDWIDTH_NARROWBAND</dt>    <dd>4 kHz passband</dd>
+  * <dt>#OPUS_BANDWIDTH_MEDIUMBAND</dt>    <dd>6 kHz passband</dd>
+  * <dt>#OPUS_BANDWIDTH_WIDEBAND</dt>      <dd>8 kHz passband</dd>
+  * <dt>#OPUS_BANDWIDTH_SUPERWIDEBAND</dt><dd>12 kHz passband</dd>
+  * <dt>#OPUS_BANDWIDTH_FULLBAND</dt>     <dd>20 kHz passband (default)</dd>
+  * </dl>
+  * @hideinitializer */
+
+
+/** Sets the encoder's bandpass to a specific value.
+  * This prevents the encoder from automatically selecting the bandpass based
+  * on the available bitrate. If an application knows the bandpass of the input
+  * audio it is providing, it should normally use #OPUS_SET_MAX_BANDWIDTH
+  * instead, which still gives the encoder the freedom to reduce the bandpass
+  * when the bitrate becomes too low, for better overall quality.
+  * @see OPUS_GET_BANDWIDTH
+  * @param[in] x <tt>opus_int32</tt>: Allowed values:
+  * <dl>
+  * <dt>#OPUS_AUTO</dt>                    <dd>(default)</dd>
+  * <dt>#OPUS_BANDWIDTH_NARROWBAND</dt>    <dd>4 kHz passband</dd>
+  * <dt>#OPUS_BANDWIDTH_MEDIUMBAND</dt>    <dd>6 kHz passband</dd>
+  * <dt>#OPUS_BANDWIDTH_WIDEBAND</dt>      <dd>8 kHz passband</dd>
+  * <dt>#OPUS_BANDWIDTH_SUPERWIDEBAND</dt><dd>12 kHz passband</dd>
+  * <dt>#OPUS_BANDWIDTH_FULLBAND</dt>     <dd>20 kHz passband</dd>
+  * </dl>
+  * @hideinitializer */
+
+
+/** Configures the type of signal being encoded.
+  * This is a hint which helps the encoder's mode selection.
+  * @see OPUS_GET_SIGNAL
+  * @param[in] x <tt>opus_int32</tt>: Allowed values:
+  * <dl>
+  * <dt>#OPUS_AUTO</dt>        <dd>(default)</dd>
+  * <dt>#OPUS_SIGNAL_VOICE</dt><dd>Bias thresholds towards choosing LPC or Hybrid modes.</dd>
+  * <dt>#OPUS_SIGNAL_MUSIC</dt><dd>Bias thresholds towards choosing MDCT modes.</dd>
+  * </dl>
+  * @hideinitializer */
+
+/** Gets the encoder's configured signal type.
+  * @see OPUS_SET_SIGNAL
+  * @param[out] x <tt>opus_int32 *</tt>: Returns one of the following values:
+  * <dl>
+  * <dt>#OPUS_AUTO</dt>        <dd>(default)</dd>
+  * <dt>#OPUS_SIGNAL_VOICE</dt><dd>Bias thresholds towards choosing LPC or Hybrid modes.</dd>
+  * <dt>#OPUS_SIGNAL_MUSIC</dt><dd>Bias thresholds towards choosing MDCT modes.</dd>
+  * </dl>
+  * @hideinitializer */
+
+
+
+/** Configures the encoder's intended application.
+  * The initial value is a mandatory argument to the encoder_create function.
+  * @see OPUS_GET_APPLICATION
+  * @param[in] x <tt>opus_int32</tt>: Returns one of the following values:
+  * <dl>
+  * <dt>#OPUS_APPLICATION_VOIP</dt>
+  * <dd>Process signal for improved speech intelligibility.</dd>
+  * <dt>#OPUS_APPLICATION_AUDIO</dt>
+  * <dd>Favor faithfulness to the original input.</dd>
+  * <dt>#OPUS_APPLICATION_RESTRICTED_LOWDELAY</dt>
+  * <dd>Configure the minimum possible coding delay by disabling certain modes
+  * of operation.</dd>
+  * </dl>
+  * @hideinitializer */
+
+/** Gets the encoder's configured application.
+  * @see OPUS_SET_APPLICATION
+  * @param[out] x <tt>opus_int32 *</tt>: Returns one of the following values:
+  * <dl>
+  * <dt>#OPUS_APPLICATION_VOIP</dt>
+  * <dd>Process signal for improved speech intelligibility.</dd>
+  * <dt>#OPUS_APPLICATION_AUDIO</dt>
+  * <dd>Favor faithfulness to the original input.</dd>
+  * <dt>#OPUS_APPLICATION_RESTRICTED_LOWDELAY</dt>
+  * <dd>Configure the minimum possible coding delay by disabling certain modes
+  * of operation.</dd>
+  * </dl>
+  * @hideinitializer */
+
+
+/** Gets the total samples of delay added by the entire codec.
+  * This can be queried by the encoder and then the provided number of samples can be
+  * skipped on from the start of the decoder's output to provide time aligned input
+  * and output. From the perspective of a decoding application the real data begins this many
+  * samples late.
+  *
+  * The decoder contribution to this delay is identical for all decoders, but the
+  * encoder portion of the delay may vary from implementation to implementation,
+  * version to version, or even depend on the encoder's initial configuration.
+  * Applications needing delay compensation should call this CTL rather than
+  * hard-coding a value.
+  * @param[out] x <tt>opus_int32 *</tt>:   Number of lookahead samples
+  * @hideinitializer */
+
+
+/** Configures the encoder's use of inband forward error correction (FEC).
+  * @note This is only applicable to the LPC layer
+  * @see OPUS_GET_INBAND_FEC
+  * @param[in] x <tt>opus_int32</tt>: Allowed values:
+  * <dl>
+  * <dt>0</dt><dd>Disable inband FEC (default).</dd>
+  * <dt>1</dt><dd>Enable inband FEC.</dd>
+  * </dl>
+  * @hideinitializer */
+
+/** Gets encoder's configured use of inband forward error correction.
+  * @see OPUS_SET_INBAND_FEC
+  * @param[out] x <tt>opus_int32 *</tt>: Returns one of the following values:
+  * <dl>
+  * <dt>0</dt><dd>Inband FEC disabled (default).</dd>
+  * <dt>1</dt><dd>Inband FEC enabled.</dd>
+  * </dl>
+  * @hideinitializer */
+
+
+/** Configures the encoder's expected packet loss percentage.
+  * Higher values trigger progressively more loss resistant behavior in the encoder
+  * at the expense of quality at a given bitrate in the absence of packet loss, but
+  * greater quality under loss.
+  * @see OPUS_GET_PACKET_LOSS_PERC
+  * @param[in] x <tt>opus_int32</tt>:   Loss percentage in the range 0-100, inclusive (default: 0).
+  * @hideinitializer */
+
+/** Gets the encoder's configured packet loss percentage.
+  * @see OPUS_SET_PACKET_LOSS_PERC
+  * @param[out] x <tt>opus_int32 *</tt>: Returns the configured loss percentage
+  *                                      in the range 0-100, inclusive (default: 0).
+  * @hideinitializer */
+
+
+/** Configures the encoder's use of discontinuous transmission (DTX).
+  * @note This is only applicable to the LPC layer
+  * @see OPUS_GET_DTX
+  * @param[in] x <tt>opus_int32</tt>: Allowed values:
+  * <dl>
+  * <dt>0</dt><dd>Disable DTX (default).</dd>
+  * <dt>1</dt><dd>Enabled DTX.</dd>
+  * </dl>
+  * @hideinitializer */
+
+/** Gets encoder's configured use of discontinuous transmission.
+  * @see OPUS_SET_DTX
+  * @param[out] x <tt>opus_int32 *</tt>: Returns one of the following values:
+  * <dl>
+  * <dt>0</dt><dd>DTX disabled (default).</dd>
+  * <dt>1</dt><dd>DTX enabled.</dd>
+  * </dl>
+  * @hideinitializer */
+
+/** Configures the depth of signal being encoded.
+  *
+  * This is a hint which helps the encoder identify silence and near-silence.
+  * It represents the number of significant bits of linear intensity below
+  * which the signal contains ignorable quantization or other noise.
+  *
+  * For example, OPUS_SET_LSB_DEPTH(14) would be an appropriate setting
+  * for G.711 u-law input. OPUS_SET_LSB_DEPTH(16) would be appropriate
+  * for 16-bit linear pcm input with opus_encode_float().
+  *
+  * When using opus_encode() instead of opus_encode_float(), or when libopus
+  * is compiled for fixed-point, the encoder uses the minimum of the value
+  * set here and the value 16.
+  *
+  * @see OPUS_GET_LSB_DEPTH
+  * @param[in] x <tt>opus_int32</tt>: Input precision in bits, between 8 and 24
+  *                                   (default: 24).
+  * @hideinitializer */
+
+/** Gets the encoder's configured signal depth.
+  * @see OPUS_SET_LSB_DEPTH
+  * @param[out] x <tt>opus_int32 *</tt>: Input precision in bits, between 8 and
+  *                                      24 (default: 24).
+  * @hideinitializer */
+
+
+/** Configures the encoder's use of variable duration frames.
+  * When variable duration is enabled, the encoder is free to use a shorter frame
+  * size than the one requested in the opus_encode*() call.
+  * It is then the user's responsibility
+  * to verify how much audio was encoded by checking the ToC byte of the encoded
+  * packet. The part of the audio that was not encoded needs to be resent to the
+  * encoder for the next call. Do not use this option unless you <b>really</b>
+  * know what you are doing.
+  * @see OPUS_GET_EXPERT_FRAME_DURATION
+  * @param[in] x <tt>opus_int32</tt>: Allowed values:
+  * <dl>
+  * <dt>OPUS_FRAMESIZE_ARG</dt><dd>Select frame size from the argument (default).</dd>
+  * <dt>OPUS_FRAMESIZE_2_5_MS</dt><dd>Use 2.5 ms frames.</dd>
+  * <dt>OPUS_FRAMESIZE_5_MS</dt><dd>Use 5 ms frames.</dd>
+  * <dt>OPUS_FRAMESIZE_10_MS</dt><dd>Use 10 ms frames.</dd>
+  * <dt>OPUS_FRAMESIZE_20_MS</dt><dd>Use 20 ms frames.</dd>
+  * <dt>OPUS_FRAMESIZE_40_MS</dt><dd>Use 40 ms frames.</dd>
+  * <dt>OPUS_FRAMESIZE_60_MS</dt><dd>Use 60 ms frames.</dd>
+  * <dt>OPUS_FRAMESIZE_80_MS</dt><dd>Use 80 ms frames.</dd>
+  * <dt>OPUS_FRAMESIZE_100_MS</dt><dd>Use 100 ms frames.</dd>
+  * <dt>OPUS_FRAMESIZE_120_MS</dt><dd>Use 120 ms frames.</dd>
+  * </dl>
+  * @hideinitializer */
+
+/** Gets the encoder's configured use of variable duration frames.
+  * @see OPUS_SET_EXPERT_FRAME_DURATION
+  * @param[out] x <tt>opus_int32 *</tt>: Returns one of the following values:
+  * <dl>
+  * <dt>OPUS_FRAMESIZE_ARG</dt><dd>Select frame size from the argument (default).</dd>
+  * <dt>OPUS_FRAMESIZE_2_5_MS</dt><dd>Use 2.5 ms frames.</dd>
+  * <dt>OPUS_FRAMESIZE_5_MS</dt><dd>Use 5 ms frames.</dd>
+  * <dt>OPUS_FRAMESIZE_10_MS</dt><dd>Use 10 ms frames.</dd>
+  * <dt>OPUS_FRAMESIZE_20_MS</dt><dd>Use 20 ms frames.</dd>
+  * <dt>OPUS_FRAMESIZE_40_MS</dt><dd>Use 40 ms frames.</dd>
+  * <dt>OPUS_FRAMESIZE_60_MS</dt><dd>Use 60 ms frames.</dd>
+  * <dt>OPUS_FRAMESIZE_80_MS</dt><dd>Use 80 ms frames.</dd>
+  * <dt>OPUS_FRAMESIZE_100_MS</dt><dd>Use 100 ms frames.</dd>
+  * <dt>OPUS_FRAMESIZE_120_MS</dt><dd>Use 120 ms frames.</dd>
+  * </dl>
+  * @hideinitializer */
+
+
+/** If set to 1, disables almost all use of prediction, making frames almost
+  * completely independent. This reduces quality.
+  * @see OPUS_GET_PREDICTION_DISABLED
+  * @param[in] x <tt>opus_int32</tt>: Allowed values:
+  * <dl>
+  * <dt>0</dt><dd>Enable prediction (default).</dd>
+  * <dt>1</dt><dd>Disable prediction.</dd>
+  * </dl>
+  * @hideinitializer */
+
+/** Gets the encoder's configured prediction status.
+  * @see OPUS_SET_PREDICTION_DISABLED
+  * @param[out] x <tt>opus_int32 *</tt>: Returns one of the following values:
+  * <dl>
+  * <dt>0</dt><dd>Prediction enabled (default).</dd>
+  * <dt>1</dt><dd>Prediction disabled.</dd>
+  * </dl>
+  * @hideinitializer */
+
+
+/**@}*/
+
+/** @defgroup opus_genericctls Generic CTLs
+  *
+  * These macros are used with the \c opus_decoder_ctl and
+  * \c opus_encoder_ctl calls to generate a particular
+  * request.
+  *
+  * When called on an \c OpusDecoder they apply to that
+  * particular decoder instance. When called on an
+  * \c OpusEncoder they apply to the corresponding setting
+  * on that encoder instance, if present.
+  *
+  * Some usage examples:
+  *
+  * @code
+  * int ret;
+  * opus_int32 pitch;
+  * ret = opus_decoder_ctl(dec_ctx, OPUS_GET_PITCH(&pitch));
+  * if (ret == OPUS_OK) return ret;
+  *
+  * opus_encoder_ctl(enc_ctx, OPUS_RESET_STATE);
+  * opus_decoder_ctl(dec_ctx, OPUS_RESET_STATE);
+  *
+  * opus_int32 enc_bw, dec_bw;
+  * opus_encoder_ctl(enc_ctx, OPUS_GET_BANDWIDTH(&enc_bw));
+  * opus_decoder_ctl(dec_ctx, OPUS_GET_BANDWIDTH(&dec_bw));
+  * if (enc_bw != dec_bw) {
+  *   printf("packet bandwidth mismatch!\n");
+  * }
+  * @endcode
+  *
+  * @see opus_encoder, opus_decoder_ctl, opus_encoder_ctl, opus_decoderctls, opus_encoderctls
+  * @{
+  */
+
+/** Resets the codec state to be equivalent to a freshly initialized state.
+  * This should be called when switching streams in order to prevent
+  * the back to back decoding from giving different results from
+  * one at a time decoding.
+  * @hideinitializer */
+
+
+/** Gets the final state of the codec's entropy coder.
+  * This is used for testing purposes,
+  * The encoder and decoder state should be identical after coding a payload
+  * (assuming no data corruption or software bugs)
+  *
+  * @param[out] x <tt>opus_uint32 *</tt>: Entropy coder state
+  *
+  * @hideinitializer */
+
+
+/** Gets the encoder's configured bandpass or the decoder's last bandpass.
+  * @see OPUS_SET_BANDWIDTH
+  * @param[out] x <tt>opus_int32 *</tt>: Returns one of the following values:
+  * <dl>
+  * <dt>#OPUS_AUTO</dt>                    <dd>(default)</dd>
+  * <dt>#OPUS_BANDWIDTH_NARROWBAND</dt>    <dd>4 kHz passband</dd>
+  * <dt>#OPUS_BANDWIDTH_MEDIUMBAND</dt>    <dd>6 kHz passband</dd>
+  * <dt>#OPUS_BANDWIDTH_WIDEBAND</dt>      <dd>8 kHz passband</dd>
+  * <dt>#OPUS_BANDWIDTH_SUPERWIDEBAND</dt><dd>12 kHz passband</dd>
+  * <dt>#OPUS_BANDWIDTH_FULLBAND</dt>     <dd>20 kHz passband</dd>
+  * </dl>
+  * @hideinitializer */
+
+
+/** Gets the sampling rate the encoder or decoder was initialized with.
+  * This simply returns the <code>Fs</code> value passed to opus_encoder_init()
+  * or opus_decoder_init().
+  * @param[out] x <tt>opus_int32 *</tt>: Sampling rate of encoder or decoder.
+  * @hideinitializer
+  */
+
+
+/** If set to 1, disables the use of phase inversion for intensity stereo,
+  * improving the quality of mono downmixes, but slightly reducing normal
+  * stereo quality. Disabling phase inversion in the decoder does not comply
+  * with RFC 6716, although it does not cause any interoperability issue and
+  * is expected to become part of the Opus standard once RFC 6716 is updated
+  * by draft-ietf-codec-opus-update.
+  * @see OPUS_GET_PHASE_INVERSION_DISABLED
+  * @param[in] x <tt>opus_int32</tt>: Allowed values:
+  * <dl>
+  * <dt>0</dt><dd>Enable phase inversion (default).</dd>
+  * <dt>1</dt><dd>Disable phase inversion.</dd>
+  * </dl>
+  * @hideinitializer */
+
+/** Gets the encoder's configured phase inversion status.
+  * @see OPUS_SET_PHASE_INVERSION_DISABLED
+  * @param[out] x <tt>opus_int32 *</tt>: Returns one of the following values:
+  * <dl>
+  * <dt>0</dt><dd>Stereo phase inversion enabled (default).</dd>
+  * <dt>1</dt><dd>Stereo phase inversion disabled.</dd>
+  * </dl>
+  * @hideinitializer */
+
+
+/**@}*/
+
+/** @defgroup opus_decoderctls Decoder related CTLs
+  * @see opus_genericctls, opus_encoderctls, opus_decoder
+  * @{
+  */
+
+/** Configures decoder gain adjustment.
+  * Scales the decoded output by a factor specified in Q8 dB units.
+  * This has a maximum range of -32768 to 32767 inclusive, and returns
+  * OPUS_BAD_ARG otherwise. The default is zero indicating no adjustment.
+  * This setting survives decoder reset.
+  *
+  * gain = pow(10, x/(20.0*256))
+  *
+  * @param[in] x <tt>opus_int32</tt>:   Amount to scale PCM signal by in Q8 dB units.
+  * @hideinitializer */
+
+/** Gets the decoder's configured gain adjustment. @see OPUS_SET_GAIN
+  *
+  * @param[out] x <tt>opus_int32 *</tt>: Amount to scale PCM signal by in Q8 dB units.
+  * @hideinitializer */
+
+
+/** Gets the duration (in samples) of the last packet successfully decoded or concealed.
+  * @param[out] x <tt>opus_int32 *</tt>: Number of samples (at current sampling rate).
+  * @hideinitializer */
+
+
+/** Gets the pitch of the last decoded frame, if available.
+  * This can be used for any post-processing algorithm requiring the use of pitch,
+  * e.g. time stretching/shortening. If the last frame was not voiced, or if the
+  * pitch was not coded in the frame, then zero is returned.
+  *
+  * This CTL is only implemented for decoder instances.
+  *
+  * @param[out] x <tt>opus_int32 *</tt>: pitch period at 48 kHz (or 0 if not available)
+  *
+  * @hideinitializer */
+
+
+/**@}*/
+
+/** @defgroup opus_libinfo Opus library information functions
+  * @{
+  */
+
+/** Converts an opus error code into a human readable string.
+  *
+  * @param[in] error <tt>int</tt>: Error number
+  * @returns Error string
+  */
+ const char *opus_strerror(int error);
+
+/** Gets the libopus version string.
+  *
+  * Applications may look for the substring "-fixed" in the version string to
+  * determine whether they have a fixed-point or floating-point build at
+  * runtime.
+  *
+  * @returns Version string
+  */
+ const char *opus_get_version_string(void);
+/**@}*/
+
+
+
+
+
+#line 35 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\src\\mlp.c"
+#line 1 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
+/* Copyright (c) 2003-2008 Jean-Marc Valin
+   Copyright (c) 2007-2008 CSIRO
+   Copyright (c) 2007-2009 Xiph.Org Foundation
+   Written by Jean-Marc Valin */
+/**
+   @file arch.h
+   @brief Various architecture definitions for CELT
+*/
+/*
+   Redistribution and use in source and binary forms, with or without
+   modification, are permitted provided that the following conditions
+   are met:
+
+   - Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+   - Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+
+   THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+   ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+   LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+   A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER
+   OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+   EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+   PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+   PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+   LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+   NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+
+
+
+
+
+
+#line 48 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
+
+#line 56 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
+
+
+
+
+
+#line 88 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
+
+
+
+
+
+
+
+
+
+#line 105 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
+
+/* Set this if opus_int64 is a native type of the CPU. */
+/* Assume that all LP64 architectures have fast 64-bit types; also x86_64
+   (which can be ILP32 for x32) and Win64 (which is LLP64). */
+
+
+
+
+
+
+
+
+#line 178 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
+
+typedef float opus_val16;
+typedef float opus_val32;
+typedef float opus_val64;
+
+typedef float celt_sig;
+typedef float celt_norm;
+typedef float celt_ener;
+
+#line 202 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
+
+
+
+
+
+
+
+
+
+
+/* This appears to be the same speed as C99's fabsf() but it's more portable. */
+
+
+
+
+
+
+#line 230 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
+
+
+
+
+
+
+
+
+
+
+
+
+#line 251 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
+
+
+
+
+
+
+
+
+
+#line 269 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
+
+
+
+
+
+
+
+
+
+
+
+#line 287 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
+
+#line 36 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\src\\mlp.c"
+#line 1 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\src\\tansig_table.h"
+/* This file is auto-generated by gen_tables */
+
+static const float tansig_table[201] = {
+0.000000f, 0.039979f, 0.079830f, 0.119427f, 0.158649f,
+0.197375f, 0.235496f, 0.272905f, 0.309507f, 0.345214f,
+0.379949f, 0.413644f, 0.446244f, 0.477700f, 0.507977f,
+0.537050f, 0.564900f, 0.591519f, 0.616909f, 0.641077f,
+0.664037f, 0.685809f, 0.706419f, 0.725897f, 0.744277f,
+0.761594f, 0.777888f, 0.793199f, 0.807569f, 0.821040f,
+0.833655f, 0.845456f, 0.856485f, 0.866784f, 0.876393f,
+0.885352f, 0.893698f, 0.901468f, 0.908698f, 0.915420f,
+0.921669f, 0.927473f, 0.932862f, 0.937863f, 0.942503f,
+0.946806f, 0.950795f, 0.954492f, 0.957917f, 0.961090f,
+0.964028f, 0.966747f, 0.969265f, 0.971594f, 0.973749f,
+0.975743f, 0.977587f, 0.979293f, 0.980869f, 0.982327f,
+0.983675f, 0.984921f, 0.986072f, 0.987136f, 0.988119f,
+0.989027f, 0.989867f, 0.990642f, 0.991359f, 0.992020f,
+0.992631f, 0.993196f, 0.993718f, 0.994199f, 0.994644f,
+0.995055f, 0.995434f, 0.995784f, 0.996108f, 0.996407f,
+0.996682f, 0.996937f, 0.997172f, 0.997389f, 0.997590f,
+0.997775f, 0.997946f, 0.998104f, 0.998249f, 0.998384f,
+0.998508f, 0.998623f, 0.998728f, 0.998826f, 0.998916f,
+0.999000f, 0.999076f, 0.999147f, 0.999213f, 0.999273f,
+0.999329f, 0.999381f, 0.999428f, 0.999472f, 0.999513f,
+0.999550f, 0.999585f, 0.999617f, 0.999646f, 0.999673f,
+0.999699f, 0.999722f, 0.999743f, 0.999763f, 0.999781f,
+0.999798f, 0.999813f, 0.999828f, 0.999841f, 0.999853f,
+0.999865f, 0.999875f, 0.999885f, 0.999893f, 0.999902f,
+0.999909f, 0.999916f, 0.999923f, 0.999929f, 0.999934f,
+0.999939f, 0.999944f, 0.999948f, 0.999952f, 0.999956f,
+0.999959f, 0.999962f, 0.999965f, 0.999968f, 0.999970f,
+0.999973f, 0.999975f, 0.999977f, 0.999978f, 0.999980f,
+0.999982f, 0.999983f, 0.999984f, 0.999986f, 0.999987f,
+0.999988f, 0.999989f, 0.999990f, 0.999990f, 0.999991f,
+0.999992f, 0.999992f, 0.999993f, 0.999994f, 0.999994f,
+0.999994f, 0.999995f, 0.999995f, 0.999996f, 0.999996f,
+0.999996f, 0.999997f, 0.999997f, 0.999997f, 0.999997f,
+0.999997f, 0.999998f, 0.999998f, 0.999998f, 0.999998f,
+0.999998f, 0.999998f, 0.999999f, 0.999999f, 0.999999f,
+0.999999f, 0.999999f, 0.999999f, 0.999999f, 0.999999f,
+0.999999f, 0.999999f, 0.999999f, 0.999999f, 0.999999f,
+1.000000f, 1.000000f, 1.000000f, 1.000000f, 1.000000f,
+1.000000f, 1.000000f, 1.000000f, 1.000000f, 1.000000f,
+1.000000f,
+};
+#line 37 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\src\\mlp.c"
+#line 1 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\src\\mlp.h"
+/* Copyright (c) 2017 Jean-Marc Valin */
+/*
+   Redistribution and use in source and binary forms, with or without
+   modification, are permitted provided that the following conditions
+   are met:
+
+   - Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+   - Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+
+   THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+   ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+   LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+   A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE FOUNDATION OR
+   CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+   EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+   PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+   PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+   LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+   NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+   SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+
+
+
+
+
+
+
+
+
+typedef struct {
+  const opus_int8 *bias;
+  const opus_int8 *input_weights;
+  int nb_inputs;
+  int nb_neurons;
+  int sigmoid;
+} DenseLayer;
+
+typedef struct {
+  const opus_int8 *bias;
+  const opus_int8 *input_weights;
+  const opus_int8 *recurrent_weights;
+  int nb_inputs;
+  int nb_neurons;
+} GRULayer;
+
+extern const DenseLayer layer0;
+extern const GRULayer layer1;
+extern const DenseLayer layer2;
+
+void compute_dense(const DenseLayer *layer, float *output, const float *input);
+
+void compute_gru(const GRULayer *gru, float *state, const float *input);
+
+#line 38 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\src\\mlp.c"
+
+static inline float tansig_approx(float x)
+{
+    int i;
+    float y, dy;
+    float sign=1;
+    /* Tests are reversed to catch NaNs */
+    if (!(x<8))
+        return 1;
+    if (!(x>-8))
+        return -1;
+
+    /* Another check in case of -ffast-math */
+    if (((x)!=(x)))
+       return 0;
+
+    if (x<0)
+    {
+       x=-x;
+       sign=-1;
+    }
+    i = (int)floor(.5f+25*x);
+    x -= .04f*i;
+    y = tansig_table[i];
+    dy = 1-y*y;
+    y = y + x*dy*(1 - y*x);
+    return sign*y;
+}
+
+static inline float sigmoid_approx(float x)
+{
+   return .5f + .5f*tansig_approx(.5f*x);
+}
+
+void compute_dense(const DenseLayer *layer, float *output, const float *input)
+{
+   int i, j;
+   int N, M;
+   int stride;
+   M = layer->nb_inputs;
+   N = layer->nb_neurons;
+   stride = N;
+   for (i=0;i<N;i++)
+   {
+      /* Compute update gate. */
+      float sum = layer->bias[i];
+      for (j=0;j<M;j++)
+         sum += layer->input_weights[j*stride + i]*input[j];
+      output[i] = (1.f/128)*sum;
+   }
+   if (layer->sigmoid) {
+      for (i=0;i<N;i++)
+         output[i] = sigmoid_approx(output[i]);
+   } else {
+      for (i=0;i<N;i++)
+         output[i] = tansig_approx(output[i]);
+   }
+}
+
+void compute_gru(const GRULayer *gru, float *state, const float *input)
+{
+   int i, j;
+   int N, M;
+   int stride;
+   float z[32];
+   float r[32];
+   float h[32];
+   M = gru->nb_inputs;
+   N = gru->nb_neurons;
+   stride = 3*N;
+   for (i=0;i<N;i++)
+   {
+      /* Compute update gate. */
+      float sum = gru->bias[i];
+      for (j=0;j<M;j++)
+         sum += gru->input_weights[j*stride + i]*input[j];
+      for (j=0;j<N;j++)
+         sum += gru->recurrent_weights[j*stride + i]*state[j];
+      z[i] = sigmoid_approx((1.f/128)*sum);
+   }
+   for (i=0;i<N;i++)
+   {
+      /* Compute reset gate. */
+      float sum = gru->bias[N + i];
+      for (j=0;j<M;j++)
+         sum += gru->input_weights[N + j*stride + i]*input[j];
+      for (j=0;j<N;j++)
+         sum += gru->recurrent_weights[N + j*stride + i]*state[j];
+      r[i] = sigmoid_approx((1.f/128)*sum);
+   }
+   for (i=0;i<N;i++)
+   {
+      /* Compute output. */
+      float sum = gru->bias[2*N + i];
+      for (j=0;j<M;j++)
+         sum += gru->input_weights[2*N + j*stride + i]*input[j];
+      for (j=0;j<N;j++)
+         sum += gru->recurrent_weights[2*N + j*stride + i]*state[j]*r[j];
+      h[i] = z[i]*state[i] + (1-z[i])*tansig_approx((1.f/128)*sum);
+   }
+   for (i=0;i<N;i++)
+      state[i] = h[i];
+}
+

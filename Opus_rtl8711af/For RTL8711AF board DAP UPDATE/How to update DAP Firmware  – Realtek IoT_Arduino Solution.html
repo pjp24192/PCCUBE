@@ -1,0 +1,1195 @@
+<!DOCTYPE html>
+<html class="js" lang="en-US"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="profile" href="http://gmpg.org/xfn/11">
+  <link rel="pingback" href="https://www.amebaiot.com/xmlrpc.php">
+ 
+  <title>How to update DAP Firmware? – Realtek IoT/Arduino Solution</title>
+<script type="text/javascript" async="" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/analytics.js"></script><script async="" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/analytics.js"></script><script type="text/javascript">var ajaxurl = "https://www.amebaiot.com/wp-admin/admin-ajax.php",ap_nonce 	= "a8c583d8a9",ap_max_tags = "5",disable_hover_card = "1";disable_q_suggestion = "";var apMentions = [];
+		    	var cachequeryMentions = [], itemsMentions,
+		    	at_config = {
+			      at: "@",
+			      data: apMentions,
+			      headerTpl: '<div class="atwho-header">Member List<small>↑&nbsp;↓&nbsp;</small></div>',
+			      insertTpl: "@${login}",
+			      displayTpl: '<li data-value="${login}">${name} <small>@${login}</small></li>',
+			      limit: 50,
+			      callbacks: {
+				    remoteFilter: function (query, render_view) {
+	                    var thisVal = query,
+	                    self = jQuery(this);
+	                    if( !self.data("active") && thisVal.length >= 2 ){
+	                        self.data("active", true);                            
+	                        itemsMentions = cachequeryMentions[thisVal]
+	                        if(typeof itemsMentions == "object"){
+	                            render_view(itemsMentions);
+	                        }else
+	                        {                            
+	                            if (self.xhr) {
+	                                self.xhr.abort();
+	                            }
+	                            self.xhr = jQuery.getJSON(ajaxurl+"?ap_ajax_action=search_mentions&action=ap_ajax&ap_ajax_nonce="+ap_nonce,{
+	                                term: thisVal
+	                            }, function(data) {
+	                                cachequeryMentions[thisVal] = data
+	                                render_view(data);
+	                            });
+	                        }                            
+	                        self.data("active", false);                            
+	                    }                    
+	                }
+				  }
+			 };
+		    </script><script>document.documentElement.className = document.documentElement.className.replace("no-js","js");</script>
+<link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+<link rel="dns-prefetch" href="https://s.w.org/">
+<link rel="alternate" type="application/rss+xml" title="Realtek IoT/Arduino Solution » Feed" href="https://www.amebaiot.com/en/feed/">
+<link rel="alternate" type="application/rss+xml" title="Realtek IoT/Arduino Solution » Comments Feed" href="https://www.amebaiot.com/en/comments/feed/">
+<link id="hu-user-gfont" href="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/css.css" rel="stylesheet" type="text/css">		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.2.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.amebaiot.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.7.5"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),!(j.toDataURL().length<3e3)&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,65039,8205,55356,57096),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57331,55356,57096),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55357,56425,55356,57341,8205,55357,56507),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55357,56425,55356,57341,55357,56507),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script><script src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/wp-emoji-release.js" type="text/javascript" defer="defer"></script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel="stylesheet" id="wpfb-css" href="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/wp-filebase.css" type="text/css" media="all">
+<link rel="stylesheet" id="grid-columns-css" href="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/columns.css" type="text/css" media="all">
+<link rel="stylesheet" id="ap-theme-css-css" href="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/main.css" type="text/css" media="all">
+<style id="ap-theme-css-inline-css" type="text/css">
+
+        #anspress .ap-q-cells{
+            margin-left: 60px;
+        }
+        #anspress .ap-a-cells{
+            margin-left: 60px;
+        }#anspress .ap-comment-content{
+            margin-left: 40px;
+        }
+</style>
+<link rel="stylesheet" id="ap-fonts-css" href="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/style_003.css" type="text/css" media="all">
+<link rel="stylesheet" id="ap-mention-css-css" href="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/mention.css" type="text/css" media="all">
+<link rel="stylesheet" id="categories_for_anspress_css-css" href="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/categories.css" type="text/css" media="all">
+<link rel="stylesheet" id="tags_css-css" href="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/tags.css" type="text/css" media="all">
+<link rel="stylesheet" id="ap-overrides-css" href="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/overrides.css" type="text/css" media="all">
+<link rel="stylesheet" id="magnific-css" href="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/magnific.css" type="text/css" media="all">
+<link rel="stylesheet" id="agreeable-css-css" href="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/front.css" type="text/css" media="all">
+<link rel="stylesheet" id="bbp-default-css" href="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/bbpress.css" type="text/css" media="screen">
+<link rel="stylesheet" id="rs-plugin-settings-css" href="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/settings.css" type="text/css" media="all">
+<style id="rs-plugin-settings-inline-css" type="text/css">
+.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}
+</style>
+<link rel="stylesheet" id="tp-titillium-css" href="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/css_003.css" type="text/css" media="all">
+<link rel="stylesheet" id="psk_s2msfb-css" href="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/jqueryFileTree.css" type="text/css" media="all">
+<link rel="stylesheet" id="jquery.prettyPhoto-css" href="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/prettyPhoto.css" type="text/css" media="all">
+<link rel="stylesheet" id="sidebar-login-css" href="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/sidebar-login.css" type="text/css" media="all">
+<link rel="stylesheet" id="scfp-form-repeater-css-css" href="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/style_002.css" type="text/css" media="all">
+<link rel="stylesheet" id="scfp-css-css" href="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="tt-easy-google-fonts-css" href="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/css_002.css" type="text/css" media="all">
+<link rel="stylesheet" id="hueman-main-style-css" href="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/main_002.css" type="text/css" media="all">
+<link rel="stylesheet" id="theme-stylesheet-css" href="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/style_004.css" type="text/css" media="all">
+<link rel="stylesheet" id="hueman-font-awesome-css" href="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/font-awesome.css" type="text/css" media="all">
+<link rel="stylesheet" id="wpmu-animate-min-css-css" href="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/animate.css" type="text/css" media="all">
+<link rel="stylesheet" id="ws-plugin--s2member-css" href="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/s2member-o.css" type="text/css" media="all">
+<link rel="stylesheet" id="UserAccessManagerAdmin-css" href="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/uamAdmin.css" type="text/css" media="screen">
+<link rel="stylesheet" id="UserAccessManagerLoginForm-css" href="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/uamLoginForm.css" type="text/css" media="screen">
+<script type="text/javascript" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/jquery_008.js"></script>
+<script>window.jQuery || document.write('<script src="https://www.amebaiot.com/wp-includes/js/jquery/jquery.js"><\/script>')</script>
+<script type="text/javascript" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/jquery-migrate.js"></script>
+<script>window.jQuery.migrateMute || document.write('<script src="https://www.amebaiot.com/wp-includes/js/jquery/jquery-migrate.min.js"><\/script>')</script>
+<script type="text/javascript" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/jquery_006.js"></script>
+<script type="text/javascript" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/initial.js"></script>
+<script type="text/javascript" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/watch.js"></script>
+<script type="text/javascript" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/jquery_002.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var aplang = {"password_field_not_macthing":"Password not matching","password_length_less":"Password length must be 6 or higher","not_valid_email":"Not a valid email","username_less":"Username length must be 4 or higher","username_not_avilable":"Username not available","email_already_in_use":"Email already in use. <a href=\"https:\/\/www.amebaiot.com\/wp-login.php?action=lostpassword\">Do you want to reset your password?<\/a>","loading":"Loading","sending":"Sending request","adding_to_fav":"Adding question to your favorites","voting_on_post":"Sending your vote","requesting_for_closing":"Requesting for closing this question","sending_request":"Submitting request","loading_comment_form":"Loading comment form","submitting_your_question":"Sending your question","submitting_your_answer":"Sending your answer","submitting_your_comment":"Sending your comment","deleting_comment":"Deleting comment","updating_comment":"Updating comment","loading_form":"Loading form","saving_labels":"Saving labels","loading_suggestions":"Loading suggestions","uploading_cover":"Uploading cover","saving_profile":"Saving profile","sending_message":"Sending message","loading_conversation":"Loading conversation","loading_new_message_form":"Loading new message form","loading_more_conversations":"Loading more conversations","searching_conversations":"Searching conversations","loading_message_edit_form":"Loading message form","updating_message":"Updating message","deleting_message":"Deleting message","uploading":"Uploading","error":"apicon-x","warning":"apicon-alert","success":"apicon-check","not_valid_response":"Something went wrong in server side, not a valid response."};
+/* ]]> */
+</script>
+<script type="text/javascript" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/anspress.js"></script>
+<script type="text/javascript" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/anspress-theme.js"></script>
+<script type="text/javascript" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/mention.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var apTagsTranslation = {"deleteTag":"Delete Tag","addTag":"Add Tag","tagAdded":"added to the tags list.","tagRemoved":"removed from the tags list.","suggestionsAvailable":"Suggestions are available. Use the up and down arrow keys to read it."};
+/* ]]> */
+</script>
+<script type="text/javascript" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/tags_js.js"></script>
+<script type="text/javascript" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/jquery_004.js"></script>
+<script type="text/javascript" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/jquery_005.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var PSK_S2MSFB = {"imgurl":"https:\/\/www.amebaiot.com\/wp-content\/plugins\/s2member-secure-file-browser\/\/img\/","ajaxurl":"https:\/\/www.amebaiot.com\/wp-admin\/admin-ajax.php","nonce":"59e61acadb","errorsearch":"Please type some words!","action_get_dir":"psk_s2msfb_get_dir","action_df":"psk_s2msfb_df","action_cf":"psk_s2msfb_cf","action_rf":"psk_s2msfb_rf","action_nf":"psk_s2msfb_nf"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/jqueryFileTree.js"></script>
+<script type="text/javascript" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/jquery_007.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var sidebar_login_params = {"ajax_url":"https:\/\/www.amebaiot.com\/wp-admin\/admin-ajax.php","force_ssl_admin":"1","is_ssl":"1","i18n_username_required":"Please enter your username","i18n_password_required":"Please enter your password","error_class":"sidebar_login_error"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/sidebar-login.js"></script>
+<script type="text/javascript" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/main.js"></script>
+<script type="text/javascript" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/functions.js"></script>
+<link rel="https://api.w.org/" href="https://www.amebaiot.com/en/wp-json/">
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.amebaiot.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.amebaiot.com/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 4.7.5">
+<link rel="canonical" href="https://www.amebaiot.com/en/change-dap-firmware/">
+<link rel="shortlink" href="https://www.amebaiot.com/en/?p=4205">
+<link rel="alternate" type="application/json+oembed" href="https://www.amebaiot.com/en/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.amebaiot.com%2Fen%2Fchange-dap-firmware%2F">
+<link rel="alternate" type="text/xml+oembed" href="https://www.amebaiot.com/en/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.amebaiot.com%2Fen%2Fchange-dap-firmware%2F&amp;format=xml">
+<script>
+			jQuery(document).ready(function() {
+                                // expand-content-link renamed to expand-cnt-link for compatibility with twentyfourteen theme
+				jQuery(".expand-content-link").removeClass("expand-content-link").addClass("expand-cnt-link");
+				jQuery(".expand-cnt-link").click(function() {
+					jQuery(this).toggleClass("ecf_closed").parent(".exp-col-content-holder").find(".hidden-content").first().stop().slideToggle("slow").css("display","block");
+					return false;
+				});	
+				jQuery(".expand-cnt-link").toggleClass("ecf_closed").parent(".exp-col-content-holder").find(".hidden-content").css("display","none");
+			
+			//images with no float styles , get floated left
+			if(typeof jQuery(".hidden-content > img").attr("float") === "undefined") {
+				jQuery(".hidden-content > img:not([class])").addClass("alignleft");
+			}
+			
+			/*
+			jQuery(".hidden-content").each(function() {
+				if (jQuery(this).find("img").length) {
+					var hiddenContentpLength = jQuery(this).find(".hiddenContentp").text().length;
+						if( hiddenContentpLength < 200 ) {
+							jQuery(this).css("height","150px");
+						}
+				}
+			});
+			*/
+			
+			jQuery(".textwidget > .exp-col-content-holder > .hidden-content > img+p").attr("style","display:inherit !important;");
+			
+			});
+				</script><style>
+			.expand-cnt-link { font-weight:bold; display:block; margin-bottom:.5em; }
+			.expand-cnt-link:before { font-family: "ecf-icons"; content: "\e601  ";  font-size:16px; }
+			.hidden-content { display:block; vertical-align:top}
+			.exp-col-content-holder { margin:15px 0px 15px 0 !important; }
+			.exp-col-content-holder a { display:inline; }
+			.exp-col-content-holder+p, .exp-col-content-holder img+p, .expand-cnt-link+p { display:none !important; }
+			.ecf_closed:before { font-family: "ecf-icons"; content: "\e600  ";  font-size:16px; }
+			.hiddenContentp { margin:0 !important; }
+			.hiddenContentp+p { display:none;}
+			.hidden-content img { width:20%; }
+			.hidden-content img.alignright { margin-right:0 !important; margin-left:10px; margin-bottom:0px; }
+			.hidden-content img.alignleft { margin-left:0 !important; margin-right:10px; margin-bottom:0px; }
+			.hidden-content .videoWrapper+p { margin-bottom:0; }
+			@font-face {
+				font-family: "ecf-icons";
+				src: url("fonts/ecf-icons.eot");
+			}
+			@font-face {
+				font-family: "ecf-icons";
+				src: url(data:application/x-font-ttf;charset=utf-8;base64,AAEAAAALAIAAAwAwT1MvMg6v8ysAAAC8AAAAYGNtYXDL8hqdAAABHAAAADxnYXNwAAAAEAAAAVgAAAAIZ2x5ZpFu6gUAAAFgAAABZGhlYWT+7sbiAAACxAAAADZoaGVhBigD3wAAAvwAAAAkaG10eAbbADMAAAMgAAAAEGxvY2EAvABeAAADMAAAAAptYXhwAAcAOAAAAzwAAAAgbmFtZUPPHeQAAANcAAABS3Bvc3QAAwAAAAAEqAAAACAAAwQAAZAABQAAApkCzAAAAI8CmQLMAAAB6wAzAQkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAACDmAQPA/8D/wAPAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAACAAAAAwAAABQAAwABAAAAFAAEACgAAAAGAAQAAQACACDmAf//AAAAIOYA////4RoCAAEAAAAAAAAAAQAB//8ADwABAAAAAAAAAAAAAgAANzkBAAAAAAIABwC+Ai8C+QAaADUAAAEUBwEGIyIvASY1ND8BJyY1ND8BNjMyFwEWFTMUBwEGIyIvASY1ND8BJyY1ND8BNjMyFwEWFQFUBv72BgcIBR0GBuHhBgYdBQgHBgEKBtsF/vUFCAcGHAYG4OAGBhwGBwgFAQsFAdsHBv72BgYdBQgHBuDhBgcIBR0GBv72BggHBv72BgYdBQgHBuDhBgcIBR0GBv72BggAAAIALAD1AmYDHQAaADUAAAEUBwEGIyInASY1ND8BNjMyHwE3NjMyHwEWFTUUBwEGIyInASY1ND8BNjMyHwE3NjMyHwEWFQJmBf71BQgHBv72BgYcBgcIBuDhBQgHBh0FBf71BQgHBv72BgYcBgcIBuDhBQgHBh0FAhIHBv72BgYBCgYHCAUdBgbh4QYGHQUI3AgF/vUFBQELBQgHBhwGBuDgBgYcBgcAAAEAAAABAADFBlcuXw889QALBAAAAAAAzrVBZAAAAADOtUFkAAAAAAJmAx0AAAAIAAIAAAAAAAAAAQAAA8D/wAAABAAAAAAaAmYAAQAAAAAAAAAAAAAAAAAAAAQAAAAAAgAAAAJJAAcCkgAsAAAAAAAKAF4AsgAAAAEAAAAEADYAAgAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAOAK4AAQAAAAAAAQASAAAAAQAAAAAAAgAOAFUAAQAAAAAAAwASACgAAQAAAAAABAASAGMAAQAAAAAABQAWABIAAQAAAAAABgAJADoAAQAAAAAACgAoAHUAAwABBAkAAQASAAAAAwABBAkAAgAOAFUAAwABBAkAAwASACgAAwABBAkABAASAGMAAwABBAkABQAWABIAAwABBAkABgASAEMAAwABBAkACgAoAHUAZQBjAGYALQBpAGMAbwBuAHMAVgBlAHIAcwBpAG8AbgAgADAALgAwAGUAYwBmAC0AaQBjAG8AbgBzZWNmLWljb25zAGUAYwBmAC0AaQBjAG8AbgBzAFIAZQBnAHUAbABhAHIAZQBjAGYALQBpAGMAbwBuAHMARwBlAG4AZQByAGEAdABlAGQAIABiAHkAIABJAGMAbwBNAG8AbwBuAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA) format("truetype"),
+					 url(data:application/font-woff;charset=utf-8;base64,d09GRgABAAAAAAUUAAsAAAAABMgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABPUy8yAAABCAAAAGAAAABgDq/zK2NtYXAAAAFoAAAAPAAAADzL8hqdZ2FzcAAAAaQAAAAIAAAACAAAABBnbHlmAAABrAAAAWQAAAFkkW7qBWhlYWQAAAMQAAAANgAAADb+7sbiaGhlYQAAA0gAAAAkAAAAJAYoA99obXR4AAADbAAAABAAAAAQBtsAM2xvY2EAAAN8AAAACgAAAAoAvABebWF4cAAAA4gAAAAgAAAAIAAHADhuYW1lAAADqAAAAUsAAAFLQ88d5HBvc3QAAAT0AAAAIAAAACAAAwAAAAMEAAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAg5gEDwP/A/8ADwABAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAMAAAAUAAMAAQAAABQABAAoAAAABgAEAAEAAgAg5gH//wAAACDmAP///+EaAgABAAAAAAAAAAEAAf//AA8AAQAAAAAAAAAAAAIAADc5AQAAAAACAAcAvgIvAvkAGgA1AAABFAcBBiMiLwEmNTQ/AScmNTQ/ATYzMhcBFhUzFAcBBiMiLwEmNTQ/AScmNTQ/ATYzMhcBFhUBVAb+9gYHCAUdBgbh4QYGHQUIBwYBCgbbBf71BQgHBhwGBuDgBgYcBgcIBQELBQHbBwb+9gYGHQUIBwbg4QYHCAUdBgb+9gYIBwb+9gYGHQUIBwbg4QYHCAUdBgb+9gYIAAACACwA9QJmAx0AGgA1AAABFAcBBiMiJwEmNTQ/ATYzMh8BNzYzMh8BFhU1FAcBBiMiJwEmNTQ/ATYzMh8BNzYzMh8BFhUCZgX+9QUIBwb+9gYGHAYHCAbg4QUIBwYdBQX+9QUIBwb+9gYGHAYHCAbg4QUIBwYdBQISBwb+9gYGAQoGBwgFHQYG4eEGBh0FCNwIBf71BQUBCwUIBwYcBgbg4AYGHAYHAAABAAAAAQAAxQZXLl8PPPUACwQAAAAAAM61QWQAAAAAzrVBZAAAAAACZgMdAAAACAACAAAAAAAAAAEAAAPA/8AAAAQAAAAAGgJmAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAIAAAACSQAHApIALAAAAAAACgBeALIAAAABAAAABAA2AAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAADgCuAAEAAAAAAAEAEgAAAAEAAAAAAAIADgBVAAEAAAAAAAMAEgAoAAEAAAAAAAQAEgBjAAEAAAAAAAUAFgASAAEAAAAAAAYACQA6AAEAAAAAAAoAKAB1AAMAAQQJAAEAEgAAAAMAAQQJAAIADgBVAAMAAQQJAAMAEgAoAAMAAQQJAAQAEgBjAAMAAQQJAAUAFgASAAMAAQQJAAYAEgBDAAMAAQQJAAoAKAB1AGUAYwBmAC0AaQBjAG8AbgBzAFYAZQByAHMAaQBvAG4AIAAwAC4AMABlAGMAZgAtAGkAYwBvAG4Ac2VjZi1pY29ucwBlAGMAZgAtAGkAYwBvAG4AcwBSAGUAZwB1AGwAYQByAGUAYwBmAC0AaQBjAG8AbgBzAEcAZQBuAGUAcgBhAHQAZQBkACAAYgB5ACAASQBjAG8ATQBvAG8AbgAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==) format("woff");
+				font-weight: normal;
+				font-style: normal;
+			}
+
+			[class^="ecf-icon-"], [class*=" ecf-icon-"] {
+				font-family: "ecf-icons";
+				speak: none;
+				font-style: normal;
+				font-weight: normal;
+				font-variant: normal;
+				text-transform: none;
+				line-height: 1;
+
+				/* Better Font Rendering =========== */
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+			}
+			.videoWrapper {
+				position: relative;
+				padding-bottom: 56.25%; /* 16:9 */
+				padding-top: 25px;
+				height: 0;
+			}
+			.videoWrapper iframe {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
+		</style>		<script type="text/javascript">
+			jQuery(document).ready(function() {
+				// CUSTOM AJAX CONTENT LOADING FUNCTION
+				var ajaxRevslider = function(obj) {
+				
+					// obj.type : Post Type
+					// obj.id : ID of Content to Load
+					// obj.aspectratio : The Aspect Ratio of the Container / Media
+					// obj.selector : The Container Selector where the Content of Ajax will be injected. It is done via the Essential Grid on Return of Content
+					
+					var content = "";
+
+					data = {};
+					
+					data.action = 'revslider_ajax_call_front';
+					data.client_action = 'get_slider_html';
+					data.token = '2f454b7e37';
+					data.type = obj.type;
+					data.id = obj.id;
+					data.aspectratio = obj.aspectratio;
+					
+					// SYNC AJAX REQUEST
+					jQuery.ajax({
+						type:"post",
+						url:"https://www.amebaiot.com/wp-admin/admin-ajax.php",
+						dataType: 'json',
+						data:data,
+						async:false,
+						success: function(ret, textStatus, XMLHttpRequest) {
+							if(ret.success == true)
+								content = ret.data;								
+						},
+						error: function(e) {
+							console.log(e);
+						}
+					});
+					
+					 // FIRST RETURN THE CONTENT WHEN IT IS LOADED !!
+					 return content;						 
+				};
+				
+				// CUSTOM AJAX FUNCTION TO REMOVE THE SLIDER
+				var ajaxRemoveRevslider = function(obj) {
+					return jQuery(obj.selector+" .rev_slider").revkill();
+				};
+
+				// EXTEND THE AJAX CONTENT LOADING TYPES WITH TYPE AND FUNCTION
+				var extendessential = setInterval(function() {
+					if (jQuery.fn.tpessential != undefined) {
+						clearInterval(extendessential);
+						if(typeof(jQuery.fn.tpessential.defaults) !== 'undefined') {
+							jQuery.fn.tpessential.defaults.ajaxTypes.push({type:"revslider",func:ajaxRevslider,killfunc:ajaxRemoveRevslider,openAnimationSpeed:0.3});   
+							// type:  Name of the Post to load via Ajax into the Essential Grid Ajax Container
+							// func: the Function Name which is Called once the Item with the Post Type has been clicked
+							// killfunc: function to kill in case the Ajax Window going to be removed (before Remove function !
+							// openAnimationSpeed: how quick the Ajax Content window should be animated (default is 0.3)
+						}
+					}
+				},30);
+			});
+		</script>
+		
+	<!--Start IE Enhancer and Modernizer Code-->
+	<!--[if !IE]>
+	<script src="//html5shiv-printshiv.googlecode.com/svn/trunk/html5shiv-printshiv.js"></script>
+	<![endif]-->
+	<!--[if IE 13]>
+	<script src="//html5shiv-printshiv.googlecode.com/svn/trunk/html5shiv-printshiv.js"></script>
+	<![endif]-->
+	<!--[if IE 12]>
+	<script src="//html5shiv-printshiv.googlecode.com/svn/trunk/html5shiv-printshiv.js"></script>
+	<![endif]-->
+	<!--[if IE 11]>
+	<script src="//html5shiv-printshiv.googlecode.com/svn/trunk/html5shiv-printshiv.js"></script>
+	<![endif]-->
+	<!--[if IE 10]>
+	<script src="//html5shiv-printshiv.googlecode.com/svn/trunk/html5shiv-printshiv.js"></script>
+	<![endif]-->
+	<!--[if IE 9]>
+	<script src="//html5shiv-printshiv.googlecode.com/svn/trunk/html5shiv-printshiv.js"></script>
+	<![endif]-->
+	<!--[if lt IE 9]>
+	<script src="//ie7-js.googlecode.com/svn/trunk/lib/IE9.js">IE7_PNG_SUFFIX=".png";</script>
+	<script src="//ie7-js.googlecode.com/svn/trunk/lib/ie7-recalc.js</script>
+	<script src="//ie7-js.googlecode.com/svn/trunk/lib/ie7-squish.js</script>
+	<script src="//html5shiv-printshiv.googlecode.com/svn/trunk/html5shiv-printshiv.js"></script>
+	<![endif]-->
+	<!--[if gt IE 7]>
+	<meta http-equiv="X-Content-Type-Options" content="nosniff">
+	<meta http-equiv="X-XSS-Protection" content="1;mode=block">
+	<![endif]-->
+	<!--[if IE 6]>
+	<meta http-equiv="imagetoolbar" content="no">
+	<![endif]-->
+	<!--[if IE]>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<![endif]-->
+	<!--<meta http-equiv="X-Frame-Options" content="SAMEORIGIN">-->
+	<!--/End IE Enhancer and Modernizer Code-->
+	
+<!--Plugin IE Enhancer and Modernizer 2014.0925.1858 Active - Tag 74be16979710d4c4e7c6647856088456-->
+
+<!--Site Optimized to Enhancer and Modernizer IE WordPress Surfing Experience-->
+
+<style type="text/css">
+.qtranxs_flag_tw {background-image: url(https://www.amebaiot.com/wp-content/plugins/qtranslate-x/flags/tw.png); background-repeat: no-repeat;}
+.qtranxs_flag_zh {background-image: url(https://www.amebaiot.com/wp-content/plugins/qtranslate-x/flags/cn.png); background-repeat: no-repeat;}
+.qtranxs_flag_en {background-image: url(https://www.amebaiot.com/wp-content/plugins/qtranslate-x/flags/gb.png); background-repeat: no-repeat;}
+</style>
+<link hreflang="zh" href="https://www.amebaiot.com/zh/change-dap-firmware/" rel="alternate">
+<link hreflang="cn" href="https://www.amebaiot.com/cn/change-dap-firmware/" rel="alternate">
+<link hreflang="en" href="https://www.amebaiot.com/en/change-dap-firmware/" rel="alternate">
+<link hreflang="x-default" href="https://www.amebaiot.com/change-dap-firmware/" rel="alternate">
+<meta name="generator" content="qTranslate-X 3.4.6.8">
+<!--[if lt IE 9]>
+<script src="https://www.amebaiot.com/wp-content/themes/hueman/assets/front/js/ie/html5shiv-printshiv.min.js"></script>
+<script src="https://www.amebaiot.com/wp-content/themes/hueman/assets/front/js/ie/selectivizr.js"></script>
+<![endif]-->
+<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress.">
+<!--[if IE 8]><link rel="stylesheet" type="text/css" href="https://www.amebaiot.com/wp-content/plugins/js_composer/assets/css/vc-ie8.css" media="screen"><![endif]--><link rel="icon" href="https://www.amebaiot.com/wp-content/uploads/2017/06/cropped-old-150x150.png" sizes="32x32">
+<link rel="icon" href="https://www.amebaiot.com/wp-content/uploads/2017/06/cropped-old-320x320.png" sizes="192x192">
+<link rel="apple-touch-icon-precomposed" href="https://www.amebaiot.com/wp-content/uploads/2017/06/cropped-old-320x320.png">
+<meta name="msapplication-TileImage" content="https://www.amebaiot.com/wp-content/uploads/2017/06/cropped-old-320x320.png">
+
+<!-- BEGIN GADWP v4.9.6.2 Universal Tracking - https://deconf.com/google-analytics-dashboard-wordpress/ -->
+<script type="text/javascript">
+(function($){
+    $(window).load(function() {
+        
+            //Track Downloads
+            $('a').filter(function() {
+                return this.href.match(/.*\.(zip|mp3*|mpe*g|pdf|docx*|pptx*|xlsx*|rar*)(\?.*)?$/);
+            }).click(function(e) {
+                ga('send','event', 'download', 'click', this.href);
+            });
+
+            //Track Mailto
+            $('a[href^="mailto"]').click(function(e) {
+                ga('send','event', 'email', 'send', this.href);
+             });
+            
+            //Track Outbound Links
+            $('a[href^="http"]').filter(function() {
+                if (!this.href.match(/.*\.(zip|mp3*|mpe*g|pdf|docx*|pptx*|xlsx*|rar*)(\?.*)?$/)){
+                    if (this.href.indexOf('amebaiot.com') == -1) return this.href;
+                }
+            }).click(function(e) {
+                ga('send','event', 'outbound', 'click', this.href);
+            });
+		    		                });
+})(jQuery);
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-78512752-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<!-- END GADWP Universal Tracking -->
+
+<style type="text/css">/* Dynamic CSS: For no styles in head, copy and put the css below in your child theme's style.css, disable dynamic styles */body { font-family:'Source Sans Pro', Arial, sans-serif;font-size:1.00rem }@media only screen and (min-width: 720px) {
+        .nav > li { font-size:1.00rem; }
+      }body { background-color: #eaeaea; }</style>
+<style id="tt-easy-google-font-styles" type="text/css">p { font-family: 'Titillium Web'; font-style: normal; font-weight: 400; }
+h1 { font-family: 'Titillium Web'; font-style: normal; font-weight: 400; }
+h2 { font-family: 'Titillium Web'; font-style: normal; font-weight: 400; }
+h3 { font-family: 'Titillium Web'; font-style: normal; font-weight: 400; }
+h4 { font-family: 'Titillium Web'; font-style: normal; font-weight: 400; }
+h5 { font-family: 'Titillium Web'; font-style: normal; font-weight: 400; }
+h6 { font-family: 'Titillium Web'; font-style: normal; font-weight: 400; }
+.entry { font-family: 'Titillium Web'; font-style: normal; font-weight: 400; }
+ { font-family: 'Titillium Web'; font-style: normal; font-weight: 400; }
+#nav-header .container { font-family: 'Titillium Web'; font-size: 10px; font-style: normal; font-weight: 400; line-height: 0.8; }
+.page-title { font-family: 'Titillium Web'; font-size: 20px; font-style: normal; font-weight: 400; text-decoration: none; text-transform: capitalize; }
+.ap-q-content { font-family: 'Source Code Pro'; font-style: normal; font-weight: 400; }
+.site-title { font-family: 'Titillium Web'; font-size: 44px; font-style: normal; font-weight: 600; letter-spacing: 1px; line-height: 1.2; }
+</style><style>input[type=file]:focus,input[type=radio]:focus,input[type=checkbox]:focus,select:focus,a:focus{outline:0}input[type=file]::-moz-focus-inner,input[type=radio]::-moz-focus-inner,input[type=checkbox]::-moz-focus-inner,select::-moz-focus-inner,a::-moz-focus-inner{border:0;}</style><style type="text/css">/**
+ * Style: Simple
+ */
+.has-popup.no-scroll {
+  overflow: hidden;
+}
+.has-popup.no-scroll body {
+  overflow: hidden;
+}
+
+.wdpu-loading {
+  position: relative;
+}
+
+.wdpu-loading:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8) url(https://www.amebaiot.com/wp-content/plugins/wordpress-popup/css/tpl/simple/../../../inc/external/wpmu-lib/img/spinner.gif) center no-repeat;
+  z-index: 1000;
+  cursor: default;
+}
+
+.wdpu-4853 {
+  position: fixed;
+  z-index: 100000;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 0 54px 0 50px;
+  /* wrap is positioned inside the .wdpu-4853 layer. */
+  /* Default: Image on right side */
+}
+.wdpu-4853.custom-size {
+  padding: 0;
+}
+.wdpu-4853.inline {
+  position: relative;
+  overflow: visible;
+  background: transparent;
+  padding: 0;
+}
+.wdpu-4853.inline .wdpu-msg {
+  max-width: 100%;
+  margin: 0;
+}
+.wdpu-4853.custom-pos .wdpu-msg {
+  position: absolute;
+  display: inline-block;
+  margin: 0 0 30px;
+}
+.wdpu-4853.no-title.no-subtitle .wdpu-head {
+  display: none;
+}
+.wdpu-4853.no-title .wdpu-title {
+  display: none;
+}
+.wdpu-4853.no-subtitle .wdpu-subtitle {
+  display: none;
+}
+.wdpu-4853 .wdpu-msg {
+  position: relative;
+  display: block;
+  margin: 0 auto 30px;
+  text-align: left;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 2px 40px rgba(0, 0, 0, 0.3);
+  font-size: 15px;
+  /* Size / responsiveness */
+  max-width: 800px;
+  min-width: 100px;
+}
+.wdpu-4853 .wdpu-msg p {
+  font-size: 15px;
+}
+.wdpu-4853 .wdpu-msg p:first-child {
+  margin-top: 0;
+}
+.wdpu-4853 .wdpu-msg p:last-child {
+  margin-bottom: 0;
+}
+.wdpu-4853 .wdpu-close {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  width: 30px;
+  height: 30px;
+  text-decoration: none;
+  opacity: .9;
+  z-index: 10;
+  background: transparent url(https://www.amebaiot.com/wp-content/plugins/wordpress-popup/css/tpl/simple/img/close.png) no-repeat;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  .wdpu-4853 .wdpu-close {
+    background: transparent url(https://www.amebaiot.com/wp-content/plugins/wordpress-popup/css/tpl/simple/img/close@2x.png) no-repeat;
+    background-size: 30px 30px;
+  }
+}
+.wdpu-4853 .wdpu-close:hover {
+  opacity: 1;
+}
+.wdpu-4853 .wdpu-msg-inner {
+  margin: 0px auto;
+  background: #F2F2F2;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  height: 100%;
+}
+.wdpu-4853 .wdpu-msg-inner.custom-size {
+  max-width: none;
+  min-width: 0;
+}
+.wdpu-4853 .wdpu-text,
+.wdpu-4853 .wdpu-image {
+  vertical-align: middle;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.wdpu-4853 .wdpu-text {
+  padding: 20px 20px 64px;
+  background: #F2F2F2;
+  position: relative;
+  z-index: 10;
+  height: 100%;
+}
+.wdpu-4853 .wdpu-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+.wdpu-4853 .wdpu-image img {
+  height: 100%;
+  width: auto;
+  position: relative;
+}
+.wdpu-4853 .wdpu-inner {
+  overflow: auto;
+  height: 100%;
+}
+.wdpu-4853 .wdpu-inner.no-bm {
+  margin: 0;
+}
+.wdpu-4853 .wdpu-buttons {
+  position: absolute;
+  padding: 20px;
+  height: 24px;
+  margin: 0 -20px -20px;
+  white-space: nowrap;
+}
+.wdpu-4853 a {
+  color: #488CFD;
+  text-decoration: underline;
+  opacity: .9;
+}
+.wdpu-4853 a:visited {
+  color: #488CFD;
+}
+.wdpu-4853 a:hover, .wdpu-4853 a:active, .wdpu-4853 a:focus {
+  color: #488CFD;
+  opacity: 1;
+}
+.wdpu-4853 .wdpu-head {
+  border-bottom: 1px solid #DDD;
+  padding-bottom: .5em;
+  margin-bottom: 1em;
+}
+.wdpu-4853 .wdpu-title,
+.wdpu-4853 .wdpu-subtitle {
+  font-size: 22.5px;
+  line-height: 1.3em;
+  margin: 0 0 .5em 0;
+  color: #488CFD;
+}
+.wdpu-4853 .wdpu-title {
+  font-weight: bold;
+}
+.wdpu-4853 .wdpu-subtitle {
+  font-weight: 100;
+}
+.wdpu-4853 .wdpu-cta {
+  line-height: 1.2em;
+  padding: 10px 30px;
+  opacity: .9;
+  margin: 0 20px 0 0;
+  text-decoration: none;
+  background: #488CFD;
+  color: #FFFFFF;
+}
+.wdpu-4853 .wdpu-cta:visited {
+  color: #FFFFFF;
+}
+.wdpu-4853 .wdpu-cta:hover, .wdpu-4853 .wdpu-cta:active, .wdpu-4853 .wdpu-cta:focus {
+  color: #FFFFFF;
+  opacity: 1;
+}
+.wdpu-4853 .wdpu-text {
+  margin: 0 40% 0 0;
+  width: 60%;
+}
+.wdpu-4853 .wdpu-image {
+  text-align: right;
+  right: 0;
+  width: 40%;
+}
+.wdpu-4853.img-left .wdpu-text {
+  margin: 0 0 0 40%;
+  margin-right: 0;
+  width: 60%;
+}
+.wdpu-4853.img-left .wdpu-image {
+  text-align: left;
+  right: auto;
+  left: 0;
+}
+.wdpu-4853.no-img .wdpu-text {
+  margin: 0;
+  width: 100%;
+}
+.wdpu-4853.no-img .wdpu-image {
+  display: none;
+}
+.wdpu-4853.rounded .wdpu-cta {
+  border-radius: 5px;
+}
+.wdpu-4853.rounded .wdpu-msg {
+  border-radius: 10px;
+}
+.wdpu-4853.rounded .wdpu-msg-inner {
+  border-radius: 6px;
+}
+
+@media screen and (max-width: 770px) and (min-width: 480px) {
+  .wdpu-4853 {
+    padding: 0 54px 0 50px;
+  }
+  .wdpu-4853 .wdpu-image, .wdpu-4853.img-right .wdpu-image, .wdpu-4853.img-left .wdpu-image, .wdpu-4853.no-img .wdpu-image {
+    width: 100%;
+    position: relative;
+    display: block;
+    max-height: 250px;
+  }
+  .wdpu-4853 .wdpu-image img, .wdpu-4853.img-right .wdpu-image img, .wdpu-4853.img-left .wdpu-image img, .wdpu-4853.no-img .wdpu-image img {
+    height: auto;
+    width: 100%;
+  }
+  .wdpu-4853 .wdpu-text, .wdpu-4853.img-right .wdpu-text, .wdpu-4853.img-left .wdpu-text, .wdpu-4853.no-img .wdpu-text {
+    margin: 0;
+    width: 100%;
+    padding-top: 15px;
+  }
+  .wdpu-4853 .wdpu-head, .wdpu-4853.img-right .wdpu-head, .wdpu-4853.img-left .wdpu-head, .wdpu-4853.no-img .wdpu-head {
+    margin-bottom: .5em;
+    padding-bottom: .4em;
+  }
+  .wdpu-4853 .wdpu-title,
+  .wdpu-4853 .wdpu-subtitle, .wdpu-4853.img-right .wdpu-title,
+  .wdpu-4853.img-right .wdpu-subtitle, .wdpu-4853.img-left .wdpu-title,
+  .wdpu-4853.img-left .wdpu-subtitle, .wdpu-4853.no-img .wdpu-title,
+  .wdpu-4853.no-img .wdpu-subtitle {
+    margin-bottom: .2em;
+  }
+  .wdpu-4853 p, .wdpu-4853.img-right p, .wdpu-4853.img-left p, .wdpu-4853.no-img p {
+    margin-bottom: 16px;
+  }
+  .wdpu-4853.mobile-no-img .wdpu-image {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .wdpu-4853 {
+    padding: 0 14px 0 10px;
+  }
+  .wdpu-4853 .wdpu-image, .wdpu-4853.img-right .wdpu-image, .wdpu-4853.img-left .wdpu-image, .wdpu-4853.no-img .wdpu-image {
+    width: 100%;
+    position: relative;
+    display: block;
+    max-height: 150px;
+  }
+  .wdpu-4853 .wdpu-image img, .wdpu-4853.img-right .wdpu-image img, .wdpu-4853.img-left .wdpu-image img, .wdpu-4853.no-img .wdpu-image img {
+    height: auto;
+    width: 100%;
+  }
+  .wdpu-4853 .wdpu-text, .wdpu-4853.img-right .wdpu-text, .wdpu-4853.img-left .wdpu-text, .wdpu-4853.no-img .wdpu-text {
+    margin: 0;
+    width: 100%;
+    padding-top: 10px;
+  }
+  .wdpu-4853 .wdpu-head, .wdpu-4853.img-right .wdpu-head, .wdpu-4853.img-left .wdpu-head, .wdpu-4853.no-img .wdpu-head {
+    margin-bottom: .3em;
+    padding-bottom: .2em;
+  }
+  .wdpu-4853 .wdpu-title,
+  .wdpu-4853 .wdpu-subtitle, .wdpu-4853.img-right .wdpu-title,
+  .wdpu-4853.img-right .wdpu-subtitle, .wdpu-4853.img-left .wdpu-title,
+  .wdpu-4853.img-left .wdpu-subtitle, .wdpu-4853.no-img .wdpu-title,
+  .wdpu-4853.no-img .wdpu-subtitle {
+    margin-bottom: .2em;
+  }
+  .wdpu-4853 p, .wdpu-4853.img-right p, .wdpu-4853.img-left p, .wdpu-4853.no-img p {
+    margin-bottom: 8px;
+  }
+  .wdpu-4853.mobile-no-img .wdpu-image {
+    display: none;
+  }
+}
+#ad6022dfcee33f177fa13694d46af365e .wdpu-text { text-align: justify; }
+#ad6022dfcee33f177fa13694d46af365e .wdpu-buttons { position: relative; text-align: center; }</style></head>
+
+<body class="page-template-default page page-id-4205 logged-in col-3cm full-width gecko wpb-js-composer js-comp-ver-4.4.1.1 vc_responsive mozilla s1-collapse s2-collapse">
+
+<div id="wrapper">
+
+  
+  <header id="header">
+    <div class="container group">
+        <div class="container-inner">
+            
+        <div class="group pad">
+                  <p class="site-title"><a class="custom-logo-link" href="https://www.amebaiot.com/en/" rel="home">Realtek IoT/Arduino Solution</a></p>
+                <p class="site-description"></p>
+          
+        </div>
+      
+              <nav class="nav-container group" id="nav-header">
+          <div class="nav-toggle"><i class="fa fa-bars"></i></div>
+          <div class="nav-text"><!-- put your mobile menu text here --></div>
+          <div class="nav-wrap container">
+            <ul id="menu-all-pages" class="nav container-inner group"><li id="menu-item-2729" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2729"><a href="https://www.amebaiot.com/en/">Home</a></li>
+<li id="menu-item-2730" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2730"><a>Ameba Arduino</a>
+<ul class="sub-menu" style="display: none;">
+	<li id="menu-item-2984" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2984"><a href="https://www.amebaiot.com/en/ameba-arduino-getting-started">Getting Started</a>
+	<ul class="sub-menu" style="display: none;">
+		<li id="menu-item-6884" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6884"><a href="https://www.amebaiot.com/en/ameba-arduino-getting-started">Ameba RTL8195</a></li>
+		<li id="menu-item-6901" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6901"><a href="https://www.amebaiot.com/en/ameba-arduino-getting-started-rtl8710/">Ameba RTL8710</a></li>
+	</ul>
+</li>
+	<li id="menu-item-4434" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4434"><a href="https://www.amebaiot.com/en/boards/">Boards</a></li>
+	<li id="menu-item-2985" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2985"><a href="https://www.amebaiot.com/en/ameba-arduino-peripherals-examples">Peripherals &amp; Examples</a></li>
+	<li id="menu-item-2986" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2986"><a href="https://www.amebaiot.com/en/ameba-arduino-trouble-shooting">Trouble-shooting</a></li>
+	<li id="menu-item-2987" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2987"><a href="https://www.amebaiot.com/en/ameba-arduino-release-plan">Release &amp; Plan</a></li>
+	<li id="menu-item-2988" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2988"><a href="https://www.amebaiot.com/en/ameba-arduino-download">Download</a></li>
+	<li id="menu-item-2989" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2989"><a href="https://www.amebaiot.com/en/ameba-arduino-reference">Reference</a></li>
+	<li id="menu-item-2990" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2990"><a href="https://www.amebaiot.com/en/ameba-arduino-faq/">FAQ</a></li>
+</ul>
+</li>
+<li id="menu-item-3356" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3356"><a>Standard SDK</a>
+<ul class="sub-menu" style="display: none;">
+	<li id="menu-item-3357" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3357"><a href="https://www.amebaiot.com/en/ameba-sdk-intro">Introduction</a></li>
+	<li id="menu-item-5044" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5044"><a href="https://www.amebaiot.com/en/ameba-sdk-getting-started/">Getting Started</a>
+	<ul class="sub-menu" style="display: none;">
+		<li id="menu-item-6143" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6143"><a href="https://www.amebaiot.com/en/ameba-sdk-getting-started/">Ameba RTL8195</a></li>
+		<li id="menu-item-6145" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6145"><a href="https://www.amebaiot.com/en/standard-sdk-getting-started-rtl8710">Ameba RTL8710</a></li>
+	</ul>
+</li>
+	<li id="menu-item-5051" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5051"><a href="https://www.amebaiot.com/en/ameba-sdk-boards">Boards</a></li>
+	<li id="menu-item-5114" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5114"><a href="https://www.amebaiot.com/en/ameba-sdk-peripherals-examples">Peripherals &amp; Examples</a></li>
+	<li id="menu-item-5057" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5057"><a href="https://www.amebaiot.com/en/ameba-sdk-trouble-shooting">Trouble-shooting</a></li>
+	<li id="menu-item-3358" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3358"><a href="https://www.amebaiot.com/en/ameba-sdk-release-plan">Release &amp; Plan</a></li>
+	<li id="menu-item-4875" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4875"><a href="https://www.amebaiot.com/en/ameba-sdk-download">Download</a></li>
+	<li id="menu-item-5060" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5060"><a href="https://www.amebaiot.com/en/ameba-sdk-faq">FAQ</a></li>
+</ul>
+</li>
+<li id="menu-item-8383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8383"><a>Arm Mbed Enabled</a>
+<ul class="sub-menu" style="display: none;">
+	<li id="menu-item-8400" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8400"><a href="https://www.amebaiot.com/en/arm-mbed-enabled-platform">Introduction</a></li>
+	<li id="menu-item-8385" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8385"><a target="_blank" href="https://os.mbed.com/platforms/Realtek-RTL8195AM/">RTL8195AM</a></li>
+	<li id="menu-item-8386" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-8386"><a href="https://www.amebaiot.com/en/arm-mbed-enabled-faq">FAQ</a></li>
+</ul>
+</li>
+<li id="menu-item-3332" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3332"><a>Ask Questions</a>
+<ul class="sub-menu" style="display: none;">
+	<li id="menu-item-3333" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3333"><a href="https://www.amebaiot.com/en/questions/category/hardware/">Ameba Arduino Hardware</a></li>
+	<li id="menu-item-3336" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3336"><a href="https://www.amebaiot.com/en/questions/category/software/">Ameba Arduino Software</a></li>
+	<li id="menu-item-5024" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5024"><a href="https://www.amebaiot.com/en/questions/category/std-sdk-hardware/">Ameba Standard SDK Hardware</a></li>
+	<li id="menu-item-5025" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5025"><a href="https://www.amebaiot.com/en/questions/category/std-sdk-software/">Ameba Standard SDK Software</a></li>
+	<li id="menu-item-3520" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3520"><a href="https://www.amebaiot.com/en/questions/">All</a></li>
+</ul>
+</li>
+<li id="menu-item-3337" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3337"><a>Related Sites</a>
+<ul class="sub-menu" style="display: none;">
+	<li id="menu-item-3338" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3338"><a target="_blank" href="http://makerpro.cc/category/mainboard/realtek-ameba/">Ameba MakerPro</a></li>
+	<li id="menu-item-3632" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3632"><a target="_blank" href="http://www.amebaiot.com.cn/">AmebaIoT China</a></li>
+</ul>
+</li>
+<li id="menu-item-6236" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6236"><a>More</a>
+<ul class="sub-menu" style="display: none;">
+	<li id="menu-item-6237" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6237"><a href="http://www.realtek.com/">Realtek Website</a></li>
+</ul>
+</li>
+</ul>          </div>
+        </nav><!--/#nav-header-->
+      
+    </div><!--/.container-inner-->
+      </div><!--/.container-->
+</header><!--/#header-->
+  
+  <div class="container" id="page">
+    <div class="container-inner">
+            <div class="main">
+        <div class="main-inner group">
+          
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-110111122-1');
+</script>
+
+              <section class="content">
+              <div class="page-title pad group">
+          	    		<h2>How to update DAP Firmware?</h2>
+    	
+    </div><!--/.page-title-->
+          <div class="pad group">
+            
+  <article class="group post-4205 page type-page status-publish hentry">
+
+    
+    <div class="entry themeform">
+      <p>To update DAP firmware, please follow the steps:<br>
+1.	Press and hold the button next to CON2.<br>
+2.	Press the button next to CON1.<br>
+3.	Release the button you press and hold in step 1.</p>
+<p><img src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/1-3.png" alt="1" class="alignnone size-full wp-image-4206" srcset="https://www.amebaiot.com/wp-content/uploads/2016/02/1-3.png 1263w, https://www.amebaiot.com/wp-content/uploads/2016/02/1-3-1024x545.png 1024w" sizes="(max-width: 1263px) 100vw, 1263px" width="1263" height="672"></p>
+<p>A removable storage appears with name "CRP DISABLED":</p>
+<p><img src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/2-3.png" alt="2" class="alignnone size-full wp-image-4207" width="514" height="167"></p>
+<p>Click to open "CRP DISABLED", you will find a file named "firmware.bin", which is the DAP firmware currently used in Ameba:</p>
+<p><img src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/3-2.png" alt="3" class="alignnone size-full wp-image-4208" width="596" height="118"></p>
+<p>Please backup the original firmware file first, then replace it with new firmware file.</p>
+<p><span style="color: #0D51F7;"><strong>Update using Windows and Linux</strong></span><br>
+Drag and drop the new firmware file onto the USB drive named “CRP DISABLD”</p>
+<p><span style="color: #0D51F7;"><strong>Update using Mac</strong></span><br>
+Open a terminal and run:<br>
+<span style="background-color: #d4d4d4;">$ cp -X &lt;path to firmware file&gt; /Volumes/CRP\ DISABLD/</span></p>
+<p>&nbsp;</p>
+<p><img src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/4-1.png" alt="4" class="alignnone size-full wp-image-4209" width="602" height="135"></p>
+<p>Replug the USB, and the new firmware should work normally. </p>
+<p>&nbsp;</p>
+<p><span style="font-weight:bold;">Below is the DAP firmware list for ARDUINO/Standard SDK:</span></p>
+<div>
+      <span style="color: #4f4e4e; font-size: 18px;"><p></p>
+<table width="500" border="0">
+<tbody><tr>
+<td>Version</td>
+<td>&nbsp; LED &nbsp;</td>
+<td>Speed<br>
+                   Improvement
+               </td>
+<td>Recommend</td>
+<td>Link</td>
+</tr>
+<tr class="alt">
+<td rowspan="1" style="background-color: #F1F1F1; color: orange">DAP_FW_Ameba_V12_1_2-2M</td>
+<td style="color: orange">On</td>
+<td style="color: orange">✓</td>
+<td style="color: orange">✓</td>
+<td><a style="color: orange" href="https://github.com/Ameba8195/Arduino/raw/master/misc/dap_firmware/DAP_FW_Ameba_V12_1_2-2M.bin" target="_blank">Download</a></td>
+</tr>
+<tr>
+<td rowspan="1" style="background-color: #FFFFFF">DAP_FW_Ameba_V12_1_2-2M_LED_Disable</td>
+<td>Off</td>
+<td>✓</td>
+<td> </td>
+<td><a href="https://github.com/Ameba8195/Arduino/raw/master/misc/dap_firmware/DAP_FW_Ameba_V12_1_2-2M_LED_Disable.bin" target="_blank">Download</a></td>
+</tr>
+<tr class="alt">
+<td rowspan="1" style="background-color: #F1F1F1">DAP_FW_Ameba_V10_2_2-2M</td>
+<td>On</td>
+<td> </td>
+<td> </td>
+<td><a href="https://github.com/Ameba8195/Arduino/raw/master/misc/dap_firmware/DAP_FW_Ameba_V10_2_2-2M.bin" target="_blank">Download</a></td>
+</tr>
+<tr>
+<td rowspan="1" style="background-color: #FFFFFF">DAP_FW_Ameba_V10_2_2-2M_LED_Disable</td>
+<td>Off</td>
+<td> </td>
+<td> </td>
+<td><a href="https://github.com/Ameba8195/Arduino/raw/master/misc/dap_firmware/DAP_FW_Ameba_V10_2_2-2M_LED_Disable.bin" target="_blank">Download</a></td>
+</tr>
+</tbody></table>
+<p>      
+   </p></span></div>
+<div style="text-align:right;"><a href="https://www.amebaiot.com/en/change-dap-firmware/dap-firmware-release-note/" target="_blank" rel="noopener noreferrer"><font size="3">Release Note</font></a></div>
+<p>&nbsp;</p>
+<p><span style="font-weight:bold;">Below is the DAP firmware list for Arm mbed:</span></p>
+<div>
+      <span style="color: #4f4e4e; font-size: 18px;"><p></p>
+<table width="500" border="0">
+<tbody><tr class="alt">
+<td>Version</td>
+<td>Description</td>
+<td>Link</td>
+</tr>
+<tr>
+<td rowspan="1" style="background-color: #FFFFFF">DAP_FW_MBED_RTL8195AM_V1</td>
+<td>Arm Mbed DAP firmware, support target REALTEK_RTL8195AM
+               </td>
+<td><a href="https://www.amebaiot.com/?s2member_file_download=DAP_FW_MBED_RTL8195AM_V1.bin">Download</a>
+</td>
+</tr>
+</tbody></table>
+<p>      
+   </p></span></div>
+<div style="clear:both;"></div>      <div class="clear"></div>
+    </div><!--/.entry-->
+
+  </article>
+
+  
+          </div><!--/.pad-->
+        </section><!--/.content-->
+          
+
+	<div class="sidebar s1">
+
+		<a class="sidebar-toggle" title="Expand Sidebar"><i class="fa icon-sidebar-toggle"></i></a>
+
+		<div class="sidebar-content">
+
+			  			<div class="sidebar-top group">
+                             <a href="https://www.amebaiot.com/ameba-arduino-release-plan"><p style="text-transform: inherit;">Ameba Arduino v2.0.4</p></a>
+                                  
+            			</div>
+			
+			
+			
+			<div id="wp_sidebarlogin-3" class="widget widget_wp_sidebarlogin"><h3 class="widget-title">Welcome Samuel Original</h3><div class="avatar_container"><img alt="" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/a022a1e727d340b7779749bc9458021e.jpg" srcset="https://secure.gravatar.com/avatar/a022a1e727d340b7779749bc9458021e?s=76&amp;d=mm&amp;r=g 2x" class="avatar avatar-38 photo" width="38" height="38"></div><ul class="pagenav sidebar_login_links"><li class="logout-link"><a href="https://www.amebaiot.com/wp-login.php?action=logout&amp;redirect_to=https%3A%2F%2Fwww.amebaiot.com%2Fen%2Fchange-dap-firmware%2F&amp;_wpnonce=25ea466469">Logout</a></li></ul></div><div id="text-3" class="widget widget_text"><h3 class="widget-title">WHERE TO BUY Ameba RTL8195</h3>			<div class="textwidget"><a href="https://www.amebaiot.com/ameba-arduino-faq/">&nbsp;&nbsp;&nbsp;<img src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/IMG_1429_gray-1.jpg" alt="ameba" width="260" height="100" align="middle"></a></div>
+		</div><div id="text-4" class="widget widget_text"><h3 class="widget-title">WHERE TO BUY AMEBA RTL8710</h3>			<div class="textwidget"><a href="https://www.amebaiot.com/ameba-arduino-faq/">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/IMG_0395_gray-1.jpg" alt="ameba" width="230" height="100" align="middle"></a></div>
+		</div><div id="pagelistwidget-4" class="widget widget_pagelistwidget"><h3 class="widget-title">Recent article</h3>
+<ul>
+
+<li><a href="https://www.amebaiot.com/en/ameba-arduino-faq/" title="Ameba Arduino: FAQ">Ameba Arduino: FAQ</a></li><li><a href="https://www.amebaiot.com/en/" title="Home">Home</a></li><li><a href="https://www.amebaiot.com/en/ameba-sdk-faq/" title="Standard SDK: FAQ">Standard SDK: FAQ</a></li>
+</ul>
+
+</div>
+		</div><!--/.sidebar-content-->
+
+	</div><!--/.sidebar-->
+
+	<div class="sidebar s2">
+
+	<a class="sidebar-toggle" title="Expand Sidebar"><i class="fa icon-sidebar-toggle"></i></a>
+
+	<div class="sidebar-content">
+
+		  		<div class="sidebar-top group">
+  			<a href="https://www.amebaiot.com/ameba-sdk-release-plan/"><p style="text-transform: inherit;">Standard SDK v4.0b</p></a>
+  		</div>
+		
+		
+		<style type="text/css">
+.qtranxs_widget ul { margin: 0; }
+.qtranxs_widget ul li
+{
+display: inline; /* horizontal list, use "list-item" or other appropriate value for vertical list */
+list-style-type: none; /* use "initial" or other to enable bullets */
+margin: 0 5px 0 0; /* adjust spacing between items */
+opacity: 0.5;
+-o-transition: 1s ease opacity;
+-moz-transition: 1s ease opacity;
+-webkit-transition: 1s ease opacity;
+transition: 1s ease opacity;
+}
+/* .qtranxs_widget ul li span { margin: 0 5px 0 0; } */ /* other way to control spacing */
+.qtranxs_widget ul li.active { opacity: 0.8; }
+.qtranxs_widget ul li:hover { opacity: 1; }
+.qtranxs_widget img { box-shadow: none; vertical-align: middle; display: initial; }
+.qtranxs_flag { height:12px; width:18px; display:block; }
+.qtranxs_flag_and_text { padding-left:20px; }
+.qtranxs_flag span { display:none; }
+</style>
+<div id="qtranslate-4" class="widget qtranxs_widget"><h3 class="widget-title">Language:</h3>
+<ul class="language-chooser language-chooser-text qtranxs_language_chooser" id="qtranslate-4-chooser">
+<li class="lang-zh"><a href="https://www.amebaiot.com/zh/change-dap-firmware/" hreflang="zh" title="繁體中文 (zh)" class="qtranxs_text qtranxs_text_zh"><span>繁體中文</span></a></li>
+<li class="lang-cn"><a href="https://www.amebaiot.com/cn/change-dap-firmware/" hreflang="cn" title="簡体中文 (cn)" class="qtranxs_text qtranxs_text_cn"><span>簡体中文</span></a></li>
+<li class="lang-en active"><a href="https://www.amebaiot.com/en/change-dap-firmware/" hreflang="en" title="English (en)" class="qtranxs_text qtranxs_text_en"><span>English</span></a></li>
+</ul><div class="qtranxs_widget_end"></div>
+</div><div id="wpstatistics_widget-3" class="widget widget_wpstatistics_widget"><h3 class="widget-title">Visitors</h3><ul><li><label>Total Visits: </label>4,561,759</li></ul></div><div id="text-6" class="widget widget_text"><h3 class="widget-title">COMMUNITY</h3>			<div class="textwidget"><a href="https://www.facebook.com/groups/AmebaIoTWW/" target="_blank"><img src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/fb_icon.png" alt="fb" width="50" height="50" align="middle"></a></div>
+		</div>
+	</div><!--/.sidebar-content-->
+
+</div><!--/.sidebar-->
+
+
+        </div><!--/.main-inner-->
+      </div><!--/.main-->
+    </div><!--/.container-inner-->
+  </div><!--/.container-->
+    <footer id="footer">
+
+    
+    
+    
+    <section class="container" id="footer-bottom">
+      <div class="container-inner">
+
+        <a id="back-to-top" href="#"><i class="fa fa-angle-up"></i></a>
+
+        <div class="pad group">
+
+          <div class="grid one-third" style="float: none;">
+            <div><p></p></div>
+          </div>
+
+          <div class="grid one-third" style="float: none;">
+                        
+            <div id="copyright">
+                              <p style="text-transform:none;text-align: center;">Realtek IoT/Arduino Solution © 2018. All Rights Reserved.</p>
+                          </div><!--/#copyright-->
+
+                          <div id="credit" style="">
+                <p style="text-transform:none;text-align: center;">Powered by <a href="http://wordpress.org/" target="_blank">WordPress</a>. Theme by <a href="http://presscustomizr.com/">Press Customizr</a>.</p>
+              </div><!--/#credit-->
+            
+          </div>
+
+          <div class="grid one-third" style="float: none;">
+                                                  </div>
+
+        </div><!--/.pad-->
+
+      </div><!--/.container-inner-->
+    </section><!--/.container-->
+
+  </footer><!--/#footer-->
+
+</div><!--/#wrapper-->
+
+
+<!--Plugin IE Enhancer and Modernizer 2014.0925.1858 Active - Tag 74be16979710d4c4e7c6647856088456-->
+
+<!--Site Optimized to Enhancer and Modernizer IE WordPress Surfing Experience-->
+
+<script>window._popup_data = {"ajaxurl":"https:\/\/www.amebaiot.com\/wp-admin\/admin-ajax.php","do":"get_data","ajax_data":{"orig_request_uri":"\/en\/change-dap-firmware\/"}};</script><script type="text/javascript" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/magnific.js"></script>
+<script type="text/javascript" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/agreeable.js"></script>
+<script type="text/javascript" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/editor.js"></script>
+<script type="text/javascript" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/jquery.js"></script>
+<script type="text/javascript" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/jquery_003.js"></script>
+<script type="text/javascript" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/js.js"></script>
+<script type="text/javascript" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/underscore.js"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var HUParams = {"_disabled":[],"SmoothScroll":{"Enabled":false,"Options":{"touchpadSupport":false}},"centerAllImg":"1","timerOnScrollAllBrowsers":"1","extLinksStyle":null,"extLinksTargetExt":null,"extLinksSkipSelectors":{"classes":["btn","button"],"ids":[]},"imgSmartLoadEnabled":null,"imgSmartLoadOpts":{"parentSelectors":[".container .content",".container .sidebar","#footer","#header-widgets"],"opts":{"excludeImg":[".tc-holder-img"],"fadeIn_options":100}},"goldenRatio":"1.618","gridGoldenRatioLimit":"350","vivusSvgSpeed":"300","isDevMode":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/scripts.js"></script>
+<script type="text/javascript" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/public.js"></script>
+<script type="text/javascript" data-cfasync="false" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/s2member-o.js"></script>
+<script type="text/javascript" src="How%20to%20update%20DAP%20Firmware%20%20%E2%80%93%20Realtek%20IoT_Arduino%20Solution_files/wp-embed.js"></script>
+<!--[if lt IE 9]>
+<script src="https://www.amebaiot.com/wp-content/themes/hueman/assets/front/js/ie/respond.js"></script>
+<![endif]-->
+
+
+<div id="ap-notify"></div><div role="status" id="ap-tags-aria-message" aria-live="polite" aria-atomic="true" class="sr-only"></div><div id="ad6022dfcee33f177fa13694d46af365e" class="wdpu-container wdpu-background no-img buttons style-simple rounded custom-size wdpu-4853 with-title no-subtitle" style="opacity: 0; z-index: -1; position: fixed; left: -1000px; width: 100px; right: auto; top: -1000px; height: 100px; bottom: auto;"> <div class="resize wdpu-msg move no-move-x" style=""> <!--a href="#" class="wdpu-close" title="Close this box"></a--> <div class="wdpu-msg-inner resize"> <div class="wdpu-text"> <div class="wdpu-inner "> <div class="wdpu-head"> <div class="wdpu-title">Terms of Use Update</div> <div class="wdpu-subtitle"></div> </div> <div class="wdpu-content"><p><strong>Terms of Use</strong></p>
+<p>You expressly agree that you have read this <strong>terms of use </strong>(“Terms of Use”) and understand the rights, obligations, terms and conditions set forth herein.</p>
+<p><strong><u>Agreement</u></strong></p>
+<p>This Terms of Use will be modified or updated by Realtek from time to
+ time at Realtek’s sole discretion. By installing, copying, downloading,
+ accessing, or otherwise using (collectively “Using”) this website, you 
+expressly consent to be bound by this Terms of Use, including later 
+version(s).</p>
+<p>You agree that you shall read this Terms of Use prior to each Use to 
+ensure that you fully understand your rights and obligations. If you do 
+not agree to be bound by this Terms of Use and to abide by all 
+applicable law, you must discontinue Using this website immediately. 
+Realtek is unwilling to provide you with the Use of this website unless 
+you agree to be bound by this Terms of Use and to abide by all 
+applicable law.</p>
+<p><strong><u>Submission of Information</u></strong></p>
+<p>If you send any information, communications, or materials, including 
+any comments, data, questions, suggestions, or the like (each, a 
+“Submission”) to this website, all such Submissions are, and will be 
+treated as, non-confidential and non-proprietary.</p>
+<p>By submitting a Submission, you grant Realtek a perpetual, 
+irrevocable, free, and fully sub-licensable worldwide license to use, 
+distribute, reproduce, modify, adapt, publish, translate, publicly 
+perform, and publicly display such Submission, and to incorporate such 
+Submission into other works in any format or medium now known or later 
+developed, or otherwise dispose such Submission for any purposes.</p>
+<p>It is prohibited to post or transmit any defamatory, libelous, 
+obscene, pornographic, profane, threatening, or unlawful material or 
+information, or otherwise to violate any laws, including but not limited
+ to any intellectual property rights, on this website.</p>
+<p>Furthermore, Realtek is free to use, without any compensation to you,
+ any concepts, ideas, know-how, or techniques contained in any 
+Submission, for any purpose whatsoever, including but not limited to 
+developing, designing, manufacturing, marketing, offering for sale, 
+selling, and importing/exporting products, and/or licensing to third 
+parties, or having third parties to perform the same.</p>
+<p>Realtek reserves the right to remove any Submission at its sole discretion and without notice.</p>
+<p>You agree that you shall not use any materials or information, 
+including but not limited to any feedbacks, suggestions, comments, 
+discussions, and/or other information or materials provided by Realtek 
+on this website against Realtek, and you hereby waive any legal or 
+equitable rights or remedies you have or may have against Realtek.</p>
+<p><strong><u>Trademark</u></strong></p>
+<p>You agree that nothing in the Terms of Use gives you any right to use
+ any of Realtek’s trademarks, service marks, product or service names, 
+slogans, logos, or images.</p>
+<p><strong><u>Registration</u></strong></p>
+<p>You are required to provide true, correct, and accurate information 
+prompted and requested by a registration process. You may access, 
+correct, and change your information at any time by logging in and 
+editing your account settings on this website.</p>
+<p>You may be required to sign in with your login ID and password. You 
+are responsible solely and entirely for securing the confidentiality of 
+your password and for any and all activities that occur under your 
+account.</p>
+<p><strong><u>License and Restriction</u></strong></p>
+<p>You agree that all rights remain with Realtek and/or its licensors. 
+Any and all rights in this website are and shall remain the exclusive 
+property of Realtek and/or its licensors and Realtek does not grant any 
+license, explicitly or implicitly, under any trademark, patent, 
+copyright, mask work protection right, trade secret, or any other 
+intellectual property right.</p>
+<p>You agree that you will not alter, modify, reverse engineer, 
+reverse-compile, or synthesize any information, materials, and/or 
+software that you downloaded from or access to this website, or remove, 
+obscure, make illegible, or alter any notices or indications thereof, 
+whether such notice or indications are affixed on, contained in or 
+otherwise connected to any information, materials, or software.</p>
+<p><strong><u>Third Party Content</u></strong></p>
+<p>You acknowledge that some content of this website is provided by 
+third parties, and you also acknowledge that this website may enable 
+access to third parties’ services and websites. Realtek is not obligated
+ to review such third-party websites, does not control such third-party 
+websites, and is not responsible for any such third-party websites (or 
+the products, services, or content available through the same). Thus, 
+Realtek does not endorse or make any representations about such 
+third-party websites, or any information, software, products, services, 
+or materials found on such thirty-party websites, or any results that 
+may be obtained from using such thirty-party websites. If you decide to 
+access any of the third-party websites, you do this entirely at your own
+ risk.</p>
+<p><strong><u>Term and Termination</u></strong></p>
+<p>Realtek reserves the right at its sole discretion to cancel, terminate, modify, or suspend this website.</p>
+<p>This Terms of Use is effective until terminated by Realtek. Your 
+rights to Use this website will be terminated automatically without 
+notice if you fail to comply with the terms and conditions contained in 
+this Terms of Use. Upon termination of this Terms of Use, you shall 
+cease all Use of this website.</p>
+<p><strong><u>Warranty Disclaimer and Limitation of Liability</u></strong></p>
+<p>YOU AGREE THAT THIS WEBSITE AND ALL MATERIALS, INFORMATION, 
+SOFTWARES, AND/OR SERIVCES ARE PROVIDED "AS IS" AND THAT REALTEK 
+DISCLAIMS ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO ALL WARRANTIES 
+WITH RESPECT TO INFRINGEMENT OF INTELLECTUAL PROPERTY RIGHTS, ACCURACY, 
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND UTILITY. REALTEK,
+ ITS LICENSORS, AND ANY OF THEIR RESPECTIVE OFFICERS, DIRECTORS, 
+EMPLOYEES, AGENTS, CUSTOMERS, AND/OR AFFILIATES SHALL NOT BE LIABLE OR 
+OBLIGATED IN ANY MANNER FOR ANY DIRECT, INDIRECT, CONSEQUENTIAL, OR 
+INCIDENTAL DAMAGES EVEN IF IT/THEY HAS/HAVE BEEN ADVISED OF THE 
+POSSIBILITY OF SUCH DAMAGES.</p>
+<p><strong><u>Indemnity</u></strong></p>
+<p>You agree to defend, indemnify, and hold harmless Realtek and its 
+affiliates, service providers, distributors, licensors, officers, 
+directors, employees, and customers, from and against any and all 
+losses, damages, liabilities, and expenses (including attorney fees and 
+court costs) arising out of any claim or demand due to or in connection 
+with your breach of this Terms of Use or any applicable law or 
+regulation, or arising from your Use of this website.</p>
+<p><strong><u>Governing Law</u></strong></p>
+<p>This Terms of Use and performance thereunder shall be governed by and
+ construed in accordance with the laws of Taiwan, R.O.C., and the 
+Hsin-Chu District Court of Taiwan shall have the exclusive jurisdiction 
+in the first instance over disputes arising from or related to this 
+Terms of Use or its performance or your Use of this website.</p>
+</div> </div> <div class="wdpu-buttons"> <input class="wdpu-cta" id="popup_btn" value="Agree" type="submit"> <input class="wdpu-cta" id="popup_btn" value="Disagree" type="submit">  </div> </div> </div> </div> </div></body></html>

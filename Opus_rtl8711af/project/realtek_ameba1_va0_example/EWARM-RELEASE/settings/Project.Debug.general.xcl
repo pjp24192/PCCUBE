@@ -1,0 +1,15 @@
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\bin\armproc.dll" 
+
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\bin\armJET.dll" 
+
+"C:\Users\PCCUBE\Desktop\Opus_17_jul_2018\Opus_rtl8711af\project\realtek_ameba1_va0_example\EWARM-RELEASE\Debug\Exe\application.axf" 
+
+--plugin "C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\bin\armbat.dll" 
+
+--macro "C:\Users\PCCUBE\Desktop\Opus_17_jul_2018\Opus_rtl8711af\project\realtek_ameba1_va0_example\EWARM-RELEASE\..\..\..\component\soc\realtek\8195a\misc\iar_utility\common\preload.mac" 
+
+--flash_loader "C:\Users\PCCUBE\Desktop\Opus_17_jul_2018\Opus_rtl8711af\project\realtek_ameba1_va0_example\EWARM-RELEASE\tmp.board" 
+
+
+
+
