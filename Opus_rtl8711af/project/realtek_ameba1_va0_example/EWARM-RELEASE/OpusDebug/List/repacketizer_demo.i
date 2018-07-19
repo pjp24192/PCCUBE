@@ -1,4 +1,4 @@
-#line 1 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\src\\repacketizer_demo.c"
+#line 1 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\src\\repacketizer_demo.c"
 /* Copyright (c) 2011 Xiph.Org Foundation
    Written by Jean-Marc Valin */
 /*
@@ -30,7 +30,7 @@
 
 
 
-#line 1 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\include\\opus.h"
+#line 1 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\include\\opus.h"
 /* Copyright (c) 2010-2011 Xiph.Org Foundation, Skype Limited
    Written by Jean-Marc Valin and Koen Vos */
 /*
@@ -66,7 +66,7 @@
 
 
 
-#line 1 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_types.h"
+#line 1 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_types.h"
 /* (C) COPYRIGHT 1994-2002 Xiph.Org Foundation */
 /* Modified by Jean-Marc Valin */
 /*
@@ -111,7 +111,7 @@
 
 
 /* Use the real stdint.h if it's there (taken from Paul Hsieh's pstdint.h) */
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdint.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdint.h"
 /* stdint.h standard header */
 /* Copyright 2003-2010 IAR Systems AB.  */
 
@@ -121,7 +121,7 @@
   #pragma system_include
 
 
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 /* ycheck.h internal checking header file. */
 /* Copyright 2005-2010 IAR Systems AB. */
 
@@ -167,7 +167,7 @@
 
 
 
-#line 67 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 67 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 
 
 
@@ -185,7 +185,7 @@
    i.e. the function will always return.
 */
 
-#line 103 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 103 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 
 
 
@@ -195,8 +195,8 @@
 
 
 
-#line 11 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdint.h"
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 11 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdint.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 /* yvals.h internal configuration header file. */
 /* Copyright 2001-2010 IAR Systems AB. */
 
@@ -207,7 +207,7 @@
   #pragma system_include
 
 
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 /* ycheck.h internal checking header file. */
 /* Copyright 2005-2010 IAR Systems AB. */
 
@@ -253,9 +253,9 @@
 
 
 
-#line 67 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 67 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 
-#line 12 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 12 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
                 /* Convenience macros */
 
@@ -295,16 +295,16 @@
 
 
   /* Default turned on when compiling C++, EC++, or C99. */
-#line 59 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 59 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
 
 
 
 
-#line 70 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 70 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
                 /* Configuration */
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
 /***************************************************
  *
  * DLib_Defaults.h is the library configuration manager.
@@ -342,7 +342,7 @@
 
 
 /* Include the main configuration header file. */
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\INC\\c\\DLib_Config_Full.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\INC\\c\\DLib_Config_Full.h"
 /* Customer-specific DLib configuration. */
 /* Copyright (C) 2003 IAR Systems.  All rights reserved. */
 
@@ -365,12 +365,12 @@
 /* Turn on support for hex-floats in strtod. */
 
 
-#line 40 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+#line 40 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
   /* _DLIB_CONFIG_FILE_STRING is the quoted variant of above */
-#line 47 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+#line 47 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
 
 /* Include the product specific header file. */
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Product.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Product.h"
 
 
 
@@ -408,7 +408,7 @@
 
 
 /* Enable system locking  */
-#line 45 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Product.h"
+#line 45 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Product.h"
 
 /* Enable AEABI support */
 
@@ -435,7 +435,7 @@
 
 
 /* Configure generic ELF init routines. */
-#line 99 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Product.h"
+#line 99 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Product.h"
 
 
 
@@ -443,7 +443,7 @@
 
 
 
-#line 51 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+#line 51 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
 
 
 
@@ -737,7 +737,7 @@
  * Default is to support long long formatting.
  */
 
-#line 351 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+#line 351 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
 
 
 
@@ -946,7 +946,7 @@
  * Default is to support long long formatting in scanf.
  */
 
-#line 566 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+#line 566 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
 
 
 
@@ -1186,7 +1186,7 @@
 
 
 
-#line 812 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+#line 812 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
 
 
 /*
@@ -1194,13 +1194,13 @@
  * ARM AEABI. A target, except ARM, may deviate from it.
  */
 
-#line 826 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+#line 826 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
 
 
   /* Possible AEABI deviations */
-#line 836 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+#line 836 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
 
-#line 844 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+#line 844 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
   /*
    * The "difunc" table contains information about C++ objects that
    * should be dynamically initialized, where each entry in the table
@@ -1245,7 +1245,7 @@
  * Rtti support.
  */
 
-#line 899 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+#line 899 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
 
 /*
  * Use the "pointers to short" or "pointers to long" implementation of 
@@ -1284,7 +1284,7 @@
  */
 
   /* size_t/ptrdiff_t must be a 4 bytes unsigned integer. */
-#line 943 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+#line 943 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
 
 
 
@@ -1332,7 +1332,7 @@
  * Set this to __weak, if supported.
  *
  */
-#line 997 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+#line 997 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
 
 
 /*
@@ -1346,7 +1346,7 @@
 
 
 
-#line 73 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 73 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
 
 
@@ -1380,7 +1380,7 @@
  * _LONG_DOUBLE_IS_DOUBLE signals that all internal long double routines
  *                        aren't needed.
  */
-#line 147 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 147 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
 
 
@@ -1396,7 +1396,7 @@
 
 /* Has support for secure functions (printf_s, scanf_s, etc) */
 /* Will not compile if enabled */
-#line 170 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 170 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
 /* Has support for complex C types */
 
@@ -1418,7 +1418,7 @@
 
 
 /* True C++ language setup */
-#line 233 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 233 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
 
 
@@ -1431,7 +1431,7 @@
 
 
                 /* NAMESPACE CONTROL */
-#line 292 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 292 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
 
 
@@ -1441,7 +1441,7 @@
 
 
 
-#line 308 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 308 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
 
 
@@ -1450,7 +1450,7 @@
 
 
 
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xencoding_limits.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xencoding_limits.h"
 /* xencoding_limits.h internal header file */
 /* Copyright 2003-2010 IAR Systems AB.  */
 
@@ -1461,7 +1461,7 @@
   #pragma system_include
 
 
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 /* ycheck.h internal checking header file. */
 /* Copyright 2005-2010 IAR Systems AB. */
 
@@ -1507,25 +1507,25 @@
 
 
 
-#line 67 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 67 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 
-#line 12 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xencoding_limits.h"
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 12 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xencoding_limits.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 /* yvals.h internal configuration header file. */
 /* Copyright 2001-2010 IAR Systems AB. */
 
-#line 711 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 711 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
 /*
  * Copyright (c) 1992-2009 by P.J. Plauger.  ALL RIGHTS RESERVED.
  * Consult your license regarding permissions and restrictions.
 V5.04:0576 */
-#line 13 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xencoding_limits.h"
+#line 13 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xencoding_limits.h"
 
                                 /* Multibyte encoding length. */
 
 
-#line 24 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xencoding_limits.h"
+#line 24 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xencoding_limits.h"
 
 
 
@@ -1534,25 +1534,25 @@ V5.04:0576 */
 
 
 
-#line 38 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xencoding_limits.h"
+#line 38 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xencoding_limits.h"
 
 
 
-#line 55 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xencoding_limits.h"
+#line 55 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xencoding_limits.h"
 
 
 
-#line 317 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 317 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
 
 
                 /* FLOATING-POINT PROPERTIES */
 
                 /* float properties */
-#line 335 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 335 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
                 /* double properties */
-#line 360 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 360 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
                 /* long double properties */
                 /* (must be same as double) */
@@ -1560,7 +1560,7 @@ V5.04:0576 */
 
 
 
-#line 382 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 382 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
 
                 /* INTEGER PROPERTIES */
@@ -1578,7 +1578,7 @@ V5.04:0576 */
   typedef long long _Longlong;
   typedef unsigned long long _ULonglong;
   #pragma language=restore
-#line 405 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 405 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
 
 
@@ -1589,9 +1589,9 @@ V5.04:0576 */
   typedef unsigned short int _Wintt;
 
 
-#line 424 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 424 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
-#line 432 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 432 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
                 /* POINTER PROPERTIES */
 
@@ -1631,7 +1631,7 @@ __intrinsic __nounwind void __iar_Atexit(void (*)(void));
     unsigned int _Wchar;
     unsigned int _State;
   } _Mbstatet;
-#line 481 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 481 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
 
 
@@ -1660,7 +1660,7 @@ typedef struct
 
                 /* THREAD AND LOCALE CONTROL */
 
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
 /***************************************************
  *
  * DLib_Threads.h is the library threads manager.
@@ -1780,7 +1780,7 @@ typedef struct
 
 
 
-#line 157 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
+#line 157 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
 
   /* Thread support, library supports threaded variables in a user specified
      memory area, locks on heap and on FILE */
@@ -1794,13 +1794,13 @@ typedef struct
   
 
 
-#line 176 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
+#line 176 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
 
 
 
 
 
-#line 187 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
+#line 187 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
 
 
 
@@ -1849,7 +1849,7 @@ typedef struct
 
 
 
-#line 242 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
+#line 242 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
 
   /* The thread-local variable access function */
   void  *__iar_dlib_perthread_access(void  *);
@@ -1925,7 +1925,7 @@ typedef struct
   __intrinsic __nounwind void __iar_clearlocks(void);
 
 
-#line 323 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
+#line 323 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
 
   
 
@@ -1935,7 +1935,7 @@ typedef struct
 
   
 
-#line 341 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
+#line 341 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
 
   typedef unsigned _Once_t;
 
@@ -1955,12 +1955,12 @@ typedef struct
 
 
 
-#line 510 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 510 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
-#line 520 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 520 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
                 /* THREAD-LOCAL STORAGE */
-#line 528 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 528 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
 
                 /* MULTITHREAD PROPERTIES */
@@ -1987,12 +1987,12 @@ typedef struct
   _Pragma("object_attribute = __weak") __intrinsic __nounwind void __iar_Unlockdynamicfilelock(__iar_Rmtx *);
   
   
-#line 568 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 568 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
                 /* LOCK MACROS */
-#line 576 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 576 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
-#line 694 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 694 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
                 /* MISCELLANEOUS MACROS AND FUNCTIONS*/
 
@@ -2000,7 +2000,7 @@ typedef struct
 
 
 
-#line 709 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 709 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
 
 
@@ -2008,7 +2008,7 @@ typedef struct
  * Copyright (c) 1992-2009 by P.J. Plauger.  ALL RIGHTS RESERVED.
  * Consult your license regarding permissions and restrictions.
 V5.04:0576 */
-#line 12 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdint.h"
+#line 12 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdint.h"
 
 
 /* Fixed size types. These are all optional. */
@@ -2233,13 +2233,13 @@ typedef int __data_intptr_t; typedef unsigned int __data_uintptr_t;
 
 
 
-#line 258 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdint.h"
+#line 258 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdint.h"
 
 /*
  * Copyright (c) 1992-2009 by P.J. Plauger.  ALL RIGHTS RESERVED.
  * Consult your license regarding permissions and restrictions.
 V5.04:0576 */
-#line 47 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_types.h"
+#line 47 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_types.h"
 
 
 
@@ -2252,10 +2252,10 @@ V5.04:0576 */
    typedef uint32_t opus_uint32;
    typedef int64_t opus_int64;
    typedef uint64_t opus_uint64;
-#line 165 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_types.h"
+#line 165 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_types.h"
 
-#line 37 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\include\\opus.h"
-#line 1 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
+#line 37 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\include\\opus.h"
+#line 1 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
 /* Copyright (c) 2010-2011 Xiph.Org Foundation, Skype Limited
    Written by Jean-Marc Valin and Koen Vos */
 /*
@@ -2321,25 +2321,25 @@ V5.04:0576 */
 /** @cond OPUS_INTERNAL_DOC */
 /**Export control for opus functions */
 
-#line 79 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
+#line 79 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
 
-#line 88 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
+#line 88 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
 
-#line 100 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
+#line 100 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
 
-#line 112 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
+#line 112 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
 
 /**Warning attributes for opus functions
   * NONNULL is not used in OPUS_BUILD to avoid the compiler optimizing out
   * some paranoid null checks. */
-#line 126 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
+#line 126 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
 
 /** These are the actual Encoder CTL ID numbers.
   * They should not be used directly by applications.
   * In general, SETs should be even and GETs should be odd.*/
-#line 155 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
+#line 155 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
 /* #define OPUS_RESET_STATE 4028 */
-#line 168 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
+#line 168 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
 /* Don't use 4045, it's already taken by OPUS_GET_GAIN_REQUEST */
 
 
@@ -2372,9 +2372,9 @@ V5.04:0576 */
  * @hideinitializer */
 
 
-#line 207 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
+#line 207 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
 
-#line 218 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
+#line 218 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
 
 /**@}*/
 
@@ -2945,7 +2945,7 @@ V5.04:0576 */
 
 
 
-#line 38 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\include\\opus.h"
+#line 38 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\include\\opus.h"
 
 
 
@@ -3889,8 +3889,8 @@ typedef struct OpusRepacketizer OpusRepacketizer;
 
 
 
-#line 33 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\src\\repacketizer_demo.c"
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
+#line 33 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\src\\repacketizer_demo.c"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
 /* stdio.h standard header */
 /* Copyright 2003-2010 IAR Systems AB.  */
 
@@ -3900,7 +3900,7 @@ typedef struct OpusRepacketizer OpusRepacketizer;
   #pragma system_include
 
 
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 /* ycheck.h internal checking header file. */
 /* Copyright 2005-2010 IAR Systems AB. */
 
@@ -3946,10 +3946,10 @@ typedef struct OpusRepacketizer OpusRepacketizer;
 
 
 
-#line 67 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 67 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 
-#line 11 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
+#line 11 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
 /* ysizet.h internal header file. */
 /* Copyright 2003-2010 IAR Systems AB.  */
 
@@ -3960,7 +3960,7 @@ typedef struct OpusRepacketizer OpusRepacketizer;
   #pragma system_include
 
 
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 /* ycheck.h internal checking header file. */
 /* Copyright 2005-2010 IAR Systems AB. */
 
@@ -4006,9 +4006,9 @@ typedef struct OpusRepacketizer OpusRepacketizer;
 
 
 
-#line 67 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 67 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 
-#line 12 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
+#line 12 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
 
 
 
@@ -4034,8 +4034,8 @@ typedef unsigned int __data_size_t;
 
 
 
-#line 13 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ystdio.h"
+#line 13 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ystdio.h"
 /* ystdio.h internal header */
 /* Copyright 2009-2010 IAR Systems AB. */
 
@@ -4114,7 +4114,7 @@ __intrinsic __nounwind int rename(const char *, const char *);
  * Copyright (c) 1992-2009 by P.J. Plauger.  ALL RIGHTS RESERVED.
  * Consult your license regarding permissions and restrictions.
 V5.042:0576 */
-#line 14 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
+#line 14 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
 
 
 
@@ -4130,9 +4130,9 @@ V5.042:0576 */
   typedef _Filet FILE;
 
 
-#line 66 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
+#line 66 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
 
-#line 78 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
+#line 78 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
       
        extern FILE __iar_Stdin;
        extern FILE __iar_Stdout;
@@ -4144,7 +4144,7 @@ V5.042:0576 */
 
 
 
-#line 99 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
+#line 99 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
 
 
 
@@ -4162,7 +4162,7 @@ typedef _Fpost fpos_t;
 #pragma language=save
 #pragma language=extended
 
-#line 125 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
+#line 125 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
 
 
                 /* declarations */
@@ -4280,14 +4280,14 @@ _Pragma("function_effects = no_write(1), always_returns")      __intrinsic __nou
 
 
 
-#line 292 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
+#line 292 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
 
 /*
  * Copyright (c) 1992-2002 by P.J. Plauger.  ALL RIGHTS RESERVED.
  * Consult your license regarding permissions and restrictions.
 V5.04:0576 */
-#line 34 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\src\\repacketizer_demo.c"
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
+#line 34 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\src\\repacketizer_demo.c"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
 /* stdlib.h standard header */
 /* Copyright 2005-2010 IAR Systems AB. */
 
@@ -4298,7 +4298,7 @@ V5.04:0576 */
   #pragma system_include
 
 
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 /* ycheck.h internal checking header file. */
 /* Copyright 2005-2010 IAR Systems AB. */
 
@@ -4344,14 +4344,14 @@ V5.04:0576 */
 
 
 
-#line 67 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 67 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 
-#line 12 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
+#line 12 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
 /* ysizet.h internal header file. */
 /* Copyright 2003-2010 IAR Systems AB.  */
 
-#line 30 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
+#line 30 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
 
 
 
@@ -4359,7 +4359,7 @@ V5.04:0576 */
 
 
 
-#line 14 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
+#line 14 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
 
 
 /* Module consistency. */
@@ -4372,7 +4372,7 @@ V5.04:0576 */
 extern int __aeabi_MB_CUR_MAX(void);
 
 
-#line 34 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
+#line 34 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
 
 
 
@@ -4479,7 +4479,7 @@ _Pragma("function_effects = no_read(1), always_returns")    __intrinsic __nounwi
 
 
 
-#line 188 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
+#line 188 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
 
 
 
@@ -4554,14 +4554,14 @@ _Pragma("function_effects = no_write(1), no_read(2), always_returns") __intrinsi
   
 
 
-#line 276 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
+#line 276 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
 
 
 
   
   typedef void _Atexfun(void);
   
-#line 304 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
+#line 304 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
 
 
                 /* INLINES, FOR C and C++ */
@@ -4690,19 +4690,19 @@ _Pragma("function_effects = no_write(1), no_read(2), always_returns") __intrinsi
 
 
 
-#line 465 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
+#line 465 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
 
 
 
 
-#line 494 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
+#line 494 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
 
 /*
  * Copyright (c) 1992-2009 by P.J. Plauger.  ALL RIGHTS RESERVED.
  * Consult your license regarding permissions and restrictions.
 V5.04:0576 */
-#line 35 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\src\\repacketizer_demo.c"
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
+#line 35 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\src\\repacketizer_demo.c"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
 /* string.h standard header */
 /* Copyright 2009-2010 IAR Systems AB. */
 
@@ -4712,7 +4712,7 @@ V5.04:0576 */
   #pragma system_include
 
 
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 /* ycheck.h internal checking header file. */
 /* Copyright 2005-2010 IAR Systems AB. */
 
@@ -4758,14 +4758,14 @@ V5.04:0576 */
 
 
 
-#line 67 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 67 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 
-#line 11 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
+#line 11 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
 /* ysizet.h internal header file. */
 /* Copyright 2003-2010 IAR Systems AB.  */
 
-#line 30 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
+#line 30 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
 
 
 
@@ -4773,9 +4773,9 @@ V5.04:0576 */
 
 
 
-#line 13 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
+#line 13 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
 
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Product_string.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Product_string.h"
 /**************************************************
  *
  * ARM-specific configuration for string.h in DLib.
@@ -4816,7 +4816,7 @@ V5.04:0576 */
 
 
 
-#line 47 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Product_string.h"
+#line 47 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Product_string.h"
 
 
 
@@ -4854,7 +4854,7 @@ V5.04:0576 */
 
 
 
-#line 16 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
+#line 16 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
 
 
 
@@ -4903,7 +4903,7 @@ _Pragma("function_effects = no_write(2), always_returns")        __intrinsic __n
 
 
 
-#line 81 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
+#line 81 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
   _Pragma("function_effects = no_state, no_write(1), always_returns")    __intrinsic __nounwind void *memchr(const void *_S, int _C, size_t _N);
   _Pragma("function_effects = no_state, no_write(1), always_returns")    __intrinsic __nounwind char *strchr(const char *_S, int _C);
   _Pragma("function_effects = no_state, no_write(1,2), always_returns") __intrinsic __nounwind char *strpbrk(const char *_S, const char *_P);
@@ -4927,7 +4927,7 @@ _Pragma("function_effects = no_state, no_write(1,2), always_returns") __intrinsi
 
 
                 /* inlines and overloads, for C and C++ */
-#line 168 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
+#line 168 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
                 /* Then the overloads for C. */
     #pragma inline
     void *memchr(const void *_S, int _C, size_t _N)
@@ -4966,20 +4966,20 @@ _Pragma("function_effects = no_state, no_write(1,2), always_returns") __intrinsi
     return (__iar_Strerror(_Err, 0));
   }
 
-#line 451 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
+#line 451 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
 
 
 
 
 
 
-#line 479 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
+#line 479 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
 
 /*
  * Copyright (c) 1992-2009 by P.J. Plauger.  ALL RIGHTS RESERVED.
  * Consult your license regarding permissions and restrictions.
 V5.04:0576 */
-#line 36 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\src\\repacketizer_demo.c"
+#line 36 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\src\\repacketizer_demo.c"
 
 
 

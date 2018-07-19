@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\common\bin\cspybat" -f "C:\Users\PCCUBE\Desktop\Opus_17_jul_2018\Opus_rtl8711af\project\realtek_ameba1_va0_example\EWARM-RELEASE\settings\opus.Debug.general.xcl" --backend -f "C:\Users\PCCUBE\Desktop\Opus_17_jul_2018\Opus_rtl8711af\project\realtek_ameba1_va0_example\EWARM-RELEASE\settings\opus.Debug.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 7.5\common\bin\cspybat" -f "C:\Users\PRATIK\Desktop\Opus_17_jul_2018\Opus_rtl8711af\project\realtek_ameba1_va0_example\EWARM-RELEASE\settings\opus.Debug.general.xcl" --backend -f "C:\Users\PRATIK\Desktop\Opus_17_jul_2018\Opus_rtl8711af\project\realtek_ameba1_va0_example\EWARM-RELEASE\settings\opus.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\common\bin\cspybat" -f "C:\Users\PCCUBE\Desktop\Opus_17_jul_2018\Opus_rtl8711af\project\realtek_ameba1_va0_example\EWARM-RELEASE\settings\opus.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\PCCUBE\Desktop\Opus_17_jul_2018\Opus_rtl8711af\project\realtek_ameba1_va0_example\EWARM-RELEASE\settings\opus.Debug.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 7.5\common\bin\cspybat" -f "C:\Users\PRATIK\Desktop\Opus_17_jul_2018\Opus_rtl8711af\project\realtek_ameba1_va0_example\EWARM-RELEASE\settings\opus.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\PRATIK\Desktop\Opus_17_jul_2018\Opus_rtl8711af\project\realtek_ameba1_va0_example\EWARM-RELEASE\settings\opus.Debug.driver.xcl" 
 
 @echo off 
 :end

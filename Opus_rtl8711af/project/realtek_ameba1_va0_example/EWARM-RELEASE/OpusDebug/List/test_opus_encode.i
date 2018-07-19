@@ -1,4 +1,4 @@
-#line 1 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c"
+#line 1 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c"
 /* Copyright (c) 2011-2013 Xiph.Org Foundation
    Written by Gregory Maxwell */
 /*
@@ -30,7 +30,7 @@
 
 
 
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
 /* stdio.h standard header */
 /* Copyright 2003-2010 IAR Systems AB.  */
 
@@ -40,7 +40,7 @@
   #pragma system_include
 
 
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 /* ycheck.h internal checking header file. */
 /* Copyright 2005-2010 IAR Systems AB. */
 
@@ -86,7 +86,7 @@
 
 
 
-#line 67 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 67 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 
 
 
@@ -104,7 +104,7 @@
    i.e. the function will always return.
 */
 
-#line 103 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 103 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 
 
 
@@ -114,8 +114,8 @@
 
 
 
-#line 11 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 11 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 /* yvals.h internal configuration header file. */
 /* Copyright 2001-2010 IAR Systems AB. */
 
@@ -126,7 +126,7 @@
   #pragma system_include
 
 
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 /* ycheck.h internal checking header file. */
 /* Copyright 2005-2010 IAR Systems AB. */
 
@@ -172,9 +172,9 @@
 
 
 
-#line 67 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 67 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 
-#line 12 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 12 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
                 /* Convenience macros */
 
@@ -214,16 +214,16 @@
 
 
   /* Default turned on when compiling C++, EC++, or C99. */
-#line 59 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 59 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
 
 
 
 
-#line 70 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 70 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
                 /* Configuration */
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
 /***************************************************
  *
  * DLib_Defaults.h is the library configuration manager.
@@ -261,7 +261,7 @@
 
 
 /* Include the main configuration header file. */
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\INC\\c\\DLib_Config_Full.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\INC\\c\\DLib_Config_Full.h"
 /* Customer-specific DLib configuration. */
 /* Copyright (C) 2003 IAR Systems.  All rights reserved. */
 
@@ -284,12 +284,12 @@
 /* Turn on support for hex-floats in strtod. */
 
 
-#line 40 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+#line 40 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
   /* _DLIB_CONFIG_FILE_STRING is the quoted variant of above */
-#line 47 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+#line 47 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
 
 /* Include the product specific header file. */
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Product.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Product.h"
 
 
 
@@ -327,7 +327,7 @@
 
 
 /* Enable system locking  */
-#line 45 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Product.h"
+#line 45 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Product.h"
 
 /* Enable AEABI support */
 
@@ -354,7 +354,7 @@
 
 
 /* Configure generic ELF init routines. */
-#line 99 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Product.h"
+#line 99 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Product.h"
 
 
 
@@ -362,7 +362,7 @@
 
 
 
-#line 51 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+#line 51 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
 
 
 
@@ -656,7 +656,7 @@
  * Default is to support long long formatting.
  */
 
-#line 351 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+#line 351 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
 
 
 
@@ -865,7 +865,7 @@
  * Default is to support long long formatting in scanf.
  */
 
-#line 566 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+#line 566 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
 
 
 
@@ -1105,7 +1105,7 @@
 
 
 
-#line 812 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+#line 812 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
 
 
 /*
@@ -1113,13 +1113,13 @@
  * ARM AEABI. A target, except ARM, may deviate from it.
  */
 
-#line 826 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+#line 826 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
 
 
   /* Possible AEABI deviations */
-#line 836 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+#line 836 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
 
-#line 844 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+#line 844 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
   /*
    * The "difunc" table contains information about C++ objects that
    * should be dynamically initialized, where each entry in the table
@@ -1164,7 +1164,7 @@
  * Rtti support.
  */
 
-#line 899 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+#line 899 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
 
 /*
  * Use the "pointers to short" or "pointers to long" implementation of 
@@ -1203,7 +1203,7 @@
  */
 
   /* size_t/ptrdiff_t must be a 4 bytes unsigned integer. */
-#line 943 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+#line 943 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
 
 
 
@@ -1251,7 +1251,7 @@
  * Set this to __weak, if supported.
  *
  */
-#line 997 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
+#line 997 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Defaults.h"
 
 
 /*
@@ -1265,7 +1265,7 @@
 
 
 
-#line 73 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 73 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
 
 
@@ -1299,7 +1299,7 @@
  * _LONG_DOUBLE_IS_DOUBLE signals that all internal long double routines
  *                        aren't needed.
  */
-#line 147 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 147 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
 
 
@@ -1315,7 +1315,7 @@
 
 /* Has support for secure functions (printf_s, scanf_s, etc) */
 /* Will not compile if enabled */
-#line 170 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 170 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
 /* Has support for complex C types */
 
@@ -1337,7 +1337,7 @@
 
 
 /* True C++ language setup */
-#line 233 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 233 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
 
 
@@ -1350,7 +1350,7 @@
 
 
                 /* NAMESPACE CONTROL */
-#line 292 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 292 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
 
 
@@ -1360,7 +1360,7 @@
 
 
 
-#line 308 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 308 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
 
 
@@ -1369,7 +1369,7 @@
 
 
 
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xencoding_limits.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xencoding_limits.h"
 /* xencoding_limits.h internal header file */
 /* Copyright 2003-2010 IAR Systems AB.  */
 
@@ -1380,7 +1380,7 @@
   #pragma system_include
 
 
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 /* ycheck.h internal checking header file. */
 /* Copyright 2005-2010 IAR Systems AB. */
 
@@ -1426,25 +1426,25 @@
 
 
 
-#line 67 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 67 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 
-#line 12 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xencoding_limits.h"
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 12 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xencoding_limits.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 /* yvals.h internal configuration header file. */
 /* Copyright 2001-2010 IAR Systems AB. */
 
-#line 711 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 711 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
 /*
  * Copyright (c) 1992-2009 by P.J. Plauger.  ALL RIGHTS RESERVED.
  * Consult your license regarding permissions and restrictions.
 V5.04:0576 */
-#line 13 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xencoding_limits.h"
+#line 13 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xencoding_limits.h"
 
                                 /* Multibyte encoding length. */
 
 
-#line 24 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xencoding_limits.h"
+#line 24 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xencoding_limits.h"
 
 
 
@@ -1453,25 +1453,25 @@ V5.04:0576 */
 
 
 
-#line 38 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xencoding_limits.h"
+#line 38 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xencoding_limits.h"
 
 
 
-#line 55 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xencoding_limits.h"
+#line 55 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xencoding_limits.h"
 
 
 
-#line 317 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 317 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
 
 
                 /* FLOATING-POINT PROPERTIES */
 
                 /* float properties */
-#line 335 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 335 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
                 /* double properties */
-#line 360 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 360 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
                 /* long double properties */
                 /* (must be same as double) */
@@ -1479,7 +1479,7 @@ V5.04:0576 */
 
 
 
-#line 382 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 382 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
 
                 /* INTEGER PROPERTIES */
@@ -1497,7 +1497,7 @@ V5.04:0576 */
   typedef long long _Longlong;
   typedef unsigned long long _ULonglong;
   #pragma language=restore
-#line 405 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 405 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
 
 
@@ -1508,9 +1508,9 @@ V5.04:0576 */
   typedef unsigned short int _Wintt;
 
 
-#line 424 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 424 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
-#line 432 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 432 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
                 /* POINTER PROPERTIES */
 
@@ -1550,7 +1550,7 @@ __intrinsic __nounwind void __iar_Atexit(void (*)(void));
     unsigned int _Wchar;
     unsigned int _State;
   } _Mbstatet;
-#line 481 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 481 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
 
 
@@ -1579,7 +1579,7 @@ typedef struct
 
                 /* THREAD AND LOCALE CONTROL */
 
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
 /***************************************************
  *
  * DLib_Threads.h is the library threads manager.
@@ -1699,7 +1699,7 @@ typedef struct
 
 
 
-#line 157 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
+#line 157 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
 
   /* Thread support, library supports threaded variables in a user specified
      memory area, locks on heap and on FILE */
@@ -1713,13 +1713,13 @@ typedef struct
   
 
 
-#line 176 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
+#line 176 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
 
 
 
 
 
-#line 187 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
+#line 187 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
 
 
 
@@ -1768,7 +1768,7 @@ typedef struct
 
 
 
-#line 242 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
+#line 242 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
 
   /* The thread-local variable access function */
   void  *__iar_dlib_perthread_access(void  *);
@@ -1844,7 +1844,7 @@ typedef struct
   __intrinsic __nounwind void __iar_clearlocks(void);
 
 
-#line 323 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
+#line 323 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
 
   
 
@@ -1854,7 +1854,7 @@ typedef struct
 
   
 
-#line 341 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
+#line 341 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Threads.h"
 
   typedef unsigned _Once_t;
 
@@ -1874,12 +1874,12 @@ typedef struct
 
 
 
-#line 510 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 510 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
-#line 520 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 520 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
                 /* THREAD-LOCAL STORAGE */
-#line 528 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 528 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
 
                 /* MULTITHREAD PROPERTIES */
@@ -1906,12 +1906,12 @@ typedef struct
   _Pragma("object_attribute = __weak") __intrinsic __nounwind void __iar_Unlockdynamicfilelock(__iar_Rmtx *);
   
   
-#line 568 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 568 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
                 /* LOCK MACROS */
-#line 576 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 576 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
-#line 694 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 694 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
                 /* MISCELLANEOUS MACROS AND FUNCTIONS*/
 
@@ -1919,7 +1919,7 @@ typedef struct
 
 
 
-#line 709 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
+#line 709 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\yvals.h"
 
 
 
@@ -1927,8 +1927,8 @@ typedef struct
  * Copyright (c) 1992-2009 by P.J. Plauger.  ALL RIGHTS RESERVED.
  * Consult your license regarding permissions and restrictions.
 V5.04:0576 */
-#line 12 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
+#line 12 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
 /* ysizet.h internal header file. */
 /* Copyright 2003-2010 IAR Systems AB.  */
 
@@ -1939,7 +1939,7 @@ V5.04:0576 */
   #pragma system_include
 
 
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 /* ycheck.h internal checking header file. */
 /* Copyright 2005-2010 IAR Systems AB. */
 
@@ -1985,9 +1985,9 @@ V5.04:0576 */
 
 
 
-#line 67 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 67 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 
-#line 12 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
+#line 12 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
 
 
 
@@ -2013,8 +2013,8 @@ typedef unsigned int __data_size_t;
 
 
 
-#line 13 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ystdio.h"
+#line 13 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ystdio.h"
 /* ystdio.h internal header */
 /* Copyright 2009-2010 IAR Systems AB. */
 
@@ -2093,7 +2093,7 @@ __intrinsic __nounwind int rename(const char *, const char *);
  * Copyright (c) 1992-2009 by P.J. Plauger.  ALL RIGHTS RESERVED.
  * Consult your license regarding permissions and restrictions.
 V5.042:0576 */
-#line 14 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
+#line 14 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
 
 
 
@@ -2109,9 +2109,9 @@ V5.042:0576 */
   typedef _Filet FILE;
 
 
-#line 66 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
+#line 66 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
 
-#line 78 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
+#line 78 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
       
        extern FILE __iar_Stdin;
        extern FILE __iar_Stdout;
@@ -2123,7 +2123,7 @@ V5.042:0576 */
 
 
 
-#line 99 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
+#line 99 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
 
 
 
@@ -2141,7 +2141,7 @@ typedef _Fpost fpos_t;
 #pragma language=save
 #pragma language=extended
 
-#line 125 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
+#line 125 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
 
 
                 /* declarations */
@@ -2259,14 +2259,14 @@ _Pragma("function_effects = no_write(1), always_returns")      __intrinsic __nou
 
 
 
-#line 292 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
+#line 292 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdio.h"
 
 /*
  * Copyright (c) 1992-2002 by P.J. Plauger.  ALL RIGHTS RESERVED.
  * Consult your license regarding permissions and restrictions.
 V5.04:0576 */
-#line 33 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c"
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
+#line 33 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
 /* stdlib.h standard header */
 /* Copyright 2005-2010 IAR Systems AB. */
 
@@ -2277,7 +2277,7 @@ V5.04:0576 */
   #pragma system_include
 
 
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 /* ycheck.h internal checking header file. */
 /* Copyright 2005-2010 IAR Systems AB. */
 
@@ -2323,14 +2323,14 @@ V5.04:0576 */
 
 
 
-#line 67 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 67 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 
-#line 12 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
+#line 12 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
 /* ysizet.h internal header file. */
 /* Copyright 2003-2010 IAR Systems AB.  */
 
-#line 30 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
+#line 30 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
 
 
 
@@ -2338,7 +2338,7 @@ V5.04:0576 */
 
 
 
-#line 14 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
+#line 14 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
 
 
 /* Module consistency. */
@@ -2351,7 +2351,7 @@ V5.04:0576 */
 extern int __aeabi_MB_CUR_MAX(void);
 
 
-#line 34 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
+#line 34 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
 
 
 
@@ -2458,7 +2458,7 @@ _Pragma("function_effects = no_read(1), always_returns")    __intrinsic __nounwi
 
 
 
-#line 188 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
+#line 188 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
 
 
 
@@ -2533,14 +2533,14 @@ _Pragma("function_effects = no_write(1), no_read(2), always_returns") __intrinsi
   
 
 
-#line 276 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
+#line 276 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
 
 
 
   
   typedef void _Atexfun(void);
   
-#line 304 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
+#line 304 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
 
 
                 /* INLINES, FOR C and C++ */
@@ -2669,19 +2669,19 @@ _Pragma("function_effects = no_write(1), no_read(2), always_returns") __intrinsi
 
 
 
-#line 465 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
+#line 465 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
 
 
 
 
-#line 494 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
+#line 494 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdlib.h"
 
 /*
  * Copyright (c) 1992-2009 by P.J. Plauger.  ALL RIGHTS RESERVED.
  * Consult your license regarding permissions and restrictions.
 V5.04:0576 */
-#line 34 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c"
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\limits.h"
+#line 34 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\limits.h"
 /* limits.h standard header -- 8-bit version */
 /* Copyright 2003-2010 IAR Systems AB. */
 
@@ -2691,7 +2691,7 @@ V5.04:0576 */
   #pragma system_include
 
 
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 /* ycheck.h internal checking header file. */
 /* Copyright 2005-2010 IAR Systems AB. */
 
@@ -2737,14 +2737,14 @@ V5.04:0576 */
 
 
 
-#line 67 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 67 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 
-#line 11 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\limits.h"
-
-
+#line 11 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\limits.h"
 
 
-#line 26 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\limits.h"
+
+
+#line 26 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\limits.h"
         /* MULTIBYTE PROPERTIES */
 
 
@@ -2781,7 +2781,7 @@ V5.04:0576 */
 
 
         /* LONG LONG PROPERTIES */
-#line 69 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\limits.h"
+#line 69 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\limits.h"
 
 
 
@@ -2796,8 +2796,8 @@ V5.04:0576 */
  * Copyright (c) 1992-2009 by P.J. Plauger.  ALL RIGHTS RESERVED.
  * Consult your license regarding permissions and restrictions.
 V5.04:0576 */
-#line 35 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c"
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdint.h"
+#line 35 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdint.h"
 /* stdint.h standard header */
 /* Copyright 2003-2010 IAR Systems AB.  */
 
@@ -2807,7 +2807,7 @@ V5.04:0576 */
   #pragma system_include
 
 
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 /* ycheck.h internal checking header file. */
 /* Copyright 2005-2010 IAR Systems AB. */
 
@@ -2853,9 +2853,9 @@ V5.04:0576 */
 
 
 
-#line 67 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 67 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 
-#line 11 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdint.h"
+#line 11 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdint.h"
 
 
 
@@ -3081,14 +3081,14 @@ typedef int __data_intptr_t; typedef unsigned int __data_uintptr_t;
 
 
 
-#line 258 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdint.h"
+#line 258 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdint.h"
 
 /*
  * Copyright (c) 1992-2009 by P.J. Plauger.  ALL RIGHTS RESERVED.
  * Consult your license regarding permissions and restrictions.
 V5.04:0576 */
-#line 36 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c"
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
+#line 36 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
 /* math.h standard header */
 /* Copyright 2003-2010 IAR Systems AB. */
 
@@ -3098,7 +3098,7 @@ V5.04:0576 */
   #pragma system_include
 
 
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 /* ycheck.h internal checking header file. */
 /* Copyright 2005-2010 IAR Systems AB. */
 
@@ -3144,10 +3144,10 @@ V5.04:0576 */
 
 
 
-#line 67 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 67 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 
-#line 11 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ymath.h"
+#line 11 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ymath.h"
 /* ymath.h internal header */
 /* Copyright 2003-2010 IAR Systems AB. */
 
@@ -3159,7 +3159,7 @@ V5.04:0576 */
 
 
 
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 /* ycheck.h internal checking header file. */
 /* Copyright 2005-2010 IAR Systems AB. */
 
@@ -3205,9 +3205,9 @@ V5.04:0576 */
 
 
 
-#line 67 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 67 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 
-#line 13 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ymath.h"
+#line 13 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ymath.h"
 
 
 
@@ -3298,7 +3298,7 @@ _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic 
 
 
                 /* long double DECLARATIONS */
-#line 131 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ymath.h"
+#line 131 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ymath.h"
 
 
 
@@ -3339,8 +3339,8 @@ _Pragma("function_effects = no_state, write_errno, always_returns") __intrinsic 
  * Copyright (c) 1992-2009 by P.J. Plauger.  ALL RIGHTS RESERVED.
  * Consult your license regarding permissions and restrictions.
 V5.04:0576 */
-#line 12 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xtgmath.h"
+#line 12 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xtgmath.h"
 /* xtgmath.h internal header */
 /* Copyright 2009-2010 IAR Systems AB. */
 
@@ -3356,9 +3356,9 @@ V5.04:0576 */
 
 
 
-#line 23 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xtgmath.h"
+#line 23 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xtgmath.h"
 
-#line 240 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xtgmath.h"
+#line 240 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\xtgmath.h"
 
 
 
@@ -3366,11 +3366,11 @@ V5.04:0576 */
  * Copyright (c) 1992-2009 by P.J. Plauger.  ALL RIGHTS RESERVED.
  * Consult your license regarding permissions and restrictions.
  V5.04:0576 */
-#line 13 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
+#line 13 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
 
 
 
-#line 32 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
+#line 32 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
 
 
 
@@ -3688,10 +3688,10 @@ _Pragma("function_effects = no_state, write_errno, always_returns")    __intrins
 
 
 
-#line 505 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
+#line 505 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
 
 
-#line 1292 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
+#line 1292 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
 
 
 
@@ -3937,19 +3937,19 @@ _Pragma("function_effects = no_state, write_errno, always_returns")    __intrins
 
   
   
-#line 1680 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
+#line 1680 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
   
 
 
       
-#line 1693 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
+#line 1693 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
 
 
 
 
 
 
-#line 1705 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
+#line 1705 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
     
 
 
@@ -3999,25 +3999,25 @@ _Pragma("function_effects = no_state, write_errno, always_returns")    __intrins
     }
 
 
-#line 1777 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
+#line 1777 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
 
 
 
 
                 /* GENERIC TEMPLATES */
-#line 1857 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
+#line 1857 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
 
 
 
 
-#line 2013 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
+#line 2013 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
 
 /*
  * Copyright (c) 1992-2009 by P.J. Plauger.  ALL RIGHTS RESERVED.
  * Consult your license regarding permissions and restrictions.
 V5.04:0576 */
-#line 37 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c"
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
+#line 37 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
 /* string.h standard header */
 /* Copyright 2009-2010 IAR Systems AB. */
 
@@ -4027,7 +4027,7 @@ V5.04:0576 */
   #pragma system_include
 
 
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 /* ycheck.h internal checking header file. */
 /* Copyright 2005-2010 IAR Systems AB. */
 
@@ -4073,14 +4073,14 @@ V5.04:0576 */
 
 
 
-#line 67 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 67 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 
-#line 11 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
+#line 11 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
 /* ysizet.h internal header file. */
 /* Copyright 2003-2010 IAR Systems AB.  */
 
-#line 30 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
+#line 30 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
 
 
 
@@ -4088,9 +4088,9 @@ V5.04:0576 */
 
 
 
-#line 13 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
+#line 13 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
 
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Product_string.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Product_string.h"
 /**************************************************
  *
  * ARM-specific configuration for string.h in DLib.
@@ -4131,7 +4131,7 @@ V5.04:0576 */
 
 
 
-#line 47 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Product_string.h"
+#line 47 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\DLib_Product_string.h"
 
 
 
@@ -4169,7 +4169,7 @@ V5.04:0576 */
 
 
 
-#line 16 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
+#line 16 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
 
 
 
@@ -4218,7 +4218,7 @@ _Pragma("function_effects = no_write(2), always_returns")        __intrinsic __n
 
 
 
-#line 81 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
+#line 81 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
   _Pragma("function_effects = no_state, no_write(1), always_returns")    __intrinsic __nounwind void *memchr(const void *_S, int _C, size_t _N);
   _Pragma("function_effects = no_state, no_write(1), always_returns")    __intrinsic __nounwind char *strchr(const char *_S, int _C);
   _Pragma("function_effects = no_state, no_write(1,2), always_returns") __intrinsic __nounwind char *strpbrk(const char *_S, const char *_P);
@@ -4242,7 +4242,7 @@ _Pragma("function_effects = no_state, no_write(1,2), always_returns") __intrinsi
 
 
                 /* inlines and overloads, for C and C++ */
-#line 168 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
+#line 168 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
                 /* Then the overloads for C. */
     #pragma inline
     void *memchr(const void *_S, int _C, size_t _N)
@@ -4281,21 +4281,21 @@ _Pragma("function_effects = no_state, no_write(1,2), always_returns") __intrinsi
     return (__iar_Strerror(_Err, 0));
   }
 
-#line 451 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
+#line 451 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
 
 
 
 
 
 
-#line 479 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
+#line 479 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\string.h"
 
 /*
  * Copyright (c) 1992-2009 by P.J. Plauger.  ALL RIGHTS RESERVED.
  * Consult your license regarding permissions and restrictions.
 V5.04:0576 */
-#line 38 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c"
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\time.h"
+#line 38 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\time.h"
 /* time.h standard header */
 /* Copyright 2003-2010 IAR Systems AB. */
 
@@ -4305,7 +4305,7 @@ V5.04:0576 */
   #pragma system_include
 
 
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 /* ycheck.h internal checking header file. */
 /* Copyright 2005-2010 IAR Systems AB. */
 
@@ -4351,14 +4351,14 @@ V5.04:0576 */
 
 
 
-#line 67 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 67 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 
-#line 11 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\time.h"
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
+#line 11 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\time.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
 /* ysizet.h internal header file. */
 /* Copyright 2003-2010 IAR Systems AB.  */
 
-#line 30 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
+#line 30 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
 
 
 
@@ -4366,11 +4366,11 @@ V5.04:0576 */
 
 
 
-#line 13 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\time.h"
+#line 13 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\time.h"
 
 
 
-#line 32 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\time.h"
+#line 32 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\time.h"
 
 
 
@@ -4393,7 +4393,7 @@ V5.04:0576 */
   #pragma language=restore
 
 
-#line 64 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\time.h"
+#line 64 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\time.h"
 
 
 
@@ -4529,18 +4529,18 @@ __intrinsic __nounwind size_t strftime(char *, size_t, const char *,
 
 
 
-#line 224 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\time.h"
+#line 224 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\time.h"
 
 /*
  * Copyright (c) 1992-2009 by P.J. Plauger.  ALL RIGHTS RESERVED.
  * Consult your license regarding permissions and restrictions.
 V5.04:0576 */
-#line 39 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c"
+#line 39 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c"
 
 //#include <unistd.h>
 //#else
 //#include <process.h>
-#line 1 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\include\\opus_multistream.h"
+#line 1 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\include\\opus_multistream.h"
 /* Copyright (c) 2011 Xiph.Org Foundation
    Written by Jean-Marc Valin */
 /*
@@ -4576,7 +4576,7 @@ V5.04:0576 */
 
 
 
-#line 1 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus.h"
+#line 1 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus.h"
 /* Copyright (c) 2010-2011 Xiph.Org Foundation, Skype Limited
    Written by Jean-Marc Valin and Koen Vos */
 /*
@@ -4612,7 +4612,7 @@ V5.04:0576 */
 
 
 
-#line 1 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_types.h"
+#line 1 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_types.h"
 /* (C) COPYRIGHT 1994-2002 Xiph.Org Foundation */
 /* Modified by Jean-Marc Valin */
 /*
@@ -4657,18 +4657,18 @@ V5.04:0576 */
 
 
 /* Use the real stdint.h if it's there (taken from Paul Hsieh's pstdint.h) */
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdint.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdint.h"
 /* stdint.h standard header */
 /* Copyright 2003-2010 IAR Systems AB.  */
-#line 235 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdint.h"
+#line 235 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdint.h"
 
-#line 258 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdint.h"
+#line 258 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stdint.h"
 
 /*
  * Copyright (c) 1992-2009 by P.J. Plauger.  ALL RIGHTS RESERVED.
  * Consult your license regarding permissions and restrictions.
 V5.04:0576 */
-#line 47 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_types.h"
+#line 47 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_types.h"
 
 
 
@@ -4681,10 +4681,10 @@ V5.04:0576 */
    typedef uint32_t opus_uint32;
    typedef int64_t opus_int64;
    typedef uint64_t opus_uint64;
-#line 165 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_types.h"
+#line 165 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_types.h"
 
-#line 37 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus.h"
-#line 1 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
+#line 37 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus.h"
+#line 1 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
 /* Copyright (c) 2010-2011 Xiph.Org Foundation, Skype Limited
    Written by Jean-Marc Valin and Koen Vos */
 /*
@@ -4750,25 +4750,25 @@ V5.04:0576 */
 /** @cond OPUS_INTERNAL_DOC */
 /**Export control for opus functions */
 
-#line 79 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
+#line 79 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
 
-#line 88 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
+#line 88 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
 
-#line 100 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
+#line 100 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
 
-#line 112 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
+#line 112 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
 
 /**Warning attributes for opus functions
   * NONNULL is not used in OPUS_BUILD to avoid the compiler optimizing out
   * some paranoid null checks. */
-#line 126 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
+#line 126 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
 
 /** These are the actual Encoder CTL ID numbers.
   * They should not be used directly by applications.
   * In general, SETs should be even and GETs should be odd.*/
-#line 155 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
+#line 155 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
 /* #define OPUS_RESET_STATE 4028 */
-#line 168 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
+#line 168 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
 /* Don't use 4045, it's already taken by OPUS_GET_GAIN_REQUEST */
 
 
@@ -4801,9 +4801,9 @@ V5.04:0576 */
  * @hideinitializer */
 
 
-#line 207 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
+#line 207 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
 
-#line 218 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
+#line 218 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus_defines.h"
 
 /**@}*/
 
@@ -5374,7 +5374,7 @@ V5.04:0576 */
 
 
 
-#line 38 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus.h"
+#line 38 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\include\\opus.h"
 
 
 
@@ -6318,7 +6318,7 @@ typedef struct OpusRepacketizer OpusRepacketizer;
 
 
 
-#line 37 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\include\\opus_multistream.h"
+#line 37 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\include\\opus_multistream.h"
 
 
 
@@ -6942,8 +6942,8 @@ typedef struct OpusMSDecoder OpusMSDecoder;
 
 
 
-#line 46 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c"
-#line 1 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\../src/opus_private.h"
+#line 46 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c"
+#line 1 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\../src/opus_private.h"
 /* Copyright (c) 2012 Xiph.Org Foundation
    Written by Jean-Marc Valin */
 /*
@@ -6975,7 +6975,7 @@ typedef struct OpusMSDecoder OpusMSDecoder;
 
 
 
-#line 1 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
+#line 1 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
 /* Copyright (c) 2003-2008 Jean-Marc Valin
    Copyright (c) 2007-2008 CSIRO
    Copyright (c) 2007-2009 Xiph.Org Foundation
@@ -7015,17 +7015,15 @@ typedef struct OpusMSDecoder OpusMSDecoder;
 
 
 
-#line 48 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
+#line 48 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
 
-#line 56 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
-
-
+#line 56 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
 
 
 
-#line 88 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
 
 
+#line 88 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
 
 
 
@@ -7033,7 +7031,9 @@ typedef struct OpusMSDecoder OpusMSDecoder;
 
 
 
-#line 105 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
+
+
+#line 105 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
 
 /* Set this if opus_int64 is a native type of the CPU. */
 /* Assume that all LP64 architectures have fast 64-bit types; also x86_64
@@ -7046,7 +7046,7 @@ typedef struct OpusMSDecoder OpusMSDecoder;
 
 
 
-#line 178 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
+#line 178 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
 
 typedef float opus_val16;
 typedef float opus_val32;
@@ -7056,7 +7056,7 @@ typedef float celt_sig;
 typedef float celt_norm;
 typedef float celt_ener;
 
-#line 202 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
+#line 202 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
 
 
 
@@ -7074,7 +7074,7 @@ typedef float celt_ener;
 
 
 
-#line 230 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
+#line 230 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
 
 
 
@@ -7087,7 +7087,7 @@ typedef float celt_ener;
 
 
 
-#line 251 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
+#line 251 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
 
 
 
@@ -7097,7 +7097,7 @@ typedef float celt_ener;
 
 
 
-#line 269 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
+#line 269 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
 
 
 
@@ -7109,10 +7109,10 @@ typedef float celt_ener;
 
 
 
-#line 287 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
+#line 287 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\arch.h"
 
-#line 33 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\../src/opus_private.h"
-#line 1 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\celt.h"
+#line 33 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\../src/opus_private.h"
+#line 1 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\celt.h"
 /* Copyright (c) 2007-2008 CSIRO
    Copyright (c) 2007-2009 Xiph.Org Foundation
    Copyright (c) 2008 Gregory Maxwell
@@ -7150,7 +7150,7 @@ typedef float celt_ener;
 
 
 
-#line 1 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\include\\opus_custom.h"
+#line 1 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\include\\opus_custom.h"
 /* Copyright (c) 2007-2008 CSIRO
    Copyright (c) 2007-2009 Xiph.Org Foundation
    Copyright (c) 2008-2012 Gregory Maxwell
@@ -7194,7 +7194,7 @@ typedef float celt_ener;
 
 
 
-#line 55 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\include\\opus_custom.h"
+#line 55 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\include\\opus_custom.h"
 
 /** @defgroup opus_custom Opus Custom
   * @{
@@ -7283,7 +7283,7 @@ typedef struct OpusCustomMode OpusCustomMode;
     int channels
 ) ;
 
-#line 163 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\include\\opus_custom.h"
+#line 163 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\include\\opus_custom.h"
 
 
 /** Creates a new encoder state. Each stream needs its own encoder
@@ -7463,8 +7463,8 @@ typedef struct OpusCustomMode OpusCustomMode;
 
 
 
-#line 41 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\celt.h"
-#line 1 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\entenc.h"
+#line 41 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\celt.h"
+#line 1 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\entenc.h"
 /* Copyright (c) 2001-2011 Timothy B. Terriberry
    Copyright (c) 2008-2009 Xiph.Org Foundation */
 /*
@@ -7492,7 +7492,7 @@ typedef struct OpusCustomMode OpusCustomMode;
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stddef.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stddef.h"
 /* stddef.h standard header */
 /* Copyright 2009-2010 IAR Systems AB. */
 
@@ -7502,7 +7502,7 @@ typedef struct OpusCustomMode OpusCustomMode;
   #pragma system_include
 
 
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 /* ycheck.h internal checking header file. */
 /* Copyright 2005-2010 IAR Systems AB. */
 
@@ -7548,14 +7548,14 @@ typedef struct OpusCustomMode OpusCustomMode;
 
 
 
-#line 67 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
+#line 67 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ycheck.h"
 
-#line 11 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stddef.h"
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
+#line 11 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stddef.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
 /* ysizet.h internal header file. */
 /* Copyright 2003-2010 IAR Systems AB.  */
 
-#line 30 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
+#line 30 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\ysizet.h"
 
 
 
@@ -7563,7 +7563,7 @@ typedef struct OpusCustomMode OpusCustomMode;
 
 
 
-#line 13 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stddef.h"
+#line 13 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stddef.h"
 
 
 
@@ -7591,15 +7591,15 @@ typedef struct OpusCustomMode OpusCustomMode;
 
 
 
-#line 49 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stddef.h"
+#line 49 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stddef.h"
 
 
 /*
  * Copyright (c) 1992-2009 by P.J. Plauger.  ALL RIGHTS RESERVED.
  * Consult your license regarding permissions and restrictions.
 V5.04:0576 */
-#line 31 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\entenc.h"
-#line 1 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\entcode.h"
+#line 31 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\entenc.h"
+#line 1 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\entcode.h"
 /* Copyright (c) 2001-2011 Timothy B. Terriberry
    Copyright (c) 2008-2009 Xiph.Org Foundation */
 /*
@@ -7630,10 +7630,10 @@ V5.04:0576 */
 
 
 
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\limits.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\limits.h"
 /* limits.h standard header -- 8-bit version */
 /* Copyright 2003-2010 IAR Systems AB. */
-#line 73 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\limits.h"
+#line 73 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\limits.h"
 
 
 
@@ -7644,21 +7644,21 @@ V5.04:0576 */
  * Copyright (c) 1992-2009 by P.J. Plauger.  ALL RIGHTS RESERVED.
  * Consult your license regarding permissions and restrictions.
 V5.04:0576 */
-#line 34 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\entcode.h"
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stddef.h"
+#line 34 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\entcode.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stddef.h"
 /* stddef.h standard header */
 /* Copyright 2009-2010 IAR Systems AB. */
-#line 39 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stddef.h"
+#line 39 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stddef.h"
 
-#line 49 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stddef.h"
+#line 49 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stddef.h"
 
 
 /*
  * Copyright (c) 1992-2009 by P.J. Plauger.  ALL RIGHTS RESERVED.
  * Consult your license regarding permissions and restrictions.
 V5.04:0576 */
-#line 35 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\entcode.h"
-#line 1 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\ecintrin.h"
+#line 35 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\entcode.h"
+#line 1 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\ecintrin.h"
 /* Copyright (c) 2003-2008 Timothy B. Terriberry
    Copyright (c) 2008 Xiph.Org Foundation */
 /*
@@ -7687,23 +7687,23 @@ V5.04:0576 */
 */
 
 /*Some common macros for potential platform-specific optimization.*/
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
 /* math.h standard header */
 /* Copyright 2003-2010 IAR Systems AB. */
-#line 1859 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
+#line 1859 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
 
 
-#line 2013 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
+#line 2013 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\math.h"
 
 /*
  * Copyright (c) 1992-2009 by P.J. Plauger.  ALL RIGHTS RESERVED.
  * Consult your license regarding permissions and restrictions.
 V5.04:0576 */
-#line 31 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\ecintrin.h"
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\limits.h"
+#line 31 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\ecintrin.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\limits.h"
 /* limits.h standard header -- 8-bit version */
 /* Copyright 2003-2010 IAR Systems AB. */
-#line 73 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\limits.h"
+#line 73 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\limits.h"
 
 
 
@@ -7714,7 +7714,7 @@ V5.04:0576 */
  * Copyright (c) 1992-2009 by P.J. Plauger.  ALL RIGHTS RESERVED.
  * Consult your license regarding permissions and restrictions.
 V5.04:0576 */
-#line 32 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\ecintrin.h"
+#line 32 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\ecintrin.h"
 
 
 
@@ -7734,11 +7734,11 @@ V5.04:0576 */
 /*Count leading zeros.
   This macro should only be used for implementing ec_ilog(), if it is defined.
   All other code should use EC_ILOG() instead.*/
-#line 76 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\ecintrin.h"
+#line 76 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\ecintrin.h"
 
-#line 84 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\ecintrin.h"
+#line 84 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\ecintrin.h"
 int ec_ilog(opus_uint32 _v);
-#line 36 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\entcode.h"
+#line 36 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\entcode.h"
 
 extern const opus_uint32 SMALL_DIV_TABLE[129];
 
@@ -7829,19 +7829,19 @@ opus_uint32 ec_tell_frac(ec_ctx *_this);
 /* Tested exhaustively for all n and for 1<=d<=256 */
 static inline opus_uint32 celt_udiv(opus_uint32 n, opus_uint32 d) {
    ;
-#line 136 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\entcode.h"
+#line 136 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\entcode.h"
    return n/d;
 
 }
 
 static inline opus_int32 celt_sudiv(opus_int32 n, opus_int32 d) {
    ;
-#line 148 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\entcode.h"
+#line 148 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\entcode.h"
    return n/d;
 
 }
 
-#line 32 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\entenc.h"
+#line 32 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\entenc.h"
 
 /*Initializes the encoder.
   _buf:  The buffer to store output bytes in.
@@ -7920,8 +7920,8 @@ void ec_enc_shrink(ec_enc *_this,opus_uint32 _size);
   ec_enc_init() must be called before the encoder can be used again.*/
 void ec_enc_done(ec_enc *_this);
 
-#line 42 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\celt.h"
-#line 1 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\entdec.h"
+#line 42 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\celt.h"
+#line 1 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\entdec.h"
 /* Copyright (c) 2001-2011 Timothy B. Terriberry
    Copyright (c) 2008-2009 Xiph.Org Foundation */
 /*
@@ -7949,10 +7949,10 @@ void ec_enc_done(ec_enc *_this);
    SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
 
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\limits.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\limits.h"
 /* limits.h standard header -- 8-bit version */
 /* Copyright 2003-2010 IAR Systems AB. */
-#line 73 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\limits.h"
+#line 73 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\limits.h"
 
 
 
@@ -7963,8 +7963,8 @@ void ec_enc_done(ec_enc *_this);
  * Copyright (c) 1992-2009 by P.J. Plauger.  ALL RIGHTS RESERVED.
  * Consult your license regarding permissions and restrictions.
 V5.04:0576 */
-#line 31 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\entdec.h"
-#line 1 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\entcode.h"
+#line 31 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\entdec.h"
+#line 1 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\entcode.h"
 /* Copyright (c) 2001-2011 Timothy B. Terriberry
    Copyright (c) 2008-2009 Xiph.Org Foundation */
 /*
@@ -7995,7 +7995,7 @@ V5.04:0576 */
 
 
 
-#line 32 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\entdec.h"
+#line 32 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\celt\\entdec.h"
 
 /*Initializes the decoder.
   _buf: The input buffer to use.
@@ -8064,7 +8064,7 @@ opus_uint32 ec_dec_uint(ec_dec *_this,opus_uint32 _ft);
   Return: The decoded bits.*/
 opus_uint32 ec_dec_bits(ec_dec *_this,unsigned _ftb);
 
-#line 43 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\celt.h"
+#line 43 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\celt.h"
 
 
 
@@ -8193,14 +8193,14 @@ static const unsigned char spread_icdf[4] = {25, 23, 2, 0};
 
 static const unsigned char tapset_icdf[3]={2,1,0};
 
-#line 206 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\celt.h"
+#line 206 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\celt.h"
 
 
 
 
 extern const signed char tf_select_table[4][8];
 
-#line 218 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\celt.h"
+#line 218 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\celt.h"
 
 int resampling_factor(opus_int32 rate);
 
@@ -8223,28 +8223,28 @@ void comb_filter(opus_val32 *y, opus_val32 *x, int T0, int T1, int N,
 
 void init_caps(const OpusCustomMode *m,int *cap,int LM,int C);
 
-#line 246 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\celt.h"
+#line 246 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\project\\realtek_ameba1_va0_example\\EWARM-RELEASE\\..\\..\\..\\external\\opus\\celt\\celt.h"
 
 
 
 
 
-#line 35 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\../src/opus_private.h"
+#line 35 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\../src/opus_private.h"
 
 #include <stdarg.h> /* va_list */
-#line 1 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stddef.h"
+#line 1 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stddef.h"
 /* stddef.h standard header */
 /* Copyright 2009-2010 IAR Systems AB. */
-#line 39 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stddef.h"
+#line 39 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stddef.h"
 
-#line 49 "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stddef.h"
+#line 49 "C:\\Program Files\\IAR Systems\\Embedded Workbench 7.5\\arm\\inc\\c\\stddef.h"
 
 
 /*
  * Copyright (c) 1992-2009 by P.J. Plauger.  ALL RIGHTS RESERVED.
  * Consult your license regarding permissions and restrictions.
 V5.04:0576 */
-#line 38 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\../src/opus_private.h"
+#line 38 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\../src/opus_private.h"
 
 struct OpusRepacketizer {
    unsigned char toc;
@@ -8410,8 +8410,8 @@ int opus_multistream_decode_native(
   void *user_data
 );
 
-#line 48 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c"
-#line 1 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_common.h"
+#line 48 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c"
+#line 1 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_common.h"
 /* Copyright (c) 2011 Xiph.Org Foundation
    Written by Gregory Maxwell */
 /*
@@ -8494,9 +8494,9 @@ static inline void _test_failed(const char *file, int line)
 
 
 void regression_test(void);
-#line 49 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c"
+#line 49 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c"
 
-#line 56 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c"
+#line 56 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c"
 
 void generate_music(short *buf, opus_int32 len)
 {
@@ -8527,7 +8527,7 @@ void generate_music(short *buf, opus_int32 len)
    }
 }
 
-#line 114 "C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c"
+#line 114 "C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c"
 
 int get_frame_size_enum(int frame_size, int sampling_rate)
 {
@@ -8552,7 +8552,7 @@ int get_frame_size_enum(int frame_size, int sampling_rate)
    else if(frame_size==6*sampling_rate/50)
       frame_size_enum = 5009;
    else
-      _test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 138);;
+      _test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 138);;
 
    return frame_size_enum;
 }
@@ -8579,14 +8579,14 @@ void test_encode(OpusEncoder *enc, int channels, int frame_size, OpusDecoder *de
       if(len<0 || len>(1500)) {
          fprintf((& __iar_Stderr),"%s\n",debug_info);
          fprintf((& __iar_Stderr),"opus_encode() returned %d\n",len);
-         _test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 165);;
+         _test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 165);;
       }
 
       out_samples = opus_decode(dec, packet, len, outbuf, (5760), 0);
       if(out_samples!=frame_size) {
          fprintf((& __iar_Stderr),"%s\n",debug_info);
          fprintf((& __iar_Stderr),"opus_decode() returned %d\n",out_samples);
-         _test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 172);;
+         _test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 172);;
       }
 
       samp_count += frame_size;
@@ -8630,10 +8630,10 @@ void fuzz_encoder_settings(const int num_encoders, const int num_setting_changes
       int application = (applications[fast_rand() % sizeof(applications)/sizeof(applications[0])]);
 
       dec = opus_decoder_create(sampling_rate, num_channels, &err);
-      if(err!=0 || dec==0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 216);;
+      if(err!=0 || dec==0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 216);;
 
       enc = opus_encoder_create(sampling_rate, num_channels, application, &err);
-      if(err!=0 || enc==0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 219);;
+      if(err!=0 || enc==0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 219);;
 
       for (j=0; j<num_setting_changes; j++) {
          int bitrate = (bitrates[fast_rand() % sizeof(bitrates)/sizeof(bitrates[0])]);
@@ -8662,19 +8662,19 @@ void fuzz_encoder_settings(const int num_encoders, const int num_setting_changes
                  force_channel, vbr, vbr_constraint, complexity, max_bw, sig, inband_fec,
                  pkt_loss, lsb_depth, pred_disabled, dtx, frame_size_ms_x2);
 
-         if(opus_encoder_ctl(enc, 4002, (((void)((bitrate) == (opus_int32)0)), (opus_int32)(bitrate))) != 0) _test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 248);;
-         if(opus_encoder_ctl(enc, 4022, (((void)((force_channel) == (opus_int32)0)), (opus_int32)(force_channel))) != 0) _test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 249);;
-         if(opus_encoder_ctl(enc, 4006, (((void)((vbr) == (opus_int32)0)), (opus_int32)(vbr))) != 0) _test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 250);;
-         if(opus_encoder_ctl(enc, 4020, (((void)((vbr_constraint) == (opus_int32)0)), (opus_int32)(vbr_constraint))) != 0) _test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 251);;
-         if(opus_encoder_ctl(enc, 4010, (((void)((complexity) == (opus_int32)0)), (opus_int32)(complexity))) != 0) _test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 252);;
-         if(opus_encoder_ctl(enc, 4004, (((void)((max_bw) == (opus_int32)0)), (opus_int32)(max_bw))) != 0) _test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 253);;
-         if(opus_encoder_ctl(enc, 4024, (((void)((sig) == (opus_int32)0)), (opus_int32)(sig))) != 0) _test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 254);;
-         if(opus_encoder_ctl(enc, 4012, (((void)((inband_fec) == (opus_int32)0)), (opus_int32)(inband_fec))) != 0) _test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 255);;
-         if(opus_encoder_ctl(enc, 4014, (((void)((pkt_loss) == (opus_int32)0)), (opus_int32)(pkt_loss))) != 0) _test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 256);;
-         if(opus_encoder_ctl(enc, 4036, (((void)((lsb_depth) == (opus_int32)0)), (opus_int32)(lsb_depth))) != 0) _test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 257);;
-         if(opus_encoder_ctl(enc, 4042, (((void)((pred_disabled) == (opus_int32)0)), (opus_int32)(pred_disabled))) != 0) _test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 258);;
-         if(opus_encoder_ctl(enc, 4016, (((void)((dtx) == (opus_int32)0)), (opus_int32)(dtx))) != 0) _test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 259);;
-         if(opus_encoder_ctl(enc, 4040, (((void)((frame_size_enum) == (opus_int32)0)), (opus_int32)(frame_size_enum))) != 0) _test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 260);;
+         if(opus_encoder_ctl(enc, 4002, (((void)((bitrate) == (opus_int32)0)), (opus_int32)(bitrate))) != 0) _test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 248);;
+         if(opus_encoder_ctl(enc, 4022, (((void)((force_channel) == (opus_int32)0)), (opus_int32)(force_channel))) != 0) _test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 249);;
+         if(opus_encoder_ctl(enc, 4006, (((void)((vbr) == (opus_int32)0)), (opus_int32)(vbr))) != 0) _test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 250);;
+         if(opus_encoder_ctl(enc, 4020, (((void)((vbr_constraint) == (opus_int32)0)), (opus_int32)(vbr_constraint))) != 0) _test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 251);;
+         if(opus_encoder_ctl(enc, 4010, (((void)((complexity) == (opus_int32)0)), (opus_int32)(complexity))) != 0) _test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 252);;
+         if(opus_encoder_ctl(enc, 4004, (((void)((max_bw) == (opus_int32)0)), (opus_int32)(max_bw))) != 0) _test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 253);;
+         if(opus_encoder_ctl(enc, 4024, (((void)((sig) == (opus_int32)0)), (opus_int32)(sig))) != 0) _test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 254);;
+         if(opus_encoder_ctl(enc, 4012, (((void)((inband_fec) == (opus_int32)0)), (opus_int32)(inband_fec))) != 0) _test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 255);;
+         if(opus_encoder_ctl(enc, 4014, (((void)((pkt_loss) == (opus_int32)0)), (opus_int32)(pkt_loss))) != 0) _test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 256);;
+         if(opus_encoder_ctl(enc, 4036, (((void)((lsb_depth) == (opus_int32)0)), (opus_int32)(lsb_depth))) != 0) _test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 257);;
+         if(opus_encoder_ctl(enc, 4042, (((void)((pred_disabled) == (opus_int32)0)), (opus_int32)(pred_disabled))) != 0) _test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 258);;
+         if(opus_encoder_ctl(enc, 4016, (((void)((dtx) == (opus_int32)0)), (opus_int32)(dtx))) != 0) _test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 259);;
+         if(opus_encoder_ctl(enc, 4040, (((void)((frame_size_enum) == (opus_int32)0)), (opus_int32)(frame_size_enum))) != 0) _test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 260);;
 
          test_encode(enc, num_channels, frame_size, dec, debug_info);
       }
@@ -8714,55 +8714,55 @@ int run_test1(int no_fuzz)
    fprintf((& __iar_Stdout),"  Encode+Decode tests.\n");
 
    enc = opus_encoder_create(48000, 2, 2048, &err);
-   if(err != 0 || enc==0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 300);;
+   if(err != 0 || enc==0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 300);;
 
    for(i=0;i<2;i++)
    {
       int *ret_err;
       ret_err = i?0:&err;
       MSenc = opus_multistream_encoder_create(8000, 2, 2, 0, mapping, -5, ret_err);
-      if((ret_err && *ret_err != -1) || MSenc!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 307);;
+      if((ret_err && *ret_err != -1) || MSenc!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 307);;
 
       MSenc = opus_multistream_encoder_create(8000, 0, 1, 0, mapping, 2048, ret_err);
-      if((ret_err && *ret_err != -1) || MSenc!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 310);;
+      if((ret_err && *ret_err != -1) || MSenc!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 310);;
 
       MSenc = opus_multistream_encoder_create(44100, 2, 2, 0, mapping, 2048, ret_err);
-      if((ret_err && *ret_err != -1) || MSenc!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 313);;
+      if((ret_err && *ret_err != -1) || MSenc!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 313);;
 
       MSenc = opus_multistream_encoder_create(8000, 2, 2, 3, mapping, 2048, ret_err);
-      if((ret_err && *ret_err != -1) || MSenc!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 316);;
+      if((ret_err && *ret_err != -1) || MSenc!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 316);;
 
       MSenc = opus_multistream_encoder_create(8000, 2, -1, 0, mapping, 2048, ret_err);
-      if((ret_err && *ret_err != -1) || MSenc!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 319);;
+      if((ret_err && *ret_err != -1) || MSenc!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 319);;
 
       MSenc = opus_multistream_encoder_create(8000, 256, 2, 0, mapping, 2048, ret_err);
-      if((ret_err && *ret_err != -1) || MSenc!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 322);;
+      if((ret_err && *ret_err != -1) || MSenc!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 322);;
    }
 
    MSenc = opus_multistream_encoder_create(8000, 2, 2, 0, mapping, 2049, &err);
-   if(err != 0 || MSenc==0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 326);;
+   if(err != 0 || MSenc==0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 326);;
 
    /*Some multistream encoder API tests*/
-   if(opus_multistream_encoder_ctl(MSenc, 4003, ((&i) + ((&i) - (opus_int32*)(&i))))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 329);;
-   if(opus_multistream_encoder_ctl(MSenc, 4037, ((&i) + ((&i) - (opus_int32*)(&i))))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 330);;
-   if(i<16)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 331);;
+   if(opus_multistream_encoder_ctl(MSenc, 4003, ((&i) + ((&i) - (opus_int32*)(&i))))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 329);;
+   if(opus_multistream_encoder_ctl(MSenc, 4037, ((&i) + ((&i) - (opus_int32*)(&i))))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 330);;
+   if(i<16)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 331);;
 
    {
       OpusEncoder *tmp_enc;
-      if(opus_multistream_encoder_ctl(MSenc,  5120, (((void)((1) == (opus_int32)0)), (opus_int32)(1)), ((&tmp_enc) + ((&tmp_enc) - (OpusEncoder* *)(&tmp_enc))))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 335);;
-      if(opus_encoder_ctl(tmp_enc, 4037, ((&j) + ((&j) - (opus_int32*)(&j))))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 336);;
-      if(i!=j)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 337);;
-      if(opus_multistream_encoder_ctl(MSenc,  5120, (((void)((2) == (opus_int32)0)), (opus_int32)(2)), ((&tmp_enc) + ((&tmp_enc) - (OpusEncoder* *)(&tmp_enc))))!= -1)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 338);;
+      if(opus_multistream_encoder_ctl(MSenc,  5120, (((void)((1) == (opus_int32)0)), (opus_int32)(1)), ((&tmp_enc) + ((&tmp_enc) - (OpusEncoder* *)(&tmp_enc))))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 335);;
+      if(opus_encoder_ctl(tmp_enc, 4037, ((&j) + ((&j) - (opus_int32*)(&j))))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 336);;
+      if(i!=j)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 337);;
+      if(opus_multistream_encoder_ctl(MSenc,  5120, (((void)((2) == (opus_int32)0)), (opus_int32)(2)), ((&tmp_enc) + ((&tmp_enc) - (OpusEncoder* *)(&tmp_enc))))!= -1)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 338);;
    }
 
    dec = opus_decoder_create(48000, 2, &err);
-   if(err != 0 || dec==0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 342);;
+   if(err != 0 || dec==0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 342);;
 
    MSdec = opus_multistream_decoder_create(48000, 2, 2, 0, mapping, &err);
-   if(err != 0 || MSdec==0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 345);;
+   if(err != 0 || MSdec==0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 345);;
 
    MSdec_err = opus_multistream_decoder_create(48000, 3, 2, 0, mapping, &err);
-   if(err != 0 || MSdec_err==0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 348);;
+   if(err != 0 || MSdec_err==0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 348);;
 
    dec_err[0]=(OpusDecoder *)malloc(opus_decoder_get_size(2));
    memcpy(dec_err[0],dec,opus_decoder_get_size(2));
@@ -8775,7 +8775,7 @@ int run_test1(int no_fuzz)
    dec_err[7] = opus_decoder_create(12000, 1, &err);
    dec_err[8] = opus_decoder_create(8000, 2, &err);
    dec_err[9] = opus_decoder_create(8000, 1, &err);
-   for(i=0;i<10;i++)if(dec_err[i]==0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 361);;
+   for(i=0;i<10;i++)if(dec_err[i]==0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 361);;
 
    {
       OpusEncoder *enccpy;
@@ -8790,7 +8790,7 @@ int run_test1(int no_fuzz)
    inbuf=(short *)malloc(sizeof(short)*(48000*30)*2);
    outbuf=(short *)malloc(sizeof(short)*(48000*30)*2);
    out2buf=(short *)malloc(sizeof(short)*(5760)*3);
-   if(inbuf==0 || outbuf==0 || out2buf==0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 376);;
+   if(inbuf==0 || outbuf==0 || out2buf==0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 376);;
 
    generate_music(inbuf,(48000*30));
 
@@ -8799,16 +8799,16 @@ int run_test1(int no_fuzz)
    fwrite(inbuf, 1, SAMPLES*2*2, foo);
    fclose(foo);*/
 
-   if(opus_encoder_ctl(enc, 4008, (((void)((-1000) == (opus_int32)0)), (opus_int32)(-1000)))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 385);;
-   if(opus_encoder_ctl(enc, 11002, (((void)((-2) == (opus_int32)0)), (opus_int32)(-2)))!= -1)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 386);;
-   if(opus_encode(enc, inbuf, 500, packet, (1500))!= -1)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 387);;
+   if(opus_encoder_ctl(enc, 4008, (((void)((-1000) == (opus_int32)0)), (opus_int32)(-1000)))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 385);;
+   if(opus_encoder_ctl(enc, 11002, (((void)((-2) == (opus_int32)0)), (opus_int32)(-2)))!= -1)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 386);;
+   if(opus_encode(enc, inbuf, 500, packet, (1500))!= -1)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 387);;
 
    for(rc=0;rc<3;rc++)
    {
-      if(opus_encoder_ctl(enc, 4006, (((void)((rc<2) == (opus_int32)0)), (opus_int32)(rc<2)))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 391);;
-      if(opus_encoder_ctl(enc, 4020, (((void)((rc==1) == (opus_int32)0)), (opus_int32)(rc==1)))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 392);;
-      if(opus_encoder_ctl(enc, 4020, (((void)((rc==1) == (opus_int32)0)), (opus_int32)(rc==1)))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 393);;
-      if(opus_encoder_ctl(enc, 4012, (((void)((rc==0) == (opus_int32)0)), (opus_int32)(rc==0)))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 394);;
+      if(opus_encoder_ctl(enc, 4006, (((void)((rc<2) == (opus_int32)0)), (opus_int32)(rc<2)))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 391);;
+      if(opus_encoder_ctl(enc, 4020, (((void)((rc==1) == (opus_int32)0)), (opus_int32)(rc==1)))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 392);;
+      if(opus_encoder_ctl(enc, 4020, (((void)((rc==1) == (opus_int32)0)), (opus_int32)(rc==1)))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 393);;
+      if(opus_encoder_ctl(enc, 4012, (((void)((rc==0) == (opus_int32)0)), (opus_int32)(rc==0)))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 394);;
       for(j=0;j<13;j++)
       {
          int rate;
@@ -8822,61 +8822,61 @@ int run_test1(int no_fuzz)
             frame_size=frame[j];
             if((fast_rand()&255)==0)
             {
-               if(opus_encoder_ctl(enc, 4028)!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 408);;
-               if(opus_decoder_ctl(dec, 4028)!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 409);;
+               if(opus_encoder_ctl(enc, 4028)!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 408);;
+               if(opus_decoder_ctl(dec, 4028)!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 409);;
                if((fast_rand()&1)!=0)
                {
-                  if(opus_decoder_ctl(dec_err[fast_rand()&1], 4028)!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 412);;
+                  if(opus_decoder_ctl(dec_err[fast_rand()&1], 4028)!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 412);;
                }
             }
             if((fast_rand()&127)==0)
             {
-               if(opus_decoder_ctl(dec_err[fast_rand()&1], 4028)!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 417);;
+               if(opus_decoder_ctl(dec_err[fast_rand()&1], 4028)!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 417);;
             }
             if(fast_rand()%10==0){
                int complex=fast_rand()%11;
-               if(opus_encoder_ctl(enc, 4010, (((void)((complex) == (opus_int32)0)), (opus_int32)(complex)))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 421);;
+               if(opus_encoder_ctl(enc, 4010, (((void)((complex) == (opus_int32)0)), (opus_int32)(complex)))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 421);;
             }
             if(fast_rand()%50==0)opus_decoder_ctl(dec, 4028);
-            if(opus_encoder_ctl(enc, 4012, (((void)((rc==0) == (opus_int32)0)), (opus_int32)(rc==0)))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 424);;
-            if(opus_encoder_ctl(enc, 11002, (((void)((1000+modes[j]) == (opus_int32)0)), (opus_int32)(1000+modes[j])))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 425);;
-            if(opus_encoder_ctl(enc, 4016, (((void)((fast_rand()&1) == (opus_int32)0)), (opus_int32)(fast_rand()&1)))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 426);;
-            if(opus_encoder_ctl(enc, 4002, (((void)((rate) == (opus_int32)0)), (opus_int32)(rate)))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 427);;
-            if(opus_encoder_ctl(enc, 4022, (((void)(((rates[j]>=64000?2:1)) == (opus_int32)0)), (opus_int32)((rates[j]>=64000?2:1))))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 428);;
-            if(opus_encoder_ctl(enc, 4010, (((void)(((count>>2)%11) == (opus_int32)0)), (opus_int32)((count>>2)%11)))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 429);;
-            if(opus_encoder_ctl(enc, 4014, (((void)(((fast_rand()&15)&(fast_rand()%15)) == (opus_int32)0)), (opus_int32)((fast_rand()&15)&(fast_rand()%15))))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 430);;
+            if(opus_encoder_ctl(enc, 4012, (((void)((rc==0) == (opus_int32)0)), (opus_int32)(rc==0)))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 424);;
+            if(opus_encoder_ctl(enc, 11002, (((void)((1000+modes[j]) == (opus_int32)0)), (opus_int32)(1000+modes[j])))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 425);;
+            if(opus_encoder_ctl(enc, 4016, (((void)((fast_rand()&1) == (opus_int32)0)), (opus_int32)(fast_rand()&1)))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 426);;
+            if(opus_encoder_ctl(enc, 4002, (((void)((rate) == (opus_int32)0)), (opus_int32)(rate)))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 427);;
+            if(opus_encoder_ctl(enc, 4022, (((void)(((rates[j]>=64000?2:1)) == (opus_int32)0)), (opus_int32)((rates[j]>=64000?2:1))))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 428);;
+            if(opus_encoder_ctl(enc, 4010, (((void)(((count>>2)%11) == (opus_int32)0)), (opus_int32)((count>>2)%11)))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 429);;
+            if(opus_encoder_ctl(enc, 4014, (((void)(((fast_rand()&15)&(fast_rand()%15)) == (opus_int32)0)), (opus_int32)((fast_rand()&15)&(fast_rand()%15))))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 430);;
             bw=modes[j]==0?1101+(fast_rand()%3):
                modes[j]==1?1104+(fast_rand()&1):
                            1101+(fast_rand()%5);
             if(modes[j]==2&&bw==1102)bw+=3;
-            if(opus_encoder_ctl(enc, 4008, (((void)((bw) == (opus_int32)0)), (opus_int32)(bw)))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 435);;
+            if(opus_encoder_ctl(enc, 4008, (((void)((bw) == (opus_int32)0)), (opus_int32)(bw)))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 435);;
             len = opus_encode(enc, &inbuf[i<<1], frame_size, packet, (1500));
-            if(len<0 || len>(1500))_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 437);;
-            if(opus_encoder_ctl(enc, 4031, ((&enc_final_range) + ((&enc_final_range) - (opus_uint32*)(&enc_final_range))))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 438);;
+            if(len<0 || len>(1500))_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 437);;
+            if(opus_encoder_ctl(enc, 4031, ((&enc_final_range) + ((&enc_final_range) - (opus_uint32*)(&enc_final_range))))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 438);;
             if((fast_rand()&3)==0)
             {
-               if(opus_packet_pad(packet,len,len+1)!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 441);;
+               if(opus_packet_pad(packet,len,len+1)!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 441);;
                len++;
             }
             if((fast_rand()&7)==0)
             {
-               if(opus_packet_pad(packet,len,len+256)!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 446);;
+               if(opus_packet_pad(packet,len,len+256)!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 446);;
                len+=256;
             }
             if((fast_rand()&3)==0)
             {
                len=opus_packet_unpad(packet,len);
-               if(len<1)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 452);;
+               if(len<1)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 452);;
             }
             out_samples = opus_decode(dec, packet, len, &outbuf[i<<1], (5760), 0);
-            if(out_samples!=frame_size)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 455);;
-            if(opus_decoder_ctl(dec, 4031, ((&dec_final_range) + ((&dec_final_range) - (opus_uint32*)(&dec_final_range))))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 456);;
-            if(enc_final_range!=dec_final_range)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 457);;
+            if(out_samples!=frame_size)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 455);;
+            if(opus_decoder_ctl(dec, 4031, ((&dec_final_range) + ((&dec_final_range) - (opus_uint32*)(&dec_final_range))))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 456);;
+            if(enc_final_range!=dec_final_range)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 457);;
             /*LBRR decode*/
             out_samples = opus_decode(dec_err[0], packet, len, out2buf, frame_size, (fast_rand()&3)!=0);
-            if(out_samples!=frame_size)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 460);;
+            if(out_samples!=frame_size)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 460);;
             out_samples = opus_decode(dec_err[1], packet, (fast_rand()&3)==0?0:len, out2buf, (5760), (fast_rand()&7)!=0);
-            if(out_samples<120)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 462);;
+            if(out_samples<120)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 462);;
             i+=frame_size;
             count++;
          }while(i<(((48000*30)/3)-(5760)));
@@ -8884,76 +8884,76 @@ int run_test1(int no_fuzz)
       }
    }
 
-   if(opus_encoder_ctl(enc, 11002, (((void)((-1000) == (opus_int32)0)), (opus_int32)(-1000)))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 470);;
-   if(opus_encoder_ctl(enc, 4022, (((void)((-1000) == (opus_int32)0)), (opus_int32)(-1000)))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 471);;
-   if(opus_encoder_ctl(enc, 4012, (((void)((0) == (opus_int32)0)), (opus_int32)(0)))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 472);;
-   if(opus_encoder_ctl(enc, 4016, (((void)((0) == (opus_int32)0)), (opus_int32)(0)))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 473);;
+   if(opus_encoder_ctl(enc, 11002, (((void)((-1000) == (opus_int32)0)), (opus_int32)(-1000)))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 470);;
+   if(opus_encoder_ctl(enc, 4022, (((void)((-1000) == (opus_int32)0)), (opus_int32)(-1000)))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 471);;
+   if(opus_encoder_ctl(enc, 4012, (((void)((0) == (opus_int32)0)), (opus_int32)(0)))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 472);;
+   if(opus_encoder_ctl(enc, 4016, (((void)((0) == (opus_int32)0)), (opus_int32)(0)))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 473);;
 
    for(rc=0;rc<3;rc++)
    {
-      if(opus_multistream_encoder_ctl(MSenc, 4006, (((void)((rc<2) == (opus_int32)0)), (opus_int32)(rc<2)))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 477);;
-      if(opus_multistream_encoder_ctl(MSenc, 4020, (((void)((rc==1) == (opus_int32)0)), (opus_int32)(rc==1)))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 478);;
-      if(opus_multistream_encoder_ctl(MSenc, 4020, (((void)((rc==1) == (opus_int32)0)), (opus_int32)(rc==1)))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 479);;
-      if(opus_multistream_encoder_ctl(MSenc, 4012, (((void)((rc==0) == (opus_int32)0)), (opus_int32)(rc==0)))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 480);;
+      if(opus_multistream_encoder_ctl(MSenc, 4006, (((void)((rc<2) == (opus_int32)0)), (opus_int32)(rc<2)))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 477);;
+      if(opus_multistream_encoder_ctl(MSenc, 4020, (((void)((rc==1) == (opus_int32)0)), (opus_int32)(rc==1)))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 478);;
+      if(opus_multistream_encoder_ctl(MSenc, 4020, (((void)((rc==1) == (opus_int32)0)), (opus_int32)(rc==1)))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 479);;
+      if(opus_multistream_encoder_ctl(MSenc, 4012, (((void)((rc==0) == (opus_int32)0)), (opus_int32)(rc==0)))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 480);;
       for(j=0;j<16;j++)
       {
          int rate;
          int modes[16]={0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2};
          int rates[16]={4000,12000,32000,8000,16000,32000,48000,88000,4000,12000,32000,8000,16000,32000,48000,88000};
          int frame[16]={160*1,160,80,160,160,80,40,20,160*1,160,80,160,160,80,40,20};
-         if(opus_multistream_encoder_ctl(MSenc, 4012, (((void)((rc==0&&j==1) == (opus_int32)0)), (opus_int32)(rc==0&&j==1)))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 487);;
-         if(opus_multistream_encoder_ctl(MSenc, 11002, (((void)((1000+modes[j]) == (opus_int32)0)), (opus_int32)(1000+modes[j])))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 488);;
+         if(opus_multistream_encoder_ctl(MSenc, 4012, (((void)((rc==0&&j==1) == (opus_int32)0)), (opus_int32)(rc==0&&j==1)))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 487);;
+         if(opus_multistream_encoder_ctl(MSenc, 11002, (((void)((1000+modes[j]) == (opus_int32)0)), (opus_int32)(1000+modes[j])))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 488);;
          rate=rates[j]+fast_rand()%rates[j];
-         if(opus_multistream_encoder_ctl(MSenc, 4016, (((void)((fast_rand()&1) == (opus_int32)0)), (opus_int32)(fast_rand()&1)))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 490);;
-         if(opus_multistream_encoder_ctl(MSenc, 4002, (((void)((rate) == (opus_int32)0)), (opus_int32)(rate)))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 491);;
+         if(opus_multistream_encoder_ctl(MSenc, 4016, (((void)((fast_rand()&1) == (opus_int32)0)), (opus_int32)(fast_rand()&1)))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 490);;
+         if(opus_multistream_encoder_ctl(MSenc, 4002, (((void)((rate) == (opus_int32)0)), (opus_int32)(rate)))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 491);;
          count=i=0;
          do {
             int len,out_samples,frame_size,loss;
             opus_int32 pred;
-            if(opus_multistream_encoder_ctl(MSenc, 4043, ((&pred) + ((&pred) - (opus_int32*)(&pred))))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 496);;
-            if(opus_multistream_encoder_ctl(MSenc, 4042, (((void)(((int)(fast_rand()&15)<(pred?11:4)) == (opus_int32)0)), (opus_int32)((int)(fast_rand()&15)<(pred?11:4))))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 497);;
+            if(opus_multistream_encoder_ctl(MSenc, 4043, ((&pred) + ((&pred) - (opus_int32*)(&pred))))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 496);;
+            if(opus_multistream_encoder_ctl(MSenc, 4042, (((void)(((int)(fast_rand()&15)<(pred?11:4)) == (opus_int32)0)), (opus_int32)((int)(fast_rand()&15)<(pred?11:4))))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 497);;
             frame_size=frame[j];
-            if(opus_multistream_encoder_ctl(MSenc, 4010, (((void)(((count>>2)%11) == (opus_int32)0)), (opus_int32)((count>>2)%11)))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 499);;
-            if(opus_multistream_encoder_ctl(MSenc, 4014, (((void)(((fast_rand()&15)&(fast_rand()%15)) == (opus_int32)0)), (opus_int32)((fast_rand()&15)&(fast_rand()%15))))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 500);;
+            if(opus_multistream_encoder_ctl(MSenc, 4010, (((void)(((count>>2)%11) == (opus_int32)0)), (opus_int32)((count>>2)%11)))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 499);;
+            if(opus_multistream_encoder_ctl(MSenc, 4014, (((void)(((fast_rand()&15)&(fast_rand()%15)) == (opus_int32)0)), (opus_int32)((fast_rand()&15)&(fast_rand()%15))))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 500);;
             if((fast_rand()&255)==0)
             {
-               if(opus_multistream_encoder_ctl(MSenc, 4028)!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 503);;
-               if(opus_multistream_decoder_ctl(MSdec, 4028)!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 504);;
+               if(opus_multistream_encoder_ctl(MSenc, 4028)!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 503);;
+               if(opus_multistream_decoder_ctl(MSdec, 4028)!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 504);;
                if((fast_rand()&3)!=0)
                {
-                  if(opus_multistream_decoder_ctl(MSdec_err, 4028)!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 507);;
+                  if(opus_multistream_decoder_ctl(MSdec_err, 4028)!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 507);;
                }
             }
             if((fast_rand()&255)==0)
             {
-               if(opus_multistream_decoder_ctl(MSdec_err, 4028)!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 512);;
+               if(opus_multistream_decoder_ctl(MSdec_err, 4028)!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 512);;
             }
             len = opus_multistream_encode(MSenc, &inbuf[i<<1], frame_size, packet, (1500));
-            if(len<0 || len>(1500))_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 515);;
-            if(opus_multistream_encoder_ctl(MSenc, 4031, ((&enc_final_range) + ((&enc_final_range) - (opus_uint32*)(&enc_final_range))))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 516);;
+            if(len<0 || len>(1500))_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 515);;
+            if(opus_multistream_encoder_ctl(MSenc, 4031, ((&enc_final_range) + ((&enc_final_range) - (opus_uint32*)(&enc_final_range))))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 516);;
             if((fast_rand()&3)==0)
             {
-               if(opus_multistream_packet_pad(packet,len,len+1,2)!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 519);;
+               if(opus_multistream_packet_pad(packet,len,len+1,2)!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 519);;
                len++;
             }
             if((fast_rand()&7)==0)
             {
-               if(opus_multistream_packet_pad(packet,len,len+256,2)!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 524);;
+               if(opus_multistream_packet_pad(packet,len,len+256,2)!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 524);;
                len+=256;
             }
             if((fast_rand()&3)==0)
             {
                len=opus_multistream_packet_unpad(packet,len,2);
-               if(len<1)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 530);;
+               if(len<1)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 530);;
             }
             out_samples = opus_multistream_decode(MSdec, packet, len, out2buf, (5760), 0);
-            if(out_samples!=frame_size*6)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 533);;
-            if(opus_multistream_decoder_ctl(MSdec, 4031, ((&dec_final_range) + ((&dec_final_range) - (opus_uint32*)(&dec_final_range))))!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 534);;
-            if(enc_final_range!=dec_final_range)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 535);;
+            if(out_samples!=frame_size*6)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 533);;
+            if(opus_multistream_decoder_ctl(MSdec, 4031, ((&dec_final_range) + ((&dec_final_range) - (opus_uint32*)(&dec_final_range))))!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 534);;
+            if(enc_final_range!=dec_final_range)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 535);;
             /*LBRR decode*/
             loss=(fast_rand()&63)==0;
             out_samples = opus_multistream_decode(MSdec_err, packet, loss?0:len, out2buf, frame_size*6, (fast_rand()&3)!=0);
-            if(out_samples!=(frame_size*6))_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 539);;
+            if(out_samples!=(frame_size*6))_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 539);;
             i+=frame_size;
             count++;
          }while(i<(((48000*30)/3)/12-(5760)));
@@ -8981,38 +8981,38 @@ int run_test1(int no_fuzz)
       opus_encoder_ctl(enc, 4002, (((void)((bitrate_bps) == (opus_int32)0)), (opus_int32)(bitrate_bps)));
 
       len = opus_encode(enc, &inbuf[offset<<1], frame_size, packet, (1500));
-      if(len<0 || len>(1500))_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 567);;
+      if(len<0 || len>(1500))_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 567);;
       count++;
 
       opus_encoder_ctl(enc, 4031, ((&enc_final_range) + ((&enc_final_range) - (opus_uint32*)(&enc_final_range))));
 
       out_samples = opus_decode(dec, packet, len, &outbuf[offset<<1], (5760), 0);
-      if(out_samples!=frame_size)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 573);;
+      if(out_samples!=frame_size)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 573);;
 
       opus_decoder_ctl(dec, 4031, ((&dec_final_range) + ((&dec_final_range) - (opus_uint32*)(&dec_final_range))));
 
       /* compare final range encoder rng values of encoder and decoder */
-      if(dec_final_range!=enc_final_range)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 578);;
+      if(dec_final_range!=enc_final_range)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 578);;
 
       /* We fuzz the packet, but take care not to only corrupt the payload
          Corrupted headers are tested elsewhere and we need to actually run
          the decoders in order to compare them. */
-      if(opus_packet_parse(packet,len,&toc,frames,size,&payload_offset)<=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 583);;
+      if(opus_packet_parse(packet,len,&toc,frames,size,&payload_offset)<=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 583);;
       if((fast_rand()&1023)==0)len=0;
       for(j=(opus_int32)(frames[0]-packet);j<len;j++)for(jj=0;jj<8;jj++)packet[j]^=((!no_fuzz)&&((fast_rand()&1023)==0))<<jj;
       out_samples = opus_decode(dec_err[0], len>0?packet:0, len, out2buf, (5760), 0);
-      if(out_samples<0||out_samples>(5760))_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 587);;
-      if((len>0&&out_samples!=frame_size))_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 588);; /*FIXME use lastframe*/
+      if(out_samples<0||out_samples>(5760))_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 587);;
+      if((len>0&&out_samples!=frame_size))_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 588);; /*FIXME use lastframe*/
 
       opus_decoder_ctl(dec_err[0], 4031, ((&dec_final_range) + ((&dec_final_range) - (opus_uint32*)(&dec_final_range))));
 
       /*randomly select one of the decoders to compare with*/
       dec2=fast_rand()%9+1;
       out_samples = opus_decode(dec_err[dec2], len>0?packet:0, len, out2buf, (5760), 0);
-      if(out_samples<0||out_samples>(5760))_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 595);; /*FIXME, use factor, lastframe for loss*/
+      if(out_samples<0||out_samples>(5760))_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 595);; /*FIXME, use factor, lastframe for loss*/
 
       opus_decoder_ctl(dec_err[dec2], 4031, ((&dec_final_range2) + ((&dec_final_range2) - (opus_uint32*)(&dec_final_range2))));
-      if(len>0&&dec_final_range!=dec_final_range2)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 598);;
+      if(len>0&&dec_final_range!=dec_final_range2)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 598);;
 
       fswitch--;
       if(fswitch<1)
@@ -9028,13 +9028,13 @@ int run_test1(int no_fuzz)
    }while(i<(48000*30)*4);
    fprintf((& __iar_Stdout),"    All framesize pairs switching encode, %d frames OK.\n",count);
 
-   if(opus_encoder_ctl(enc, 4028)!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 614);;
+   if(opus_encoder_ctl(enc, 4028)!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 614);;
    opus_encoder_destroy(enc);
-   if(opus_multistream_encoder_ctl(MSenc, 4028)!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 616);;
+   if(opus_multistream_encoder_ctl(MSenc, 4028)!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 616);;
    opus_multistream_encoder_destroy(MSenc);
-   if(opus_decoder_ctl(dec, 4028)!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 618);;
+   if(opus_decoder_ctl(dec, 4028)!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 618);;
    opus_decoder_destroy(dec);
-   if(opus_multistream_decoder_ctl(MSdec, 4028)!=0)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 620);;
+   if(opus_multistream_decoder_ctl(MSdec, 4028)!=0)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 620);;
    opus_multistream_decoder_destroy(MSdec);
    opus_multistream_decoder_destroy(MSdec_err);
    for(i=0;i<10;i++)opus_decoder_destroy(dec_err[i]);
@@ -9094,7 +9094,7 @@ int main(int _argc, char **_argv)
    }
 
    oversion=opus_get_version_string();
-   if(!oversion)_test_failed("C:\\Users\\PCCUBE\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 680);;
+   if(!oversion)_test_failed("C:\\Users\\PRATIK\\Desktop\\Opus_17_jul_2018\\Opus_rtl8711af\\external\\opus\\tests\\test_opus_encode.c", 680);;
    fprintf((& __iar_Stderr),"Testing %s encoder. Random seed: %u (%.4X)\n", oversion, iseed, fast_rand() % 65535);
    if(env_used)fprintf((& __iar_Stderr),"  Random seed set from the environment (SEED=%s).\n", env_seed);
 

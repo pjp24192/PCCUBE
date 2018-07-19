@@ -36,7 +36,7 @@ ShowSource=1
 Freq=10000000
 MultiCoreRunAll=1
 [PlDriver]
-MemConfigValue=C:\Users\PCCUBE\Desktop\Opus_17_jul_2018\Opus_rtl8711af\project\realtek_ameba1_va0_example\EWARM-RELEASE\..\..\..\component\soc\realtek\8195a\misc\iar_utility\common\8195a.ddf
+MemConfigValue=C:\Users\PRATIK\Desktop\Opus_17_jul_2018\Opus_rtl8711af\project\realtek_ameba1_va0_example\EWARM-RELEASE\..\..\..\component\soc\realtek\8195a\misc\iar_utility\common\8195a.ddf
 [Jet]
 DisableInterrupts=0
 LeaveRunning=0
